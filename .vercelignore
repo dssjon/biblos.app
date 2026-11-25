@@ -1,0 +1,7 @@
+# Exclude optional Python fallback backend and non-runtime dev/test files from Vercel uploads
+fallback-api/
+tests/
+util/
+playwright.config.mjs
+.batch-work/
+*.log

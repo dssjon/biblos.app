@@ -1,0 +1,28 @@
+[
+    {
+        "id": "523d7034-9244-42fb-b295-53c9351ae59c",
+        "father_name": "Augustine of Hippo",
+        "file_name": "Leviticus 18_5.toml",
+        "append_to_author_name": "",
+        "ts": 430,
+        "book": "leviticus",
+        "location_start": 18000005,
+        "location_end": 18000005,
+        "txt": "The righteousness of the law, of which it is said that if a man does it he shall live in it, is set forth to this end: that every man may recognize his own infirmity. It is not in his own strength or through the letter of the law (which cannot be) but only by receiving through faith the favor of the Justifier that he may attain and do and live in righteousness.\n",
+        "source_url": "",
+        "source_title": "ON THE SPIRIT AND THE LETTER 29.50"
+    },
+    {
+        "id": "3206029e-b618-4c64-9633-9473fad8af74",
+        "father_name": "Jerome",
+        "file_name": "Leviticus 18_5.toml",
+        "append_to_author_name": "",
+        "ts": 420,
+        "book": "leviticus",
+        "location_start": 18000005,
+        "location_end": 18000005,
+        "txt": "\u201cThe man who carries out the law will find life through it.\u201d Scripture did not say he will find life through it, in the sense that through the law he will live in heaven, but he will find life through it to the extent that what he merits, he reaps in the present world.\n",
+        "source_url": "",
+        "source_title": "HOMILY 76"
+    }
+]

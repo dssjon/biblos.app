@@ -1,0 +1,28 @@
+[
+    {
+        "id": "d5e7f496-61a2-43ff-b440-df111e5f5035",
+        "father_name": "Augustine of Hippo",
+        "file_name": "2 Chronicles 19_7.toml",
+        "append_to_author_name": "",
+        "ts": 430,
+        "book": "2chronicles",
+        "location_start": 19000007,
+        "location_end": 19000007,
+        "txt": "Do not doubt that this duty of ours is a part of religion because God, \u201cwith whom there is no iniquity,\u201d whose power is supreme, who not only sees what each one is but also foresees what he will be, who alone cannot err in his judgment because he cannot be deceived in his knowledge, nevertheless acts as the Gospel expresses it, \u201cHe makes his sun to rise on the good and bad, and rains on the just and unjust.\u201d\n",
+        "source_url": "https://historicalchristian.faith/by_father.php?file=Augustine%2520of%2520Hippo%2FLetters.html",
+        "source_title": "LETTER 153"
+    },
+    {
+        "id": "e3b6440b-6042-467d-9b2e-a0c821e304d6",
+        "father_name": "Basil of Caesarea",
+        "file_name": "2 Chronicles 19_3.toml",
+        "append_to_author_name": "",
+        "ts": 379,
+        "book": "2chronicles",
+        "location_start": 19000003,
+        "location_end": 19000003,
+        "txt": "If you see your neighbor committing sin, take care not to dwell exclusively on his sin, but think of the many things he has done and continues to do rightly. Many times, by examining the whole and not taking the part only into account, you will find that he is better than you. God does not examine humans according to the part, for he says, \u201cI come to gather together their works and thoughts.\u201d Furthermore, when he rebuked Josaphat for a sin committed in an unguarded moment, he mentioned also the good he had done, saying, \u201cBut good works are found in you.\u201d\n",
+        "source_url": "",
+        "source_title": "ON HUMILITY"
+    }
+]

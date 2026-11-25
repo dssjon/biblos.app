@@ -1,0 +1,6485 @@
+{
+  "version": 1,
+  "source": "engwebp_vpl.xml",
+  "sourceSha256": "cb87c579e60c80793349ee4cd3cf5d33cad9f0b7ecad22d8b313f99ddd4d0908",
+  "model": "claude-opus-5-5",
+  "effort": "high",
+  "entryCount": 210,
+  "categoryCounts": {
+    "synoptic_parallel": 75,
+    "ot_in_nt": 85,
+    "ot_parallel": 25,
+    "thematic_typology": 23,
+    "nt_parallel": 2
+  },
+  "entries": [
+    {
+      "id": "SYN-01",
+      "category": "synoptic_parallel",
+      "title": "Genealogy of Jesus",
+      "description": "Matthew traces Jesus' lineage from Abraham through David to Joseph. Luke traces it back through David and Abraham to Adam, the son of God.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 1,
+          "verseStart": 1,
+          "verseEnd": 17,
+          "role": "primary"
+        },
+        {
+          "book": "luk",
+          "chapter": 3,
+          "verseStart": 23,
+          "verseEnd": 38,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-02",
+      "category": "synoptic_parallel",
+      "title": "Announcement of the Virgin Conception",
+      "description": "An angel announces that Jesus will be conceived by the Holy Spirit. In Matthew the angel appears to Joseph; in Luke, Gabriel appears to Mary.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 1,
+          "verseStart": 18,
+          "verseEnd": 25,
+          "role": "primary"
+        },
+        {
+          "book": "luk",
+          "chapter": 1,
+          "verseStart": 26,
+          "verseEnd": 38,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-03",
+      "category": "synoptic_parallel",
+      "title": "Birth in Bethlehem and the First Worshipers",
+      "description": "Jesus is born in Bethlehem of Judea. Matthew records the Magi from the east coming to worship him, and Luke records the shepherds summoned by angels.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 2,
+          "verseStart": 1,
+          "verseEnd": 12,
+          "role": "primary"
+        },
+        {
+          "book": "luk",
+          "chapter": 2,
+          "verseStart": 1,
+          "verseEnd": 20,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-04",
+      "category": "synoptic_parallel",
+      "title": "The Family Settles in Nazareth",
+      "description": "After the events surrounding his birth, Jesus' family makes its home in Nazareth of Galilee, where the child grows up.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 2,
+          "verseStart": 19,
+          "verseEnd": 23,
+          "role": "primary"
+        },
+        {
+          "book": "luk",
+          "chapter": 2,
+          "verseStart": 39,
+          "verseEnd": 40,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-05",
+      "category": "synoptic_parallel",
+      "title": "John the Baptist: The Voice in the Wilderness",
+      "description": "John preaches repentance in the wilderness as the voice foretold by Isaiah. In John's Gospel, the Baptist applies this prophecy to himself.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 3,
+          "verseStart": 1,
+          "verseEnd": 6,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 1,
+          "verseStart": 1,
+          "verseEnd": 6,
+          "role": "parallel"
+        },
+        {
+          "book": "luk",
+          "chapter": 3,
+          "verseStart": 1,
+          "verseEnd": 6,
+          "role": "parallel"
+        },
+        {
+          "book": "jhn",
+          "chapter": 1,
+          "verseStart": 19,
+          "verseEnd": 23,
+          "role": "johannine_parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-06",
+      "category": "synoptic_parallel",
+      "title": "John's Warning to the Brood of Vipers",
+      "description": "John calls the crowds to bear fruit worthy of repentance. He warns that descent from Abraham will not save them, for the axe already lies at the root of the trees.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 3,
+          "verseStart": 7,
+          "verseEnd": 10,
+          "role": "primary"
+        },
+        {
+          "book": "luk",
+          "chapter": 3,
+          "verseStart": 7,
+          "verseEnd": 9,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-07",
+      "category": "synoptic_parallel",
+      "title": "John's Witness to the Coming One",
+      "description": "John declares that one mightier than he is coming, whose sandals he is unworthy to untie. That one will baptize with the Holy Spirit.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 3,
+          "verseStart": 11,
+          "verseEnd": 12,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 1,
+          "verseStart": 7,
+          "verseEnd": 8,
+          "role": "parallel"
+        },
+        {
+          "book": "luk",
+          "chapter": 3,
+          "verseStart": 15,
+          "verseEnd": 18,
+          "role": "parallel"
+        },
+        {
+          "book": "jhn",
+          "chapter": 1,
+          "verseStart": 24,
+          "verseEnd": 28,
+          "role": "johannine_parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-08",
+      "category": "synoptic_parallel",
+      "title": "Imprisonment of John the Baptist",
+      "description": "Herod imprisons John for rebuking him over his marriage to Herodias, his brother's wife.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 14,
+          "verseStart": 3,
+          "verseEnd": 5,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 6,
+          "verseStart": 17,
+          "verseEnd": 20,
+          "role": "parallel"
+        },
+        {
+          "book": "luk",
+          "chapter": 3,
+          "verseStart": 19,
+          "verseEnd": 20,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-09",
+      "category": "synoptic_parallel",
+      "title": "The Baptism of Jesus",
+      "description": "At Jesus' baptism the Spirit descends like a dove and the Father's voice affirms his beloved Son. In John's Gospel, the Baptist testifies that he saw the Spirit descend and remain on Jesus.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 3,
+          "verseStart": 13,
+          "verseEnd": 17,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 1,
+          "verseStart": 9,
+          "verseEnd": 11,
+          "role": "parallel"
+        },
+        {
+          "book": "luk",
+          "chapter": 3,
+          "verseStart": 21,
+          "verseEnd": 22,
+          "role": "parallel"
+        },
+        {
+          "book": "jhn",
+          "chapter": 1,
+          "verseStart": 29,
+          "verseEnd": 34,
+          "role": "johannine_parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-10",
+      "category": "synoptic_parallel",
+      "title": "The Temptation in the Wilderness",
+      "description": "The Spirit leads Jesus into the wilderness, where he is tempted by the devil for forty days. In Matthew and Luke he answers each temptation with Scripture.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 4,
+          "verseStart": 1,
+          "verseEnd": 11,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 1,
+          "verseStart": 12,
+          "verseEnd": 13,
+          "role": "parallel"
+        },
+        {
+          "book": "luk",
+          "chapter": 4,
+          "verseStart": 1,
+          "verseEnd": 13,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-11",
+      "category": "synoptic_parallel",
+      "title": "Beginning of the Galilean Ministry",
+      "description": "Jesus returns to Galilee and begins proclaiming that the Kingdom is at hand, calling people to repent.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 4,
+          "verseStart": 12,
+          "verseEnd": 17,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 1,
+          "verseStart": 14,
+          "verseEnd": 15,
+          "role": "parallel"
+        },
+        {
+          "book": "luk",
+          "chapter": 4,
+          "verseStart": 14,
+          "verseEnd": 15,
+          "role": "parallel"
+        },
+        {
+          "book": "jhn",
+          "chapter": 4,
+          "verseStart": 43,
+          "verseEnd": 45,
+          "role": "johannine_parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-12",
+      "category": "synoptic_parallel",
+      "title": "Call of the First Disciples",
+      "description": "Jesus calls Simon Peter, Andrew, James, and John to follow him and become fishers of men. John's Gospel records the earlier meeting of Andrew and Simon with Jesus.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 4,
+          "verseStart": 18,
+          "verseEnd": 22,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 1,
+          "verseStart": 16,
+          "verseEnd": 20,
+          "role": "parallel"
+        },
+        {
+          "book": "luk",
+          "chapter": 5,
+          "verseStart": 1,
+          "verseEnd": 11,
+          "role": "parallel"
+        },
+        {
+          "book": "jhn",
+          "chapter": 1,
+          "verseStart": 35,
+          "verseEnd": 42,
+          "role": "johannine_parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-13",
+      "category": "synoptic_parallel",
+      "title": "The Beatitudes (Sermon on the Mount / Plain)",
+      "description": "Jesus pronounces blessings on the poor, the hungry, the mourning, and the persecuted. Luke's version adds corresponding woes.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 5,
+          "verseStart": 1,
+          "verseEnd": 12,
+          "role": "primary"
+        },
+        {
+          "book": "luk",
+          "chapter": 6,
+          "verseStart": 17,
+          "verseEnd": 26,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-14",
+      "category": "synoptic_parallel",
+      "title": "Love Your Enemies",
+      "description": "Jesus commands love for enemies, turning the other cheek, and generous giving. This reflects the mercy and perfection of the heavenly Father.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 5,
+          "verseStart": 38,
+          "verseEnd": 48,
+          "role": "primary"
+        },
+        {
+          "book": "luk",
+          "chapter": 6,
+          "verseStart": 27,
+          "verseEnd": 36,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-15",
+      "category": "synoptic_parallel",
+      "title": "The Lord's Prayer",
+      "description": "Jesus teaches his disciples to pray to the Father for the hallowing of his name, the coming of his Kingdom, daily bread, forgiveness, and deliverance.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 6,
+          "verseStart": 9,
+          "verseEnd": 13,
+          "role": "primary"
+        },
+        {
+          "book": "luk",
+          "chapter": 11,
+          "verseStart": 1,
+          "verseEnd": 4,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-16",
+      "category": "synoptic_parallel",
+      "title": "Judging Others: The Speck and the Beam",
+      "description": "Jesus warns against judging others. He tells his hearers to remove the beam from their own eye before removing the speck from a brother's eye.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 7,
+          "verseStart": 1,
+          "verseEnd": 5,
+          "role": "primary"
+        },
+        {
+          "book": "luk",
+          "chapter": 6,
+          "verseStart": 37,
+          "verseEnd": 42,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-17",
+      "category": "synoptic_parallel",
+      "title": "The Wise and Foolish Builders",
+      "description": "Jesus closes his sermon by comparing those who hear and do his words to a house built on rock. Those who hear and do not obey are like a house without a firm foundation.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 7,
+          "verseStart": 24,
+          "verseEnd": 27,
+          "role": "primary"
+        },
+        {
+          "book": "luk",
+          "chapter": 6,
+          "verseStart": 46,
+          "verseEnd": 49,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-18",
+      "category": "synoptic_parallel",
+      "title": "Healing of the Leper",
+      "description": "A leper asks Jesus, 'If you want to, you can make me clean.' Jesus touches and cleanses him, then sends him to show himself to the priest.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 8,
+          "verseStart": 1,
+          "verseEnd": 4,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 1,
+          "verseStart": 40,
+          "verseEnd": 45,
+          "role": "parallel"
+        },
+        {
+          "book": "luk",
+          "chapter": 5,
+          "verseStart": 12,
+          "verseEnd": 16,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-19",
+      "category": "synoptic_parallel",
+      "title": "Healing of the Paralytic",
+      "description": "Friends bring a paralyzed man to Jesus, in Mark and Luke lowering him through the roof. Jesus forgives his sins and heals him, showing the Son of Man's authority to forgive.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 9,
+          "verseStart": 1,
+          "verseEnd": 8,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 2,
+          "verseStart": 1,
+          "verseEnd": 12,
+          "role": "parallel"
+        },
+        {
+          "book": "luk",
+          "chapter": 5,
+          "verseStart": 17,
+          "verseEnd": 26,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-20",
+      "category": "synoptic_parallel",
+      "title": "Call of Matthew (Levi)",
+      "description": "Jesus calls the tax collector Matthew/Levi to follow him and dines with tax collectors and sinners. He declares that he came to call sinners to repentance.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 9,
+          "verseStart": 9,
+          "verseEnd": 13,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 2,
+          "verseStart": 13,
+          "verseEnd": 17,
+          "role": "parallel"
+        },
+        {
+          "book": "luk",
+          "chapter": 5,
+          "verseStart": 27,
+          "verseEnd": 32,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-21",
+      "category": "synoptic_parallel",
+      "title": "Question about Fasting: New Wine and Wineskins",
+      "description": "Jesus explains that the bridegroom's guests cannot fast while he is with them. He teaches that new wine must be put into new wineskins.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 9,
+          "verseStart": 14,
+          "verseEnd": 17,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 2,
+          "verseStart": 18,
+          "verseEnd": 22,
+          "role": "parallel"
+        },
+        {
+          "book": "luk",
+          "chapter": 5,
+          "verseStart": 33,
+          "verseEnd": 39,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-22",
+      "category": "synoptic_parallel",
+      "title": "Plucking Grain on the Sabbath: Lord of the Sabbath",
+      "description": "Answering the Pharisees' objection to his disciples plucking grain, Jesus cites David eating the showbread. He declares that the Son of Man is Lord of the Sabbath.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 12,
+          "verseStart": 1,
+          "verseEnd": 8,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 2,
+          "verseStart": 23,
+          "verseEnd": 28,
+          "role": "parallel"
+        },
+        {
+          "book": "luk",
+          "chapter": 6,
+          "verseStart": 1,
+          "verseEnd": 5,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-23",
+      "category": "synoptic_parallel",
+      "title": "Healing the Withered Hand on the Sabbath",
+      "description": "In the synagogue Jesus heals a man's withered hand on the Sabbath, affirming that it is lawful to do good. The Pharisees begin plotting against him.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 12,
+          "verseStart": 9,
+          "verseEnd": 14,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 3,
+          "verseStart": 1,
+          "verseEnd": 6,
+          "role": "parallel"
+        },
+        {
+          "book": "luk",
+          "chapter": 6,
+          "verseStart": 6,
+          "verseEnd": 11,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-24",
+      "category": "synoptic_parallel",
+      "title": "Calling and Naming the Twelve Apostles",
+      "description": "Jesus appoints twelve apostles and gives them authority, and they are listed by name. Acts repeats the list of the eleven after the Ascension.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 10,
+          "verseStart": 1,
+          "verseEnd": 4,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 3,
+          "verseStart": 13,
+          "verseEnd": 19,
+          "role": "parallel"
+        },
+        {
+          "book": "luk",
+          "chapter": 6,
+          "verseStart": 12,
+          "verseEnd": 16,
+          "role": "parallel"
+        },
+        {
+          "book": "act",
+          "chapter": 1,
+          "verseStart": 13,
+          "verseEnd": 13,
+          "role": "related"
+        }
+      ]
+    },
+    {
+      "id": "SYN-25",
+      "category": "synoptic_parallel",
+      "title": "Cleansing of the Temple",
+      "description": "Jesus drives out the merchants and money changers, defending his Father's house as a house of prayer. The Synoptics place the event in Passion Week, while John records it at the start of the ministry.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 21,
+          "verseStart": 12,
+          "verseEnd": 13,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 11,
+          "verseStart": 15,
+          "verseEnd": 17,
+          "role": "parallel"
+        },
+        {
+          "book": "luk",
+          "chapter": 19,
+          "verseStart": 45,
+          "verseEnd": 46,
+          "role": "parallel"
+        },
+        {
+          "book": "jhn",
+          "chapter": 2,
+          "verseStart": 13,
+          "verseEnd": 17,
+          "role": "johannine_parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-26",
+      "category": "synoptic_parallel",
+      "title": "Parable of the Sower",
+      "description": "Jesus teaches the crowds from a boat about seed falling on the path, rocky ground, among thorns, and on good soil. The parable stresses how the word is received.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 13,
+          "verseStart": 1,
+          "verseEnd": 9,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 4,
+          "verseStart": 1,
+          "verseEnd": 9,
+          "role": "parallel"
+        },
+        {
+          "book": "luk",
+          "chapter": 8,
+          "verseStart": 4,
+          "verseEnd": 8,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-27",
+      "category": "synoptic_parallel",
+      "title": "Explanation of the Parable of the Sower",
+      "description": "Jesus privately explains to his disciples that the seed is the word. The soils represent different responses of hearers.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 13,
+          "verseStart": 18,
+          "verseEnd": 23,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 4,
+          "verseStart": 13,
+          "verseEnd": 20,
+          "role": "parallel"
+        },
+        {
+          "book": "luk",
+          "chapter": 8,
+          "verseStart": 11,
+          "verseEnd": 15,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-28",
+      "category": "synoptic_parallel",
+      "title": "Parable of the Mustard Seed",
+      "description": "The Kingdom of God is likened to a tiny mustard seed that grows large enough for birds to lodge in its branches.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 13,
+          "verseStart": 31,
+          "verseEnd": 32,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 4,
+          "verseStart": 30,
+          "verseEnd": 32,
+          "role": "parallel"
+        },
+        {
+          "book": "luk",
+          "chapter": 13,
+          "verseStart": 18,
+          "verseEnd": 19,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-29",
+      "category": "synoptic_parallel",
+      "title": "Jesus Calms the Storm",
+      "description": "Jesus rebukes the wind and waves on the sea, bringing a great calm. The awed disciples ask who this is that even the wind and sea obey him.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 8,
+          "verseStart": 23,
+          "verseEnd": 27,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 4,
+          "verseStart": 35,
+          "verseEnd": 41,
+          "role": "parallel"
+        },
+        {
+          "book": "luk",
+          "chapter": 8,
+          "verseStart": 22,
+          "verseEnd": 25,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-30",
+      "category": "synoptic_parallel",
+      "title": "Healing of the Gerasene Demoniac",
+      "description": "Jesus casts out demons into a herd of pigs that rush into the sea. Matthew records two demoniacs, while Mark and Luke focus on one man called Legion.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 8,
+          "verseStart": 28,
+          "verseEnd": 34,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 5,
+          "verseStart": 1,
+          "verseEnd": 20,
+          "role": "parallel"
+        },
+        {
+          "book": "luk",
+          "chapter": 8,
+          "verseStart": 26,
+          "verseEnd": 39,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-31",
+      "category": "synoptic_parallel",
+      "title": "Jairus's Daughter and the Woman with a Hemorrhage",
+      "description": "On the way to raise a ruler's daughter, Jesus heals a woman who touches his garment in faith. The two accounts are intertwined in all three Synoptics.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 9,
+          "verseStart": 18,
+          "verseEnd": 26,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 5,
+          "verseStart": 21,
+          "verseEnd": 43,
+          "role": "parallel"
+        },
+        {
+          "book": "luk",
+          "chapter": 8,
+          "verseStart": 40,
+          "verseEnd": 56,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-32",
+      "category": "synoptic_parallel",
+      "title": "Sending Out the Twelve",
+      "description": "Jesus gives the Twelve authority over unclean spirits and sickness and sends them to preach, taking little provision for the journey.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 10,
+          "verseStart": 1,
+          "verseEnd": 15,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 6,
+          "verseStart": 7,
+          "verseEnd": 13,
+          "role": "parallel"
+        },
+        {
+          "book": "luk",
+          "chapter": 9,
+          "verseStart": 1,
+          "verseEnd": 6,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-33",
+      "category": "synoptic_parallel",
+      "title": "Death of John the Baptist",
+      "description": "Herod hears of Jesus and fears John has risen. Matthew and Mark recount John's beheading at Herodias's request, while Luke notes Herod's perplexity.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 14,
+          "verseStart": 1,
+          "verseEnd": 12,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 6,
+          "verseStart": 14,
+          "verseEnd": 29,
+          "role": "parallel"
+        },
+        {
+          "book": "luk",
+          "chapter": 9,
+          "verseStart": 7,
+          "verseEnd": 9,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-34",
+      "category": "synoptic_parallel",
+      "title": "Feeding of the Five Thousand",
+      "description": "Jesus multiplies five loaves and two fish to feed a great crowd, with twelve baskets left over. It is the only miracle before the Passion recorded in all four Gospels.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 14,
+          "verseStart": 13,
+          "verseEnd": 21,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 6,
+          "verseStart": 30,
+          "verseEnd": 44,
+          "role": "parallel"
+        },
+        {
+          "book": "luk",
+          "chapter": 9,
+          "verseStart": 10,
+          "verseEnd": 17,
+          "role": "parallel"
+        },
+        {
+          "book": "jhn",
+          "chapter": 6,
+          "verseStart": 1,
+          "verseEnd": 14,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-35",
+      "category": "synoptic_parallel",
+      "title": "Jesus Walks on the Water",
+      "description": "Jesus comes to his disciples walking on the sea during the night and says, \"It is I. Don't be afraid.\" Matthew adds Peter's attempt to walk to him.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 14,
+          "verseStart": 22,
+          "verseEnd": 33,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 6,
+          "verseStart": 45,
+          "verseEnd": 52,
+          "role": "parallel"
+        },
+        {
+          "book": "jhn",
+          "chapter": 6,
+          "verseStart": 16,
+          "verseEnd": 21,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-36",
+      "category": "synoptic_parallel",
+      "title": "The Canaanite (Syrophoenician) Woman",
+      "description": "A Gentile mother in the region of Tyre and Sidon persistently seeks healing for her daughter. Jesus commends her faith and the child is healed.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 15,
+          "verseStart": 21,
+          "verseEnd": 28,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 7,
+          "verseStart": 24,
+          "verseEnd": 30,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-37",
+      "category": "synoptic_parallel",
+      "title": "Feeding of the Four Thousand",
+      "description": "Moved with compassion for a crowd that had been with him three days, Jesus feeds about four thousand with seven loaves and a few small fish.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 15,
+          "verseStart": 32,
+          "verseEnd": 39,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 8,
+          "verseStart": 1,
+          "verseEnd": 10,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-38",
+      "category": "synoptic_parallel",
+      "title": "Peter's Confession at Caesarea Philippi",
+      "description": "When Jesus asks who they say he is, Peter confesses him as the Christ. Matthew adds Jesus' blessing of Peter and the promise concerning the church.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 16,
+          "verseStart": 13,
+          "verseEnd": 20,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 8,
+          "verseStart": 27,
+          "verseEnd": 30,
+          "role": "parallel"
+        },
+        {
+          "book": "luk",
+          "chapter": 9,
+          "verseStart": 18,
+          "verseEnd": 21,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-39",
+      "category": "synoptic_parallel",
+      "title": "First Passion Prediction and the Cost of Discipleship",
+      "description": "Jesus foretells his suffering, death, and resurrection. He calls his followers to deny themselves and take up their cross.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 16,
+          "verseStart": 21,
+          "verseEnd": 28,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 8,
+          "verseStart": 31,
+          "verseEnd": 38,
+          "role": "parallel"
+        },
+        {
+          "book": "luk",
+          "chapter": 9,
+          "verseStart": 22,
+          "verseEnd": 27,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-40",
+      "category": "synoptic_parallel",
+      "title": "The Transfiguration",
+      "description": "On a mountain Jesus is transfigured before Peter, James, and John, with Moses and Elijah appearing. A voice from the cloud declares him the beloved Son.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 17,
+          "verseStart": 1,
+          "verseEnd": 8,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 9,
+          "verseStart": 2,
+          "verseEnd": 8,
+          "role": "parallel"
+        },
+        {
+          "book": "luk",
+          "chapter": 9,
+          "verseStart": 28,
+          "verseEnd": 36,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-41",
+      "category": "synoptic_parallel",
+      "title": "Healing of the Boy with an Unclean Spirit",
+      "description": "After the disciples fail, Jesus delivers a boy tormented by a spirit and teaches about faith. Mark records the father's cry, \"Help my unbelief!\"",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 17,
+          "verseStart": 14,
+          "verseEnd": 20,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 9,
+          "verseStart": 14,
+          "verseEnd": 29,
+          "role": "parallel"
+        },
+        {
+          "book": "luk",
+          "chapter": 9,
+          "verseStart": 37,
+          "verseEnd": 43,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-42",
+      "category": "synoptic_parallel",
+      "title": "Who Is the Greatest?",
+      "description": "When the disciples dispute about greatness, Jesus sets a little child among them. He teaches that receiving such a one in his name is receiving him.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 18,
+          "verseStart": 1,
+          "verseEnd": 5,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 9,
+          "verseStart": 33,
+          "verseEnd": 37,
+          "role": "parallel"
+        },
+        {
+          "book": "luk",
+          "chapter": 9,
+          "verseStart": 46,
+          "verseEnd": 48,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-43",
+      "category": "synoptic_parallel",
+      "title": "Jesus Blesses the Little Children",
+      "description": "Jesus rebukes the disciples for hindering children and declares that the Kingdom belongs to such as these.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 19,
+          "verseStart": 13,
+          "verseEnd": 15,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 10,
+          "verseStart": 13,
+          "verseEnd": 16,
+          "role": "parallel"
+        },
+        {
+          "book": "luk",
+          "chapter": 18,
+          "verseStart": 15,
+          "verseEnd": 17,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-44",
+      "category": "synoptic_parallel",
+      "title": "The Rich Young Ruler",
+      "description": "A wealthy man asks how to inherit eternal life and goes away sorrowful when told to sell all and follow Jesus. Jesus then teaches on riches and the rewards of discipleship.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 19,
+          "verseStart": 16,
+          "verseEnd": 30,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 10,
+          "verseStart": 17,
+          "verseEnd": 31,
+          "role": "parallel"
+        },
+        {
+          "book": "luk",
+          "chapter": 18,
+          "verseStart": 18,
+          "verseEnd": 30,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-45",
+      "category": "synoptic_parallel",
+      "title": "The Request of James and John",
+      "description": "The sons of Zebedee seek places of honor. Jesus teaches that greatness is found in service, for the Son of Man came to give his life as a ransom for many.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 20,
+          "verseStart": 20,
+          "verseEnd": 28,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 10,
+          "verseStart": 35,
+          "verseEnd": 45,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-46",
+      "category": "synoptic_parallel",
+      "title": "Healing of Blind Bartimaeus near Jericho",
+      "description": "Near Jericho, blind men cry out to the Son of David for mercy and receive their sight. Mark names Bartimaeus, while Matthew records two men.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 20,
+          "verseStart": 29,
+          "verseEnd": 34,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 10,
+          "verseStart": 46,
+          "verseEnd": 52,
+          "role": "parallel"
+        },
+        {
+          "book": "luk",
+          "chapter": 18,
+          "verseStart": 35,
+          "verseEnd": 43,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-47",
+      "category": "synoptic_parallel",
+      "title": "Parable of the Wicked Tenants",
+      "description": "Tenants of a vineyard abuse the owner's servants and kill his beloved son. Jesus applies Psalm 118's rejected stone to himself.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 21,
+          "verseStart": 33,
+          "verseEnd": 46,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 12,
+          "verseStart": 1,
+          "verseEnd": 12,
+          "role": "parallel"
+        },
+        {
+          "book": "luk",
+          "chapter": 20,
+          "verseStart": 9,
+          "verseEnd": 19,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-48",
+      "category": "synoptic_parallel",
+      "title": "Paying Taxes to Caesar",
+      "description": "Questioned to trap him, Jesus asks whose image is on the coin. He answers, \"Give to Caesar the things that are Caesar's, and to God the things that are God's.\"",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 22,
+          "verseStart": 15,
+          "verseEnd": 22,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 12,
+          "verseStart": 13,
+          "verseEnd": 17,
+          "role": "parallel"
+        },
+        {
+          "book": "luk",
+          "chapter": 20,
+          "verseStart": 20,
+          "verseEnd": 26,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-49",
+      "category": "synoptic_parallel",
+      "title": "The Sadducees and the Resurrection",
+      "description": "The Sadducees pose a question about a woman married to seven brothers. Jesus affirms the resurrection from Exodus 3, for God is the God of the living.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 22,
+          "verseStart": 23,
+          "verseEnd": 33,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 12,
+          "verseStart": 18,
+          "verseEnd": 27,
+          "role": "parallel"
+        },
+        {
+          "book": "luk",
+          "chapter": 20,
+          "verseStart": 27,
+          "verseEnd": 40,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "SYN-50",
+      "category": "synoptic_parallel",
+      "title": "The Greatest Commandment",
+      "description": "Jesus summarizes the law as loving God with all one's heart, soul, and mind and loving one's neighbor as oneself, drawing on Deuteronomy 6:5 and Leviticus 19:18. Luke's account is set in a different context, introducing the Good Samaritan.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 22,
+          "verseStart": 34,
+          "verseEnd": 40,
+          "role": "primary"
+        },
+        {
+          "book": "mrk",
+          "chapter": 12,
+          "verseStart": 28,
+          "verseEnd": 34,
+          "role": "parallel"
+        },
+        {
+          "book": "luk",
+          "chapter": 10,
+          "verseStart": 25,
+          "verseEnd": 28,
+          "role": "related"
+        }
+      ]
+    },
+    {
+      "id": "SYN-51",
+      "category": "synoptic_parallel",
+      "title": "The Triumphal Entry into Jerusalem",
+      "description": "Jesus enters Jerusalem on a donkey's colt while crowds spread garments and branches and cry 'Hosanna,' fulfilling Zechariah 9:9. All four Gospels record the event.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 21,
+          "verseStart": 1,
+          "verseEnd": 11,
+          "role": "Matthew account"
+        },
+        {
+          "book": "mrk",
+          "chapter": 11,
+          "verseStart": 1,
+          "verseEnd": 11,
+          "role": "Mark account"
+        },
+        {
+          "book": "luk",
+          "chapter": 19,
+          "verseStart": 28,
+          "verseEnd": 40,
+          "role": "Luke account"
+        },
+        {
+          "book": "jhn",
+          "chapter": 12,
+          "verseStart": 12,
+          "verseEnd": 19,
+          "role": "John account"
+        }
+      ]
+    },
+    {
+      "id": "SYN-52",
+      "category": "synoptic_parallel",
+      "title": "Cleansing of the Temple",
+      "description": "Jesus drives out those buying and selling in the temple, declaring it a house of prayer. The Synoptics place it in Passion Week, while John records a temple cleansing early in Jesus' ministry.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 21,
+          "verseStart": 12,
+          "verseEnd": 17,
+          "role": "Matthew account"
+        },
+        {
+          "book": "mrk",
+          "chapter": 11,
+          "verseStart": 15,
+          "verseEnd": 19,
+          "role": "Mark account"
+        },
+        {
+          "book": "luk",
+          "chapter": 19,
+          "verseStart": 45,
+          "verseEnd": 48,
+          "role": "Luke account"
+        },
+        {
+          "book": "jhn",
+          "chapter": 2,
+          "verseStart": 13,
+          "verseEnd": 22,
+          "role": "Johannine temple cleansing"
+        }
+      ]
+    },
+    {
+      "id": "SYN-53",
+      "category": "synoptic_parallel",
+      "title": "Cursing of the Fig Tree",
+      "description": "Jesus curses a fruitless fig tree, which withers, and teaches the disciples about faith and prayer. Mark frames the account around the temple cleansing.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 21,
+          "verseStart": 18,
+          "verseEnd": 22,
+          "role": "Matthew account"
+        },
+        {
+          "book": "mrk",
+          "chapter": 11,
+          "verseStart": 12,
+          "verseEnd": 14,
+          "role": "Mark: the cursing"
+        },
+        {
+          "book": "mrk",
+          "chapter": 11,
+          "verseStart": 20,
+          "verseEnd": 25,
+          "role": "Mark: the withered tree and teaching on faith"
+        }
+      ]
+    },
+    {
+      "id": "SYN-54",
+      "category": "synoptic_parallel",
+      "title": "The Question of Jesus' Authority",
+      "description": "The chief priests and elders challenge Jesus' authority, and He answers with a question about John's baptism. The three Synoptics record the exchange in the temple courts.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 21,
+          "verseStart": 23,
+          "verseEnd": 27,
+          "role": "Matthew account"
+        },
+        {
+          "book": "mrk",
+          "chapter": 11,
+          "verseStart": 27,
+          "verseEnd": 33,
+          "role": "Mark account"
+        },
+        {
+          "book": "luk",
+          "chapter": 20,
+          "verseStart": 1,
+          "verseEnd": 8,
+          "role": "Luke account"
+        }
+      ]
+    },
+    {
+      "id": "SYN-55",
+      "category": "synoptic_parallel",
+      "title": "The Widow's Offering",
+      "description": "Jesus observes a poor widow giving two small coins and declares she gave more than all others, for she gave out of her poverty.",
+      "passages": [
+        {
+          "book": "mrk",
+          "chapter": 12,
+          "verseStart": 41,
+          "verseEnd": 44,
+          "role": "Mark account"
+        },
+        {
+          "book": "luk",
+          "chapter": 21,
+          "verseStart": 1,
+          "verseEnd": 4,
+          "role": "Luke account"
+        }
+      ]
+    },
+    {
+      "id": "SYN-56",
+      "category": "synoptic_parallel",
+      "title": "The Olivet Discourse",
+      "description": "Jesus foretells the destruction of the temple, tribulation, and the coming of the Son of Man, urging watchfulness. Each Synoptic Gospel preserves the discourse.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 24,
+          "verseStart": 1,
+          "verseEnd": 51,
+          "role": "Matthew account"
+        },
+        {
+          "book": "mrk",
+          "chapter": 13,
+          "verseStart": 1,
+          "verseEnd": 37,
+          "role": "Mark account"
+        },
+        {
+          "book": "luk",
+          "chapter": 21,
+          "verseStart": 5,
+          "verseEnd": 36,
+          "role": "Luke account"
+        }
+      ]
+    },
+    {
+      "id": "SYN-57",
+      "category": "synoptic_parallel",
+      "title": "The Plot to Kill Jesus",
+      "description": "Before the Passover the chief priests and elders conspire to seize Jesus and put Him to death. John records Caiaphas's counsel that one man should die for the people.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 26,
+          "verseStart": 1,
+          "verseEnd": 5,
+          "role": "Matthew account"
+        },
+        {
+          "book": "mrk",
+          "chapter": 14,
+          "verseStart": 1,
+          "verseEnd": 2,
+          "role": "Mark account"
+        },
+        {
+          "book": "luk",
+          "chapter": 22,
+          "verseStart": 1,
+          "verseEnd": 2,
+          "role": "Luke account"
+        },
+        {
+          "book": "jhn",
+          "chapter": 11,
+          "verseStart": 47,
+          "verseEnd": 53,
+          "role": "John: the council's decision"
+        }
+      ]
+    },
+    {
+      "id": "SYN-58",
+      "category": "synoptic_parallel",
+      "title": "The Anointing at Bethany",
+      "description": "A woman, identified by John as Mary, anoints Jesus with costly ointment, and He defends her act as preparation for His burial.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 26,
+          "verseStart": 6,
+          "verseEnd": 13,
+          "role": "Matthew account"
+        },
+        {
+          "book": "mrk",
+          "chapter": 14,
+          "verseStart": 3,
+          "verseEnd": 9,
+          "role": "Mark account"
+        },
+        {
+          "book": "jhn",
+          "chapter": 12,
+          "verseStart": 1,
+          "verseEnd": 8,
+          "role": "John account"
+        }
+      ]
+    },
+    {
+      "id": "SYN-59",
+      "category": "synoptic_parallel",
+      "title": "Judas Agrees to Betray Jesus",
+      "description": "Judas Iscariot goes to the chief priests and agrees to hand Jesus over for money, then seeks an opportunity to betray Him.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 26,
+          "verseStart": 14,
+          "verseEnd": 16,
+          "role": "Matthew account"
+        },
+        {
+          "book": "mrk",
+          "chapter": 14,
+          "verseStart": 10,
+          "verseEnd": 11,
+          "role": "Mark account"
+        },
+        {
+          "book": "luk",
+          "chapter": 22,
+          "verseStart": 3,
+          "verseEnd": 6,
+          "role": "Luke account"
+        }
+      ]
+    },
+    {
+      "id": "SYN-60",
+      "category": "synoptic_parallel",
+      "title": "The Betrayer Foretold at the Supper",
+      "description": "At the Passover meal Jesus announces that one of the Twelve will betray Him, and the disciples question who it could be.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 26,
+          "verseStart": 20,
+          "verseEnd": 25,
+          "role": "Matthew account"
+        },
+        {
+          "book": "mrk",
+          "chapter": 14,
+          "verseStart": 17,
+          "verseEnd": 21,
+          "role": "Mark account"
+        },
+        {
+          "book": "luk",
+          "chapter": 22,
+          "verseStart": 21,
+          "verseEnd": 23,
+          "role": "Luke account"
+        },
+        {
+          "book": "jhn",
+          "chapter": 13,
+          "verseStart": 21,
+          "verseEnd": 30,
+          "role": "John account"
+        }
+      ]
+    },
+    {
+      "id": "SYN-61",
+      "category": "synoptic_parallel",
+      "title": "Institution of the Lord's Supper",
+      "description": "Jesus takes bread and the cup, identifying them with His body and His blood of the covenant poured out for many. Paul transmits the same tradition to the Corinthians.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 26,
+          "verseStart": 26,
+          "verseEnd": 29,
+          "role": "Matthew account"
+        },
+        {
+          "book": "mrk",
+          "chapter": 14,
+          "verseStart": 22,
+          "verseEnd": 25,
+          "role": "Mark account"
+        },
+        {
+          "book": "luk",
+          "chapter": 22,
+          "verseStart": 14,
+          "verseEnd": 20,
+          "role": "Luke account"
+        },
+        {
+          "book": "1co",
+          "chapter": 11,
+          "verseStart": 23,
+          "verseEnd": 26,
+          "role": "Pauline tradition"
+        }
+      ]
+    },
+    {
+      "id": "SYN-62",
+      "category": "synoptic_parallel",
+      "title": "Prediction of Peter's Denial",
+      "description": "Peter vows loyalty, but Jesus foretells that he will deny Him three times before the rooster crows.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 26,
+          "verseStart": 31,
+          "verseEnd": 35,
+          "role": "Matthew account"
+        },
+        {
+          "book": "mrk",
+          "chapter": 14,
+          "verseStart": 27,
+          "verseEnd": 31,
+          "role": "Mark account"
+        },
+        {
+          "book": "luk",
+          "chapter": 22,
+          "verseStart": 31,
+          "verseEnd": 34,
+          "role": "Luke account"
+        },
+        {
+          "book": "jhn",
+          "chapter": 13,
+          "verseStart": 36,
+          "verseEnd": 38,
+          "role": "John account"
+        }
+      ]
+    },
+    {
+      "id": "SYN-63",
+      "category": "synoptic_parallel",
+      "title": "Prayer in Gethsemane",
+      "description": "Jesus prays in anguish that the cup might pass from Him, yet submits to the Father's will while the disciples sleep. John notes the garden across the Kidron.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 26,
+          "verseStart": 36,
+          "verseEnd": 46,
+          "role": "Matthew account"
+        },
+        {
+          "book": "mrk",
+          "chapter": 14,
+          "verseStart": 32,
+          "verseEnd": 42,
+          "role": "Mark account"
+        },
+        {
+          "book": "luk",
+          "chapter": 22,
+          "verseStart": 39,
+          "verseEnd": 46,
+          "role": "Luke account"
+        },
+        {
+          "book": "jhn",
+          "chapter": 18,
+          "verseStart": 1,
+          "verseEnd": 1,
+          "role": "John: entry into the garden"
+        }
+      ]
+    },
+    {
+      "id": "SYN-64",
+      "category": "synoptic_parallel",
+      "title": "The Arrest of Jesus",
+      "description": "Judas leads an armed crowd to seize Jesus; a disciple strikes the high priest's servant, and the disciples flee.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 26,
+          "verseStart": 47,
+          "verseEnd": 56,
+          "role": "Matthew account"
+        },
+        {
+          "book": "mrk",
+          "chapter": 14,
+          "verseStart": 43,
+          "verseEnd": 52,
+          "role": "Mark account"
+        },
+        {
+          "book": "luk",
+          "chapter": 22,
+          "verseStart": 47,
+          "verseEnd": 53,
+          "role": "Luke account"
+        },
+        {
+          "book": "jhn",
+          "chapter": 18,
+          "verseStart": 2,
+          "verseEnd": 12,
+          "role": "John account"
+        }
+      ]
+    },
+    {
+      "id": "SYN-65",
+      "category": "synoptic_parallel",
+      "title": "Trial before the Sanhedrin",
+      "description": "Jesus is examined by the high priest and council, affirms His identity as the Christ and Son of Man, and is condemned and mocked.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 26,
+          "verseStart": 57,
+          "verseEnd": 68,
+          "role": "Matthew account"
+        },
+        {
+          "book": "mrk",
+          "chapter": 14,
+          "verseStart": 53,
+          "verseEnd": 65,
+          "role": "Mark account"
+        },
+        {
+          "book": "luk",
+          "chapter": 22,
+          "verseStart": 63,
+          "verseEnd": 71,
+          "role": "Luke account"
+        },
+        {
+          "book": "jhn",
+          "chapter": 18,
+          "verseStart": 19,
+          "verseEnd": 24,
+          "role": "John: questioning before Annas"
+        }
+      ]
+    },
+    {
+      "id": "SYN-66",
+      "category": "synoptic_parallel",
+      "title": "Peter's Three Denials",
+      "description": "In the high priest's courtyard Peter three times denies knowing Jesus, and the rooster crows as Jesus foretold.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 26,
+          "verseStart": 69,
+          "verseEnd": 75,
+          "role": "Matthew account"
+        },
+        {
+          "book": "mrk",
+          "chapter": 14,
+          "verseStart": 66,
+          "verseEnd": 72,
+          "role": "Mark account"
+        },
+        {
+          "book": "luk",
+          "chapter": 22,
+          "verseStart": 54,
+          "verseEnd": 62,
+          "role": "Luke account"
+        },
+        {
+          "book": "jhn",
+          "chapter": 18,
+          "verseStart": 15,
+          "verseEnd": 18,
+          "role": "John: first denial"
+        },
+        {
+          "book": "jhn",
+          "chapter": 18,
+          "verseStart": 25,
+          "verseEnd": 27,
+          "role": "John: second and third denials"
+        }
+      ]
+    },
+    {
+      "id": "SYN-67",
+      "category": "synoptic_parallel",
+      "title": "Trial before Pilate",
+      "description": "Jesus is delivered to Pilate, who asks whether He is the King of the Jews; Jesus answers briefly and Pilate finds no basis for a charge.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 27,
+          "verseStart": 11,
+          "verseEnd": 14,
+          "role": "Matthew account"
+        },
+        {
+          "book": "mrk",
+          "chapter": 15,
+          "verseStart": 1,
+          "verseEnd": 5,
+          "role": "Mark account"
+        },
+        {
+          "book": "luk",
+          "chapter": 23,
+          "verseStart": 1,
+          "verseEnd": 5,
+          "role": "Luke account"
+        },
+        {
+          "book": "jhn",
+          "chapter": 18,
+          "verseStart": 28,
+          "verseEnd": 38,
+          "role": "John account"
+        }
+      ]
+    },
+    {
+      "id": "SYN-68",
+      "category": "synoptic_parallel",
+      "title": "Barabbas Released, Jesus Condemned",
+      "description": "Pilate offers to release a prisoner at the feast; the crowd demands Barabbas and calls for Jesus to be crucified.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 27,
+          "verseStart": 15,
+          "verseEnd": 26,
+          "role": "Matthew account"
+        },
+        {
+          "book": "mrk",
+          "chapter": 15,
+          "verseStart": 6,
+          "verseEnd": 15,
+          "role": "Mark account"
+        },
+        {
+          "book": "luk",
+          "chapter": 23,
+          "verseStart": 18,
+          "verseEnd": 25,
+          "role": "Luke account"
+        },
+        {
+          "book": "jhn",
+          "chapter": 18,
+          "verseStart": 39,
+          "verseEnd": 40,
+          "role": "John account"
+        }
+      ]
+    },
+    {
+      "id": "SYN-69",
+      "category": "synoptic_parallel",
+      "title": "Soldiers Mock Jesus",
+      "description": "The soldiers clothe Jesus in purple, crown Him with thorns, and mock Him as King of the Jews.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 27,
+          "verseStart": 27,
+          "verseEnd": 31,
+          "role": "Matthew account"
+        },
+        {
+          "book": "mrk",
+          "chapter": 15,
+          "verseStart": 16,
+          "verseEnd": 20,
+          "role": "Mark account"
+        },
+        {
+          "book": "jhn",
+          "chapter": 19,
+          "verseStart": 1,
+          "verseEnd": 3,
+          "role": "John account"
+        }
+      ]
+    },
+    {
+      "id": "SYN-70",
+      "category": "synoptic_parallel",
+      "title": "The Crucifixion",
+      "description": "Jesus is led to Golgotha and crucified between two criminals, His garments divided and the inscription 'King of the Jews' placed above Him.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 27,
+          "verseStart": 32,
+          "verseEnd": 44,
+          "role": "Matthew account"
+        },
+        {
+          "book": "mrk",
+          "chapter": 15,
+          "verseStart": 21,
+          "verseEnd": 32,
+          "role": "Mark account"
+        },
+        {
+          "book": "luk",
+          "chapter": 23,
+          "verseStart": 26,
+          "verseEnd": 43,
+          "role": "Luke account"
+        },
+        {
+          "book": "jhn",
+          "chapter": 19,
+          "verseStart": 16,
+          "verseEnd": 27,
+          "role": "John account"
+        }
+      ]
+    },
+    {
+      "id": "SYN-71",
+      "category": "synoptic_parallel",
+      "title": "Darkness, the Death of Jesus, and the Torn Curtain",
+      "description": "Darkness covers the land, Jesus cries out and yields His spirit, and the temple curtain is torn in two. John records His final word, 'It is finished.'",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 27,
+          "verseStart": 45,
+          "verseEnd": 56,
+          "role": "Matthew account"
+        },
+        {
+          "book": "mrk",
+          "chapter": 15,
+          "verseStart": 33,
+          "verseEnd": 41,
+          "role": "Mark account"
+        },
+        {
+          "book": "luk",
+          "chapter": 23,
+          "verseStart": 44,
+          "verseEnd": 49,
+          "role": "Luke account"
+        },
+        {
+          "book": "jhn",
+          "chapter": 19,
+          "verseStart": 28,
+          "verseEnd": 30,
+          "role": "John account"
+        }
+      ]
+    },
+    {
+      "id": "SYN-72",
+      "category": "synoptic_parallel",
+      "title": "Burial by Joseph of Arimathea",
+      "description": "Joseph of Arimathea obtains Jesus' body from Pilate, wraps it in linen, and lays it in a new tomb, while the women observe.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 27,
+          "verseStart": 57,
+          "verseEnd": 61,
+          "role": "Matthew account"
+        },
+        {
+          "book": "mrk",
+          "chapter": 15,
+          "verseStart": 42,
+          "verseEnd": 47,
+          "role": "Mark account"
+        },
+        {
+          "book": "luk",
+          "chapter": 23,
+          "verseStart": 50,
+          "verseEnd": 56,
+          "role": "Luke account"
+        },
+        {
+          "book": "jhn",
+          "chapter": 19,
+          "verseStart": 38,
+          "verseEnd": 42,
+          "role": "John account"
+        }
+      ]
+    },
+    {
+      "id": "SYN-73",
+      "category": "synoptic_parallel",
+      "title": "The Empty Tomb",
+      "description": "On the first day of the week the women find the stone rolled away and hear that Jesus has risen; John and Luke note disciples running to see the empty tomb.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 28,
+          "verseStart": 1,
+          "verseEnd": 8,
+          "role": "Matthew account"
+        },
+        {
+          "book": "mrk",
+          "chapter": 16,
+          "verseStart": 1,
+          "verseEnd": 8,
+          "role": "Mark account"
+        },
+        {
+          "book": "luk",
+          "chapter": 24,
+          "verseStart": 1,
+          "verseEnd": 12,
+          "role": "Luke account"
+        },
+        {
+          "book": "jhn",
+          "chapter": 20,
+          "verseStart": 1,
+          "verseEnd": 10,
+          "role": "John account"
+        }
+      ]
+    },
+    {
+      "id": "SYN-74",
+      "category": "synoptic_parallel",
+      "title": "Resurrection Appearances",
+      "description": "The risen Jesus appears to the women and Mary Magdalene, to two disciples on the Emmaus road, and to the gathered disciples, including Thomas.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 28,
+          "verseStart": 9,
+          "verseEnd": 10,
+          "role": "Matthew: appearance to the women"
+        },
+        {
+          "book": "mrk",
+          "chapter": 16,
+          "verseStart": 9,
+          "verseEnd": 14,
+          "role": "Mark: appearances summarized"
+        },
+        {
+          "book": "luk",
+          "chapter": 24,
+          "verseStart": 13,
+          "verseEnd": 43,
+          "role": "Luke: Emmaus and the disciples"
+        },
+        {
+          "book": "jhn",
+          "chapter": 20,
+          "verseStart": 11,
+          "verseEnd": 29,
+          "role": "John: Mary Magdalene, the disciples, and Thomas"
+        }
+      ]
+    },
+    {
+      "id": "SYN-75",
+      "category": "synoptic_parallel",
+      "title": "The Great Commission and Ascension",
+      "description": "The risen Lord commissions His disciples to make disciples of all nations and proclaim repentance and forgiveness, then is taken up into heaven.",
+      "passages": [
+        {
+          "book": "mat",
+          "chapter": 28,
+          "verseStart": 16,
+          "verseEnd": 20,
+          "role": "Matthew: Great Commission"
+        },
+        {
+          "book": "mrk",
+          "chapter": 16,
+          "verseStart": 15,
+          "verseEnd": 20,
+          "role": "Mark: commission and ascension"
+        },
+        {
+          "book": "luk",
+          "chapter": 24,
+          "verseStart": 44,
+          "verseEnd": 53,
+          "role": "Luke: commission and ascension"
+        },
+        {
+          "book": "jhn",
+          "chapter": 20,
+          "verseStart": 21,
+          "verseEnd": 23,
+          "role": "John: sending of the disciples"
+        },
+        {
+          "book": "act",
+          "chapter": 1,
+          "verseStart": 8,
+          "verseEnd": 11,
+          "role": "Acts: commission and ascension"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-01",
+      "category": "ot_in_nt",
+      "title": "The Virgin Shall Conceive (Immanuel)",
+      "description": "Matthew cites Isaiah's sign of the virgin bearing a son called Immanuel as fulfilled in the birth of Jesus.",
+      "passages": [
+        {
+          "book": "isa",
+          "chapter": 7,
+          "verseStart": 14,
+          "verseEnd": 14,
+          "role": "source"
+        },
+        {
+          "book": "mat",
+          "chapter": 1,
+          "verseStart": 22,
+          "verseEnd": 23,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-02",
+      "category": "ot_in_nt",
+      "title": "The Ruler from Bethlehem",
+      "description": "The chief priests and scribes quote Micah's prophecy that a ruler would come forth from Bethlehem to shepherd Israel.",
+      "passages": [
+        {
+          "book": "mic",
+          "chapter": 5,
+          "verseStart": 2,
+          "verseEnd": 2,
+          "role": "source"
+        },
+        {
+          "book": "mat",
+          "chapter": 2,
+          "verseStart": 5,
+          "verseEnd": 6,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-03",
+      "category": "ot_in_nt",
+      "title": "Out of Egypt I Called My Son",
+      "description": "Matthew applies Hosea's words about Israel's exodus to the child Jesus returning from Egypt.",
+      "passages": [
+        {
+          "book": "hos",
+          "chapter": 11,
+          "verseStart": 1,
+          "verseEnd": 1,
+          "role": "source"
+        },
+        {
+          "book": "mat",
+          "chapter": 2,
+          "verseStart": 15,
+          "verseEnd": 15,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-04",
+      "category": "ot_in_nt",
+      "title": "Rachel Weeping for Her Children",
+      "description": "Jeremiah's lament of Rachel weeping in Ramah is cited as fulfilled in Herod's slaughter of the children of Bethlehem.",
+      "passages": [
+        {
+          "book": "jer",
+          "chapter": 31,
+          "verseStart": 15,
+          "verseEnd": 15,
+          "role": "source"
+        },
+        {
+          "book": "mat",
+          "chapter": 2,
+          "verseStart": 17,
+          "verseEnd": 18,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-05",
+      "category": "ot_in_nt",
+      "title": "A Voice Crying in the Wilderness",
+      "description": "All four Gospels identify John the Baptist as the voice of Isaiah 40 preparing the way of the Lord.",
+      "passages": [
+        {
+          "book": "isa",
+          "chapter": 40,
+          "verseStart": 3,
+          "verseEnd": 5,
+          "role": "source"
+        },
+        {
+          "book": "mat",
+          "chapter": 3,
+          "verseStart": 3,
+          "verseEnd": 3,
+          "role": "quotation"
+        },
+        {
+          "book": "mrk",
+          "chapter": 1,
+          "verseStart": 3,
+          "verseEnd": 3,
+          "role": "quotation"
+        },
+        {
+          "book": "luk",
+          "chapter": 3,
+          "verseStart": 4,
+          "verseEnd": 6,
+          "role": "quotation"
+        },
+        {
+          "book": "jhn",
+          "chapter": 1,
+          "verseStart": 23,
+          "verseEnd": 23,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-06",
+      "category": "ot_in_nt",
+      "title": "I Send My Messenger Before Your Face",
+      "description": "Malachi's promised messenger who prepares the Lord's way is applied to John the Baptist.",
+      "passages": [
+        {
+          "book": "mal",
+          "chapter": 3,
+          "verseStart": 1,
+          "verseEnd": 1,
+          "role": "source"
+        },
+        {
+          "book": "mrk",
+          "chapter": 1,
+          "verseStart": 2,
+          "verseEnd": 2,
+          "role": "quotation"
+        },
+        {
+          "book": "mat",
+          "chapter": 11,
+          "verseStart": 10,
+          "verseEnd": 10,
+          "role": "quotation"
+        },
+        {
+          "book": "luk",
+          "chapter": 7,
+          "verseStart": 27,
+          "verseEnd": 27,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-07",
+      "category": "ot_in_nt",
+      "title": "Man Shall Not Live by Bread Alone",
+      "description": "Jesus answers the first temptation with Moses' words that man lives by every word from the mouth of God.",
+      "passages": [
+        {
+          "book": "deu",
+          "chapter": 8,
+          "verseStart": 3,
+          "verseEnd": 3,
+          "role": "source"
+        },
+        {
+          "book": "mat",
+          "chapter": 4,
+          "verseStart": 4,
+          "verseEnd": 4,
+          "role": "quotation"
+        },
+        {
+          "book": "luk",
+          "chapter": 4,
+          "verseStart": 4,
+          "verseEnd": 4,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-08",
+      "category": "ot_in_nt",
+      "title": "Angels' Protection and Not Testing God",
+      "description": "The devil quotes Psalm 91's promise of angelic protection, and Jesus replies with Deuteronomy's command not to test the Lord.",
+      "passages": [
+        {
+          "book": "psa",
+          "chapter": 91,
+          "verseStart": 11,
+          "verseEnd": 12,
+          "role": "source"
+        },
+        {
+          "book": "deu",
+          "chapter": 6,
+          "verseStart": 16,
+          "verseEnd": 16,
+          "role": "source"
+        },
+        {
+          "book": "mat",
+          "chapter": 4,
+          "verseStart": 6,
+          "verseEnd": 7,
+          "role": "quotation"
+        },
+        {
+          "book": "luk",
+          "chapter": 4,
+          "verseStart": 10,
+          "verseEnd": 12,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-09",
+      "category": "ot_in_nt",
+      "title": "Worship the Lord Your God Alone",
+      "description": "Jesus rebukes Satan with Deuteronomy's command to worship and serve the Lord only.",
+      "passages": [
+        {
+          "book": "deu",
+          "chapter": 6,
+          "verseStart": 13,
+          "verseEnd": 13,
+          "role": "source"
+        },
+        {
+          "book": "mat",
+          "chapter": 4,
+          "verseStart": 10,
+          "verseEnd": 10,
+          "role": "quotation"
+        },
+        {
+          "book": "luk",
+          "chapter": 4,
+          "verseStart": 8,
+          "verseEnd": 8,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-10",
+      "category": "ot_in_nt",
+      "title": "Light Dawns in Galilee of the Gentiles",
+      "description": "Jesus' ministry in Capernaum fulfills Isaiah's promise of a great light for the people sitting in darkness in Zebulun and Naphtali.",
+      "passages": [
+        {
+          "book": "isa",
+          "chapter": 9,
+          "verseStart": 1,
+          "verseEnd": 2,
+          "role": "source"
+        },
+        {
+          "book": "mat",
+          "chapter": 4,
+          "verseStart": 14,
+          "verseEnd": 16,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-11",
+      "category": "ot_in_nt",
+      "title": "The Spirit of the Lord Is on Me",
+      "description": "In the Nazareth synagogue Jesus reads Isaiah 61 and declares it fulfilled in their hearing.",
+      "passages": [
+        {
+          "book": "isa",
+          "chapter": 61,
+          "verseStart": 1,
+          "verseEnd": 2,
+          "role": "source"
+        },
+        {
+          "book": "luk",
+          "chapter": 4,
+          "verseStart": 18,
+          "verseEnd": 19,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-12",
+      "category": "ot_in_nt",
+      "title": "He Took Our Infirmities",
+      "description": "Matthew presents Jesus' healings as fulfilling Isaiah's Servant who bore our sicknesses.",
+      "passages": [
+        {
+          "book": "isa",
+          "chapter": 53,
+          "verseStart": 4,
+          "verseEnd": 4,
+          "role": "source"
+        },
+        {
+          "book": "mat",
+          "chapter": 8,
+          "verseStart": 17,
+          "verseEnd": 17,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-13",
+      "category": "ot_in_nt",
+      "title": "I Desire Mercy, Not Sacrifice",
+      "description": "Jesus twice cites Hosea to rebuke the Pharisees for valuing ritual over mercy.",
+      "passages": [
+        {
+          "book": "hos",
+          "chapter": 6,
+          "verseStart": 6,
+          "verseEnd": 6,
+          "role": "source"
+        },
+        {
+          "book": "mat",
+          "chapter": 9,
+          "verseStart": 13,
+          "verseEnd": 13,
+          "role": "quotation"
+        },
+        {
+          "book": "mat",
+          "chapter": 12,
+          "verseStart": 7,
+          "verseEnd": 7,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-14",
+      "category": "ot_in_nt",
+      "title": "Behold, My Servant Whom I Have Chosen",
+      "description": "Matthew quotes Isaiah's first Servant Song to describe Jesus' gentle ministry and hope for the Gentiles.",
+      "passages": [
+        {
+          "book": "isa",
+          "chapter": 42,
+          "verseStart": 1,
+          "verseEnd": 4,
+          "role": "source"
+        },
+        {
+          "book": "mat",
+          "chapter": 12,
+          "verseStart": 17,
+          "verseEnd": 21,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-15",
+      "category": "ot_in_nt",
+      "title": "Hearing but Not Understanding",
+      "description": "Isaiah's commission concerning a hardened people is applied to those who reject Jesus' parables and signs.",
+      "passages": [
+        {
+          "book": "isa",
+          "chapter": 6,
+          "verseStart": 9,
+          "verseEnd": 10,
+          "role": "source"
+        },
+        {
+          "book": "mat",
+          "chapter": 13,
+          "verseStart": 14,
+          "verseEnd": 15,
+          "role": "quotation"
+        },
+        {
+          "book": "mrk",
+          "chapter": 4,
+          "verseStart": 12,
+          "verseEnd": 12,
+          "role": "allusion"
+        },
+        {
+          "book": "jhn",
+          "chapter": 12,
+          "verseStart": 39,
+          "verseEnd": 40,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-16",
+      "category": "ot_in_nt",
+      "title": "I Will Open My Mouth in Parables",
+      "description": "Jesus' teaching in parables fulfills the psalmist's word about uttering things hidden from of old.",
+      "passages": [
+        {
+          "book": "psa",
+          "chapter": 78,
+          "verseStart": 2,
+          "verseEnd": 2,
+          "role": "source"
+        },
+        {
+          "book": "mat",
+          "chapter": 13,
+          "verseStart": 35,
+          "verseEnd": 35,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-17",
+      "category": "ot_in_nt",
+      "title": "Honoring God with Lips Only",
+      "description": "Jesus cites Isaiah against those who replace God's commandment with human tradition.",
+      "passages": [
+        {
+          "book": "isa",
+          "chapter": 29,
+          "verseStart": 13,
+          "verseEnd": 13,
+          "role": "source"
+        },
+        {
+          "book": "mat",
+          "chapter": 15,
+          "verseStart": 8,
+          "verseEnd": 9,
+          "role": "quotation"
+        },
+        {
+          "book": "mrk",
+          "chapter": 7,
+          "verseStart": 6,
+          "verseEnd": 7,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-18",
+      "category": "ot_in_nt",
+      "title": "Your King Comes, Riding on a Donkey",
+      "description": "Jesus' triumphal entry into Jerusalem fulfills Zechariah's vision of the humble king.",
+      "passages": [
+        {
+          "book": "zec",
+          "chapter": 9,
+          "verseStart": 9,
+          "verseEnd": 9,
+          "role": "source"
+        },
+        {
+          "book": "mat",
+          "chapter": 21,
+          "verseStart": 4,
+          "verseEnd": 5,
+          "role": "quotation"
+        },
+        {
+          "book": "jhn",
+          "chapter": 12,
+          "verseStart": 14,
+          "verseEnd": 15,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-19",
+      "category": "ot_in_nt",
+      "title": "A House of Prayer Made a Den of Robbers",
+      "description": "In cleansing the temple Jesus joins Isaiah's house of prayer with Jeremiah's den of robbers.",
+      "passages": [
+        {
+          "book": "isa",
+          "chapter": 56,
+          "verseStart": 7,
+          "verseEnd": 7,
+          "role": "source"
+        },
+        {
+          "book": "jer",
+          "chapter": 7,
+          "verseStart": 11,
+          "verseEnd": 11,
+          "role": "source"
+        },
+        {
+          "book": "mat",
+          "chapter": 21,
+          "verseStart": 13,
+          "verseEnd": 13,
+          "role": "quotation"
+        },
+        {
+          "book": "mrk",
+          "chapter": 11,
+          "verseStart": 17,
+          "verseEnd": 17,
+          "role": "quotation"
+        },
+        {
+          "book": "luk",
+          "chapter": 19,
+          "verseStart": 46,
+          "verseEnd": 46,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-20",
+      "category": "ot_in_nt",
+      "title": "Praise from the Mouths of Children",
+      "description": "Jesus defends the children's hosannas in the temple by citing Psalm 8.",
+      "passages": [
+        {
+          "book": "psa",
+          "chapter": 8,
+          "verseStart": 2,
+          "verseEnd": 2,
+          "role": "source"
+        },
+        {
+          "book": "mat",
+          "chapter": 21,
+          "verseStart": 16,
+          "verseEnd": 16,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-21",
+      "category": "ot_in_nt",
+      "title": "The Rejected Stone Becomes the Cornerstone",
+      "description": "After the parable of the tenants Jesus applies Psalm 118's rejected stone to himself.",
+      "passages": [
+        {
+          "book": "psa",
+          "chapter": 118,
+          "verseStart": 22,
+          "verseEnd": 23,
+          "role": "source"
+        },
+        {
+          "book": "mat",
+          "chapter": 21,
+          "verseStart": 42,
+          "verseEnd": 42,
+          "role": "quotation"
+        },
+        {
+          "book": "mrk",
+          "chapter": 12,
+          "verseStart": 10,
+          "verseEnd": 11,
+          "role": "quotation"
+        },
+        {
+          "book": "luk",
+          "chapter": 20,
+          "verseStart": 17,
+          "verseEnd": 17,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-22",
+      "category": "ot_in_nt",
+      "title": "The Great Commandments",
+      "description": "Jesus summarizes the Law with the Shema's call to love God wholly and Leviticus' command to love one's neighbor.",
+      "passages": [
+        {
+          "book": "deu",
+          "chapter": 6,
+          "verseStart": 4,
+          "verseEnd": 5,
+          "role": "source"
+        },
+        {
+          "book": "lev",
+          "chapter": 19,
+          "verseStart": 18,
+          "verseEnd": 18,
+          "role": "source"
+        },
+        {
+          "book": "mat",
+          "chapter": 22,
+          "verseStart": 37,
+          "verseEnd": 39,
+          "role": "quotation"
+        },
+        {
+          "book": "mrk",
+          "chapter": 12,
+          "verseStart": 29,
+          "verseEnd": 31,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-23",
+      "category": "ot_in_nt",
+      "title": "The Lord Said to My Lord",
+      "description": "Jesus cites Psalm 110 to show that the Messiah is David's Lord, not merely his son.",
+      "passages": [
+        {
+          "book": "psa",
+          "chapter": 110,
+          "verseStart": 1,
+          "verseEnd": 1,
+          "role": "source"
+        },
+        {
+          "book": "mat",
+          "chapter": 22,
+          "verseStart": 44,
+          "verseEnd": 44,
+          "role": "quotation"
+        },
+        {
+          "book": "mrk",
+          "chapter": 12,
+          "verseStart": 36,
+          "verseEnd": 36,
+          "role": "quotation"
+        },
+        {
+          "book": "luk",
+          "chapter": 20,
+          "verseStart": 42,
+          "verseEnd": 43,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-24",
+      "category": "ot_in_nt",
+      "title": "Strike the Shepherd, the Sheep Scatter",
+      "description": "Jesus foretells the disciples' desertion by quoting Zechariah's stricken shepherd.",
+      "passages": [
+        {
+          "book": "zec",
+          "chapter": 13,
+          "verseStart": 7,
+          "verseEnd": 7,
+          "role": "source"
+        },
+        {
+          "book": "mat",
+          "chapter": 26,
+          "verseStart": 31,
+          "verseEnd": 31,
+          "role": "quotation"
+        },
+        {
+          "book": "mrk",
+          "chapter": 14,
+          "verseStart": 27,
+          "verseEnd": 27,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-25",
+      "category": "ot_in_nt",
+      "title": "My God, Why Have You Forsaken Me?",
+      "description": "From the cross Jesus cries out the opening words of Psalm 22.",
+      "passages": [
+        {
+          "book": "psa",
+          "chapter": 22,
+          "verseStart": 1,
+          "verseEnd": 1,
+          "role": "source"
+        },
+        {
+          "book": "mat",
+          "chapter": 27,
+          "verseStart": 46,
+          "verseEnd": 46,
+          "role": "quotation"
+        },
+        {
+          "book": "mrk",
+          "chapter": 15,
+          "verseStart": 34,
+          "verseEnd": 34,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-26",
+      "category": "ot_in_nt",
+      "title": "Casting Lots for His Clothing",
+      "description": "The soldiers' division of Jesus' garments fulfills Psalm 22's description of lots cast for the sufferer's clothing.",
+      "passages": [
+        {
+          "book": "psa",
+          "chapter": 22,
+          "verseStart": 18,
+          "verseEnd": 18,
+          "role": "source"
+        },
+        {
+          "book": "jhn",
+          "chapter": 19,
+          "verseStart": 23,
+          "verseEnd": 24,
+          "role": "quotation"
+        },
+        {
+          "book": "mat",
+          "chapter": 27,
+          "verseStart": 35,
+          "verseEnd": 35,
+          "role": "allusion"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-27",
+      "category": "ot_in_nt",
+      "title": "Into Your Hands I Commit My Spirit",
+      "description": "Jesus' final words in Luke echo the psalmist's trustful commitment of his spirit to God.",
+      "passages": [
+        {
+          "book": "psa",
+          "chapter": 31,
+          "verseStart": 5,
+          "verseEnd": 5,
+          "role": "source"
+        },
+        {
+          "book": "luk",
+          "chapter": 23,
+          "verseStart": 46,
+          "verseEnd": 46,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-28",
+      "category": "ot_in_nt",
+      "title": "The Bronze Serpent Lifted Up",
+      "description": "Jesus compares his being lifted up to Moses raising the bronze serpent so that all who look may live.",
+      "passages": [
+        {
+          "book": "num",
+          "chapter": 21,
+          "verseStart": 8,
+          "verseEnd": 9,
+          "role": "source"
+        },
+        {
+          "book": "jhn",
+          "chapter": 3,
+          "verseStart": 14,
+          "verseEnd": 15,
+          "role": "allusion"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-29",
+      "category": "ot_in_nt",
+      "title": "No Bone Broken; They Will Look on the Pierced One",
+      "description": "John sees the unbroken legs and pierced side of Jesus as fulfilling the Passover lamb regulations, the psalm of the righteous, and Zechariah's pierced one.",
+      "passages": [
+        {
+          "book": "exo",
+          "chapter": 12,
+          "verseStart": 46,
+          "verseEnd": 46,
+          "role": "source"
+        },
+        {
+          "book": "num",
+          "chapter": 9,
+          "verseStart": 12,
+          "verseEnd": 12,
+          "role": "source"
+        },
+        {
+          "book": "psa",
+          "chapter": 34,
+          "verseStart": 20,
+          "verseEnd": 20,
+          "role": "source"
+        },
+        {
+          "book": "zec",
+          "chapter": 12,
+          "verseStart": 10,
+          "verseEnd": 10,
+          "role": "source"
+        },
+        {
+          "book": "jhn",
+          "chapter": 19,
+          "verseStart": 36,
+          "verseEnd": 37,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-30",
+      "category": "ot_in_nt",
+      "title": "Who Has Believed Our Report?",
+      "description": "John explains the unbelief that met Jesus' signs by citing the opening of Isaiah's Suffering Servant song.",
+      "passages": [
+        {
+          "book": "isa",
+          "chapter": 53,
+          "verseStart": 1,
+          "verseEnd": 1,
+          "role": "source"
+        },
+        {
+          "book": "jhn",
+          "chapter": 12,
+          "verseStart": 37,
+          "verseEnd": 38,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-31",
+      "category": "ot_in_nt",
+      "title": "Joel's Promise of the Outpoured Spirit Fulfilled at Pentecost",
+      "description": "Peter interprets the Pentecost outpouring as the fulfillment of Joel's prophecy that God would pour out his Spirit on all flesh, so that whoever calls on the name of the Lord will be saved.",
+      "passages": [
+        {
+          "book": "jol",
+          "chapter": 2,
+          "verseStart": 28,
+          "verseEnd": 32,
+          "role": "source"
+        },
+        {
+          "book": "act",
+          "chapter": 2,
+          "verseStart": 17,
+          "verseEnd": 21,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-32",
+      "category": "ot_in_nt",
+      "title": "David's Hope: The Holy One Will Not See Decay",
+      "description": "Peter and Paul both cite Psalm 16 to show that David spoke of the resurrection of the Messiah, whose body would not see corruption.",
+      "passages": [
+        {
+          "book": "psa",
+          "chapter": 16,
+          "verseStart": 8,
+          "verseEnd": 11,
+          "role": "source"
+        },
+        {
+          "book": "act",
+          "chapter": 2,
+          "verseStart": 25,
+          "verseEnd": 28,
+          "role": "quotation"
+        },
+        {
+          "book": "act",
+          "chapter": 13,
+          "verseStart": 35,
+          "verseEnd": 35,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-33",
+      "category": "ot_in_nt",
+      "title": "The LORD Said to My Lord: Sit at My Right Hand",
+      "description": "Peter cites Psalm 110:1 to proclaim that the risen Jesus has been exalted to God's right hand as Lord and Christ.",
+      "passages": [
+        {
+          "book": "psa",
+          "chapter": 110,
+          "verseStart": 1,
+          "verseEnd": 1,
+          "role": "source"
+        },
+        {
+          "book": "act",
+          "chapter": 2,
+          "verseStart": 34,
+          "verseEnd": 35,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-34",
+      "category": "ot_in_nt",
+      "title": "A Prophet Like Moses",
+      "description": "Peter identifies Jesus as the prophet like Moses whom God promised to raise up, warning that whoever does not listen to him will be cut off from the people.",
+      "passages": [
+        {
+          "book": "deu",
+          "chapter": 18,
+          "verseStart": 15,
+          "verseEnd": 19,
+          "role": "source"
+        },
+        {
+          "book": "lev",
+          "chapter": 23,
+          "verseStart": 29,
+          "verseEnd": 29,
+          "role": "allusion"
+        },
+        {
+          "book": "act",
+          "chapter": 3,
+          "verseStart": 22,
+          "verseEnd": 23,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-35",
+      "category": "ot_in_nt",
+      "title": "The Rejected Stone Made the Cornerstone",
+      "description": "Before the Sanhedrin, Peter applies Psalm 118:22 to Jesus, whom the builders rejected but God raised to become the head of the corner.",
+      "passages": [
+        {
+          "book": "psa",
+          "chapter": 118,
+          "verseStart": 22,
+          "verseEnd": 22,
+          "role": "source"
+        },
+        {
+          "book": "act",
+          "chapter": 4,
+          "verseStart": 11,
+          "verseEnd": 11,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-36",
+      "category": "ot_in_nt",
+      "title": "The Nations Rage Against the LORD's Anointed",
+      "description": "The praying church quotes Psalm 2:1-2, seeing its fulfillment in the alliance of Herod, Pilate, the Gentiles, and Israel against God's holy servant Jesus.",
+      "passages": [
+        {
+          "book": "psa",
+          "chapter": 2,
+          "verseStart": 1,
+          "verseEnd": 2,
+          "role": "source"
+        },
+        {
+          "book": "act",
+          "chapter": 4,
+          "verseStart": 25,
+          "verseEnd": 26,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-37",
+      "category": "ot_in_nt",
+      "title": "Heaven Is My Throne",
+      "description": "Stephen quotes Isaiah 66:1-2 to declare that the Most High does not dwell in houses made with hands.",
+      "passages": [
+        {
+          "book": "isa",
+          "chapter": 66,
+          "verseStart": 1,
+          "verseEnd": 2,
+          "role": "source"
+        },
+        {
+          "book": "act",
+          "chapter": 7,
+          "verseStart": 49,
+          "verseEnd": 50,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-38",
+      "category": "ot_in_nt",
+      "title": "Led as a Sheep to the Slaughter",
+      "description": "The Ethiopian eunuch reads Isaiah's Suffering Servant passage, and Philip, beginning from this Scripture, proclaims Jesus to him.",
+      "passages": [
+        {
+          "book": "isa",
+          "chapter": 53,
+          "verseStart": 7,
+          "verseEnd": 8,
+          "role": "source"
+        },
+        {
+          "book": "act",
+          "chapter": 8,
+          "verseStart": 32,
+          "verseEnd": 33,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-39",
+      "category": "ot_in_nt",
+      "title": "You Are My Son, Today I Have Become Your Father",
+      "description": "In Pisidian Antioch Paul cites Psalm 2:7, together with Isaiah 55:3, as fulfilled in God raising Jesus from the dead.",
+      "passages": [
+        {
+          "book": "psa",
+          "chapter": 2,
+          "verseStart": 7,
+          "verseEnd": 7,
+          "role": "source"
+        },
+        {
+          "book": "isa",
+          "chapter": 55,
+          "verseStart": 3,
+          "verseEnd": 3,
+          "role": "source"
+        },
+        {
+          "book": "act",
+          "chapter": 13,
+          "verseStart": 33,
+          "verseEnd": 34,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-40",
+      "category": "ot_in_nt",
+      "title": "A Light for the Gentiles",
+      "description": "Paul and Barnabas cite the Servant's commission in Isaiah 49:6 as the Lord's command for bringing salvation to the ends of the earth.",
+      "passages": [
+        {
+          "book": "isa",
+          "chapter": 49,
+          "verseStart": 6,
+          "verseEnd": 6,
+          "role": "source"
+        },
+        {
+          "book": "act",
+          "chapter": 13,
+          "verseStart": 47,
+          "verseEnd": 47,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-41",
+      "category": "ot_in_nt",
+      "title": "Rebuilding the Fallen Tent of David",
+      "description": "At the Jerusalem Council James cites Amos 9:11-12 to show that the inclusion of Gentiles who seek the Lord agrees with the words of the prophets.",
+      "passages": [
+        {
+          "book": "amo",
+          "chapter": 9,
+          "verseStart": 11,
+          "verseEnd": 12,
+          "role": "source"
+        },
+        {
+          "book": "act",
+          "chapter": 15,
+          "verseStart": 16,
+          "verseEnd": 17,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-42",
+      "category": "ot_in_nt",
+      "title": "Hearing but Not Understanding",
+      "description": "Paul closes Acts by quoting Isaiah 6:9-10 concerning the hardened hearts of those who refuse the message, announcing that salvation has been sent to the Gentiles.",
+      "passages": [
+        {
+          "book": "isa",
+          "chapter": 6,
+          "verseStart": 9,
+          "verseEnd": 10,
+          "role": "source"
+        },
+        {
+          "book": "act",
+          "chapter": 28,
+          "verseStart": 26,
+          "verseEnd": 27,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-43",
+      "category": "ot_in_nt",
+      "title": "The Righteous Shall Live by Faith",
+      "description": "Paul grounds the revelation of God's righteousness in the gospel on Habakkuk 2:4.",
+      "passages": [
+        {
+          "book": "hab",
+          "chapter": 2,
+          "verseStart": 4,
+          "verseEnd": 4,
+          "role": "source"
+        },
+        {
+          "book": "rom",
+          "chapter": 1,
+          "verseStart": 17,
+          "verseEnd": 17,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-44",
+      "category": "ot_in_nt",
+      "title": "There Is None Righteous, No, Not One",
+      "description": "Paul strings together Psalms and Isaiah to demonstrate that both Jews and Gentiles are all under sin.",
+      "passages": [
+        {
+          "book": "psa",
+          "chapter": 14,
+          "verseStart": 1,
+          "verseEnd": 3,
+          "role": "source"
+        },
+        {
+          "book": "psa",
+          "chapter": 5,
+          "verseStart": 9,
+          "verseEnd": 9,
+          "role": "source"
+        },
+        {
+          "book": "psa",
+          "chapter": 140,
+          "verseStart": 3,
+          "verseEnd": 3,
+          "role": "source"
+        },
+        {
+          "book": "psa",
+          "chapter": 10,
+          "verseStart": 7,
+          "verseEnd": 7,
+          "role": "source"
+        },
+        {
+          "book": "isa",
+          "chapter": 59,
+          "verseStart": 7,
+          "verseEnd": 8,
+          "role": "source"
+        },
+        {
+          "book": "psa",
+          "chapter": 36,
+          "verseStart": 1,
+          "verseEnd": 1,
+          "role": "source"
+        },
+        {
+          "book": "rom",
+          "chapter": 3,
+          "verseStart": 10,
+          "verseEnd": 18,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-45",
+      "category": "ot_in_nt",
+      "title": "Abraham Believed God",
+      "description": "Paul cites Genesis 15:6 to show that Abraham was counted righteous through faith, not by works.",
+      "passages": [
+        {
+          "book": "gen",
+          "chapter": 15,
+          "verseStart": 6,
+          "verseEnd": 6,
+          "role": "source"
+        },
+        {
+          "book": "rom",
+          "chapter": 4,
+          "verseStart": 3,
+          "verseEnd": 3,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-46",
+      "category": "ot_in_nt",
+      "title": "Blessed Are Those Whose Sins Are Forgiven",
+      "description": "Paul quotes David in Psalm 32:1-2 to describe the blessedness of the one to whom God credits righteousness apart from works.",
+      "passages": [
+        {
+          "book": "psa",
+          "chapter": 32,
+          "verseStart": 1,
+          "verseEnd": 2,
+          "role": "source"
+        },
+        {
+          "book": "rom",
+          "chapter": 4,
+          "verseStart": 7,
+          "verseEnd": 8,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-47",
+      "category": "ot_in_nt",
+      "title": "Accounted as Sheep for the Slaughter",
+      "description": "Paul cites Psalm 44:22 to show that the sufferings of God's people cannot separate them from the love of Christ.",
+      "passages": [
+        {
+          "book": "psa",
+          "chapter": 44,
+          "verseStart": 22,
+          "verseEnd": 22,
+          "role": "source"
+        },
+        {
+          "book": "rom",
+          "chapter": 8,
+          "verseStart": 36,
+          "verseEnd": 36,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-48",
+      "category": "ot_in_nt",
+      "title": "I Will Have Mercy on Whom I Have Mercy",
+      "description": "Paul quotes God's words to Moses and to Pharaoh to affirm God's sovereign freedom in mercy and hardening.",
+      "passages": [
+        {
+          "book": "exo",
+          "chapter": 33,
+          "verseStart": 19,
+          "verseEnd": 19,
+          "role": "source"
+        },
+        {
+          "book": "exo",
+          "chapter": 9,
+          "verseStart": 16,
+          "verseEnd": 16,
+          "role": "source"
+        },
+        {
+          "book": "rom",
+          "chapter": 9,
+          "verseStart": 15,
+          "verseEnd": 17,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-49",
+      "category": "ot_in_nt",
+      "title": "Not My People Called My People",
+      "description": "Paul applies Hosea's promises to God's calling of a people from among both Jews and Gentiles.",
+      "passages": [
+        {
+          "book": "hos",
+          "chapter": 2,
+          "verseStart": 23,
+          "verseEnd": 23,
+          "role": "source"
+        },
+        {
+          "book": "hos",
+          "chapter": 1,
+          "verseStart": 10,
+          "verseEnd": 10,
+          "role": "source"
+        },
+        {
+          "book": "rom",
+          "chapter": 9,
+          "verseStart": 25,
+          "verseEnd": 26,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-50",
+      "category": "ot_in_nt",
+      "title": "A Stone of Stumbling in Zion",
+      "description": "Paul combines Isaiah 28:16 and 8:14 to show that Israel stumbled over Christ, while whoever believes in him will not be put to shame.",
+      "passages": [
+        {
+          "book": "isa",
+          "chapter": 28,
+          "verseStart": 16,
+          "verseEnd": 16,
+          "role": "source"
+        },
+        {
+          "book": "isa",
+          "chapter": 8,
+          "verseStart": 14,
+          "verseEnd": 14,
+          "role": "source"
+        },
+        {
+          "book": "rom",
+          "chapter": 9,
+          "verseStart": 33,
+          "verseEnd": 33,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-51",
+      "category": "ot_in_nt",
+      "title": "The Word Is Near You",
+      "description": "Paul applies Moses' words in Deuteronomy 30:12-14 to the word of faith, Christ having come down and been raised from the dead.",
+      "passages": [
+        {
+          "book": "deu",
+          "chapter": 30,
+          "verseStart": 12,
+          "verseEnd": 14,
+          "role": "source"
+        },
+        {
+          "book": "rom",
+          "chapter": 10,
+          "verseStart": 6,
+          "verseEnd": 8,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-52",
+      "category": "ot_in_nt",
+      "title": "How Beautiful Are the Feet of Those Who Preach Good News",
+      "description": "Paul cites Isaiah 52:7 to underscore the necessity of sent preachers proclaiming the gospel.",
+      "passages": [
+        {
+          "book": "isa",
+          "chapter": 52,
+          "verseStart": 7,
+          "verseEnd": 7,
+          "role": "source"
+        },
+        {
+          "book": "rom",
+          "chapter": 10,
+          "verseStart": 15,
+          "verseEnd": 15,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-53",
+      "category": "ot_in_nt",
+      "title": "Seven Thousand Who Did Not Bow to Baal",
+      "description": "Paul recalls Elijah's complaint and God's answer to show that there is at present a remnant chosen by grace.",
+      "passages": [
+        {
+          "book": "1ki",
+          "chapter": 19,
+          "verseStart": 10,
+          "verseEnd": 10,
+          "role": "source"
+        },
+        {
+          "book": "1ki",
+          "chapter": 19,
+          "verseStart": 18,
+          "verseEnd": 18,
+          "role": "source"
+        },
+        {
+          "book": "rom",
+          "chapter": 11,
+          "verseStart": 3,
+          "verseEnd": 4,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-54",
+      "category": "ot_in_nt",
+      "title": "Vengeance Belongs to the Lord; Feed Your Enemy",
+      "description": "Paul quotes Deuteronomy 32:35 and Proverbs 25:21-22 to exhort believers to leave vengeance to God and overcome evil with good.",
+      "passages": [
+        {
+          "book": "deu",
+          "chapter": 32,
+          "verseStart": 35,
+          "verseEnd": 35,
+          "role": "source"
+        },
+        {
+          "book": "pro",
+          "chapter": 25,
+          "verseStart": 21,
+          "verseEnd": 22,
+          "role": "source"
+        },
+        {
+          "book": "rom",
+          "chapter": 12,
+          "verseStart": 19,
+          "verseEnd": 20,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-55",
+      "category": "ot_in_nt",
+      "title": "Every Knee Shall Bow",
+      "description": "Paul cites Isaiah 45:23 to remind believers that all will stand before God's judgment seat and give account to him.",
+      "passages": [
+        {
+          "book": "isa",
+          "chapter": 45,
+          "verseStart": 23,
+          "verseEnd": 23,
+          "role": "source"
+        },
+        {
+          "book": "rom",
+          "chapter": 14,
+          "verseStart": 11,
+          "verseEnd": 11,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-56",
+      "category": "ot_in_nt",
+      "title": "God destroys the wisdom of the wise",
+      "description": "Paul quotes Isaiah's oracle against human wisdom to show that God overturns worldly wisdom through the message of the cross.",
+      "passages": [
+        {
+          "book": "isa",
+          "chapter": 29,
+          "verseStart": 14,
+          "verseEnd": 14,
+          "role": "source"
+        },
+        {
+          "book": "1co",
+          "chapter": 1,
+          "verseStart": 19,
+          "verseEnd": 19,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-57",
+      "category": "ot_in_nt",
+      "title": "What eye has not seen",
+      "description": "Paul draws on Isaiah's praise of the God who acts for those who wait for Him to describe the hidden wisdom God has prepared for those who love Him.",
+      "passages": [
+        {
+          "book": "isa",
+          "chapter": 64,
+          "verseStart": 4,
+          "verseEnd": 4,
+          "role": "source"
+        },
+        {
+          "book": "1co",
+          "chapter": 2,
+          "verseStart": 9,
+          "verseEnd": 9,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-58",
+      "category": "ot_in_nt",
+      "title": "Do not muzzle the ox",
+      "description": "Paul applies the Mosaic law about the threshing ox to the right of gospel workers to receive material support.",
+      "passages": [
+        {
+          "book": "deu",
+          "chapter": 25,
+          "verseStart": 4,
+          "verseEnd": 4,
+          "role": "source"
+        },
+        {
+          "book": "1co",
+          "chapter": 9,
+          "verseStart": 9,
+          "verseEnd": 9,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-59",
+      "category": "ot_in_nt",
+      "title": "Death swallowed up in victory",
+      "description": "Paul combines Isaiah's promise that death will be swallowed up with Hosea's taunt against death to celebrate the resurrection victory.",
+      "passages": [
+        {
+          "book": "isa",
+          "chapter": 25,
+          "verseStart": 8,
+          "verseEnd": 8,
+          "role": "source"
+        },
+        {
+          "book": "hos",
+          "chapter": 13,
+          "verseStart": 14,
+          "verseEnd": 14,
+          "role": "source"
+        },
+        {
+          "book": "1co",
+          "chapter": 15,
+          "verseStart": 54,
+          "verseEnd": 55,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-60",
+      "category": "ot_in_nt",
+      "title": "Now is the acceptable time",
+      "description": "Paul quotes the Servant's promise of an acceptable time and day of salvation, declaring that it has arrived in the gospel.",
+      "passages": [
+        {
+          "book": "isa",
+          "chapter": 49,
+          "verseStart": 8,
+          "verseEnd": 8,
+          "role": "source"
+        },
+        {
+          "book": "2co",
+          "chapter": 6,
+          "verseStart": 2,
+          "verseEnd": 2,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-61",
+      "category": "ot_in_nt",
+      "title": "God dwelling among His holy people",
+      "description": "Paul weaves together covenant promises of God's presence, the call to separation, and the Davidic father-son promise to urge holiness on the church as God's temple.",
+      "passages": [
+        {
+          "book": "lev",
+          "chapter": 26,
+          "verseStart": 11,
+          "verseEnd": 12,
+          "role": "source"
+        },
+        {
+          "book": "isa",
+          "chapter": 52,
+          "verseStart": 11,
+          "verseEnd": 11,
+          "role": "source"
+        },
+        {
+          "book": "2sa",
+          "chapter": 7,
+          "verseStart": 14,
+          "verseEnd": 14,
+          "role": "source"
+        },
+        {
+          "book": "2co",
+          "chapter": 6,
+          "verseStart": 16,
+          "verseEnd": 18,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-62",
+      "category": "ot_in_nt",
+      "title": "Justification by faith and the curse of the law",
+      "description": "Paul argues from Abraham's faith, the blessing of the nations, the curse of the law, Habakkuk's righteous-by-faith, and the curse of hanging on a tree that Christ redeemed believers from the curse.",
+      "passages": [
+        {
+          "book": "gen",
+          "chapter": 15,
+          "verseStart": 6,
+          "verseEnd": 6,
+          "role": "source"
+        },
+        {
+          "book": "gen",
+          "chapter": 12,
+          "verseStart": 3,
+          "verseEnd": 3,
+          "role": "source"
+        },
+        {
+          "book": "deu",
+          "chapter": 27,
+          "verseStart": 26,
+          "verseEnd": 26,
+          "role": "source"
+        },
+        {
+          "book": "hab",
+          "chapter": 2,
+          "verseStart": 4,
+          "verseEnd": 4,
+          "role": "source"
+        },
+        {
+          "book": "lev",
+          "chapter": 18,
+          "verseStart": 5,
+          "verseEnd": 5,
+          "role": "source"
+        },
+        {
+          "book": "deu",
+          "chapter": 21,
+          "verseStart": 23,
+          "verseEnd": 23,
+          "role": "source"
+        },
+        {
+          "book": "gal",
+          "chapter": 3,
+          "verseStart": 6,
+          "verseEnd": 14,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-63",
+      "category": "ot_in_nt",
+      "title": "Hagar and Sarah: the barren woman rejoices",
+      "description": "Paul's allegory of the two covenants cites Isaiah's call for the barren to rejoice and Sarah's demand to cast out the bondwoman and her son.",
+      "passages": [
+        {
+          "book": "isa",
+          "chapter": 54,
+          "verseStart": 1,
+          "verseEnd": 1,
+          "role": "source"
+        },
+        {
+          "book": "gen",
+          "chapter": 21,
+          "verseStart": 10,
+          "verseEnd": 10,
+          "role": "source"
+        },
+        {
+          "book": "gal",
+          "chapter": 4,
+          "verseStart": 21,
+          "verseEnd": 31,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-64",
+      "category": "ot_in_nt",
+      "title": "He ascended on high and gave gifts",
+      "description": "Paul applies the psalm of God's triumphant ascent to Christ's ascension and His giving of gifts to the church.",
+      "passages": [
+        {
+          "book": "psa",
+          "chapter": 68,
+          "verseStart": 18,
+          "verseEnd": 18,
+          "role": "source"
+        },
+        {
+          "book": "eph",
+          "chapter": 4,
+          "verseStart": 8,
+          "verseEnd": 10,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-65",
+      "category": "ot_in_nt",
+      "title": "The two shall become one flesh",
+      "description": "Paul quotes the creation ordinance of marriage and reveals it as a mystery concerning Christ and the church.",
+      "passages": [
+        {
+          "book": "gen",
+          "chapter": 2,
+          "verseStart": 24,
+          "verseEnd": 24,
+          "role": "source"
+        },
+        {
+          "book": "eph",
+          "chapter": 5,
+          "verseStart": 31,
+          "verseEnd": 32,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-66",
+      "category": "ot_in_nt",
+      "title": "Every knee shall bow",
+      "description": "Isaiah's oath that every knee will bow and every tongue confess to the LORD is applied to the exalted Jesus as Lord.",
+      "passages": [
+        {
+          "book": "isa",
+          "chapter": 45,
+          "verseStart": 23,
+          "verseEnd": 23,
+          "role": "source"
+        },
+        {
+          "book": "php",
+          "chapter": 2,
+          "verseStart": 10,
+          "verseEnd": 11,
+          "role": "allusion"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-67",
+      "category": "ot_in_nt",
+      "title": "The Son superior to the angels",
+      "description": "Hebrews strings together royal and enthronement texts to show that the Son is begotten, anointed, eternal Creator, and seated at God's right hand.",
+      "passages": [
+        {
+          "book": "psa",
+          "chapter": 2,
+          "verseStart": 7,
+          "verseEnd": 7,
+          "role": "source"
+        },
+        {
+          "book": "2sa",
+          "chapter": 7,
+          "verseStart": 14,
+          "verseEnd": 14,
+          "role": "source"
+        },
+        {
+          "book": "psa",
+          "chapter": 45,
+          "verseStart": 6,
+          "verseEnd": 7,
+          "role": "source"
+        },
+        {
+          "book": "psa",
+          "chapter": 102,
+          "verseStart": 25,
+          "verseEnd": 27,
+          "role": "source"
+        },
+        {
+          "book": "psa",
+          "chapter": 110,
+          "verseStart": 1,
+          "verseEnd": 1,
+          "role": "source"
+        },
+        {
+          "book": "heb",
+          "chapter": 1,
+          "verseStart": 5,
+          "verseEnd": 13,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-68",
+      "category": "ot_in_nt",
+      "title": "What is man that you think of him?",
+      "description": "Hebrews applies the psalm of humanity's glory and dominion to Jesus, made a little lower than the angels and crowned with glory and honor.",
+      "passages": [
+        {
+          "book": "psa",
+          "chapter": 8,
+          "verseStart": 4,
+          "verseEnd": 6,
+          "role": "source"
+        },
+        {
+          "book": "heb",
+          "chapter": 2,
+          "verseStart": 6,
+          "verseEnd": 8,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-69",
+      "category": "ot_in_nt",
+      "title": "Today, if you hear His voice",
+      "description": "Hebrews uses the warning of Psalm 95 about Israel's wilderness unbelief to urge believers to enter God's rest today.",
+      "passages": [
+        {
+          "book": "psa",
+          "chapter": 95,
+          "verseStart": 7,
+          "verseEnd": 11,
+          "role": "source"
+        },
+        {
+          "book": "heb",
+          "chapter": 3,
+          "verseStart": 7,
+          "verseEnd": 11,
+          "role": "quotation"
+        },
+        {
+          "book": "heb",
+          "chapter": 4,
+          "verseStart": 7,
+          "verseEnd": 7,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-70",
+      "category": "ot_in_nt",
+      "title": "Son and priest after the order of Melchizedek",
+      "description": "Hebrews joins the divine decree of sonship with the oath of eternal priesthood to show Christ was appointed High Priest by God.",
+      "passages": [
+        {
+          "book": "psa",
+          "chapter": 2,
+          "verseStart": 7,
+          "verseEnd": 7,
+          "role": "source"
+        },
+        {
+          "book": "psa",
+          "chapter": 110,
+          "verseStart": 4,
+          "verseEnd": 4,
+          "role": "source"
+        },
+        {
+          "book": "heb",
+          "chapter": 5,
+          "verseStart": 5,
+          "verseEnd": 6,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-71",
+      "category": "ot_in_nt",
+      "title": "Melchizedek, king of righteousness",
+      "description": "Hebrews expounds Abram's encounter with Melchizedek and the psalm's priestly oath to present Christ's superior and everlasting priesthood.",
+      "passages": [
+        {
+          "book": "gen",
+          "chapter": 14,
+          "verseStart": 18,
+          "verseEnd": 20,
+          "role": "source"
+        },
+        {
+          "book": "psa",
+          "chapter": 110,
+          "verseStart": 4,
+          "verseEnd": 4,
+          "role": "source"
+        },
+        {
+          "book": "heb",
+          "chapter": 7,
+          "verseStart": 1,
+          "verseEnd": 3,
+          "role": "quotation"
+        },
+        {
+          "book": "heb",
+          "chapter": 7,
+          "verseStart": 17,
+          "verseEnd": 17,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-72",
+      "category": "ot_in_nt",
+      "title": "The new covenant",
+      "description": "Hebrews quotes Jeremiah's promise of a new covenant with the law written on hearts and sins remembered no more, fulfilled through Christ's mediation.",
+      "passages": [
+        {
+          "book": "jer",
+          "chapter": 31,
+          "verseStart": 31,
+          "verseEnd": 34,
+          "role": "source"
+        },
+        {
+          "book": "heb",
+          "chapter": 8,
+          "verseStart": 8,
+          "verseEnd": 12,
+          "role": "quotation"
+        },
+        {
+          "book": "heb",
+          "chapter": 10,
+          "verseStart": 16,
+          "verseEnd": 17,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-73",
+      "category": "ot_in_nt",
+      "title": "A body you prepared for me",
+      "description": "Hebrews places the psalm's words on the lips of Christ, who comes to do God's will and offers His body once for all.",
+      "passages": [
+        {
+          "book": "psa",
+          "chapter": 40,
+          "verseStart": 6,
+          "verseEnd": 8,
+          "role": "source"
+        },
+        {
+          "book": "heb",
+          "chapter": 10,
+          "verseStart": 5,
+          "verseEnd": 7,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-74",
+      "category": "ot_in_nt",
+      "title": "The righteous shall live by faith",
+      "description": "Hebrews cites Habakkuk's vision of the coming one and the righteous living by faith to exhort endurance.",
+      "passages": [
+        {
+          "book": "hab",
+          "chapter": 2,
+          "verseStart": 3,
+          "verseEnd": 4,
+          "role": "source"
+        },
+        {
+          "book": "heb",
+          "chapter": 10,
+          "verseStart": 37,
+          "verseEnd": 38,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-75",
+      "category": "ot_in_nt",
+      "title": "The Lord disciplines those He loves",
+      "description": "Hebrews quotes Proverbs to show that hardship is the loving discipline of a Father toward His children.",
+      "passages": [
+        {
+          "book": "pro",
+          "chapter": 3,
+          "verseStart": 11,
+          "verseEnd": 12,
+          "role": "source"
+        },
+        {
+          "book": "heb",
+          "chapter": 12,
+          "verseStart": 5,
+          "verseEnd": 6,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-76",
+      "category": "ot_in_nt",
+      "title": "Abraham's faith completed by works",
+      "description": "James cites Abraham's offering of Isaac, the reckoning of his faith as righteousness, and his title 'friend of God' to show living faith.",
+      "passages": [
+        {
+          "book": "gen",
+          "chapter": 22,
+          "verseStart": 9,
+          "verseEnd": 12,
+          "role": "source"
+        },
+        {
+          "book": "gen",
+          "chapter": 15,
+          "verseStart": 6,
+          "verseEnd": 6,
+          "role": "source"
+        },
+        {
+          "book": "2ch",
+          "chapter": 20,
+          "verseStart": 7,
+          "verseEnd": 7,
+          "role": "source"
+        },
+        {
+          "book": "isa",
+          "chapter": 41,
+          "verseStart": 8,
+          "verseEnd": 8,
+          "role": "source"
+        },
+        {
+          "book": "jas",
+          "chapter": 2,
+          "verseStart": 21,
+          "verseEnd": 23,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-77",
+      "category": "ot_in_nt",
+      "title": "God opposes the proud, gives grace to the humble",
+      "description": "Both James and Peter quote Proverbs to call believers to humility before God.",
+      "passages": [
+        {
+          "book": "pro",
+          "chapter": 3,
+          "verseStart": 34,
+          "verseEnd": 34,
+          "role": "source"
+        },
+        {
+          "book": "jas",
+          "chapter": 4,
+          "verseStart": 6,
+          "verseEnd": 6,
+          "role": "quotation"
+        },
+        {
+          "book": "1pe",
+          "chapter": 5,
+          "verseStart": 5,
+          "verseEnd": 5,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-78",
+      "category": "ot_in_nt",
+      "title": "Be holy, for I am holy",
+      "description": "Peter grounds the call to holy conduct in the Levitical command reflecting God's own holiness.",
+      "passages": [
+        {
+          "book": "lev",
+          "chapter": 11,
+          "verseStart": 44,
+          "verseEnd": 45,
+          "role": "source"
+        },
+        {
+          "book": "lev",
+          "chapter": 19,
+          "verseStart": 2,
+          "verseEnd": 2,
+          "role": "source"
+        },
+        {
+          "book": "1pe",
+          "chapter": 1,
+          "verseStart": 15,
+          "verseEnd": 16,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-79",
+      "category": "ot_in_nt",
+      "title": "The word of the Lord endures forever",
+      "description": "Peter quotes Isaiah's contrast between withering grass and God's enduring word, identifying that word with the gospel preached.",
+      "passages": [
+        {
+          "book": "isa",
+          "chapter": 40,
+          "verseStart": 6,
+          "verseEnd": 8,
+          "role": "source"
+        },
+        {
+          "book": "1pe",
+          "chapter": 1,
+          "verseStart": 24,
+          "verseEnd": 25,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-80",
+      "category": "ot_in_nt",
+      "title": "The chosen cornerstone and stone of stumbling",
+      "description": "Peter combines Isaiah's precious cornerstone, the psalm's rejected stone, and Isaiah's stone of stumbling to describe Christ received by faith or rejected.",
+      "passages": [
+        {
+          "book": "isa",
+          "chapter": 28,
+          "verseStart": 16,
+          "verseEnd": 16,
+          "role": "source"
+        },
+        {
+          "book": "psa",
+          "chapter": 118,
+          "verseStart": 22,
+          "verseEnd": 22,
+          "role": "source"
+        },
+        {
+          "book": "isa",
+          "chapter": 8,
+          "verseStart": 14,
+          "verseEnd": 14,
+          "role": "source"
+        },
+        {
+          "book": "1pe",
+          "chapter": 2,
+          "verseStart": 6,
+          "verseEnd": 8,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-81",
+      "category": "ot_in_nt",
+      "title": "A royal priesthood and holy nation",
+      "description": "Peter applies Israel's Sinai calling as God's treasured possession, kingdom of priests, and holy nation to the church.",
+      "passages": [
+        {
+          "book": "exo",
+          "chapter": 19,
+          "verseStart": 5,
+          "verseEnd": 6,
+          "role": "source"
+        },
+        {
+          "book": "isa",
+          "chapter": 43,
+          "verseStart": 20,
+          "verseEnd": 21,
+          "role": "source"
+        },
+        {
+          "book": "1pe",
+          "chapter": 2,
+          "verseStart": 9,
+          "verseEnd": 9,
+          "role": "allusion"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-82",
+      "category": "ot_in_nt",
+      "title": "By His wounds you were healed",
+      "description": "Peter draws extensively on the Suffering Servant song to present Christ's sinless, substitutionary suffering as the believer's healing.",
+      "passages": [
+        {
+          "book": "isa",
+          "chapter": 53,
+          "verseStart": 4,
+          "verseEnd": 9,
+          "role": "source"
+        },
+        {
+          "book": "1pe",
+          "chapter": 2,
+          "verseStart": 22,
+          "verseEnd": 25,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-83",
+      "category": "ot_in_nt",
+      "title": "Coming with the clouds",
+      "description": "Revelation joins Daniel's Son of Man coming with the clouds and Zechariah's mourning over the pierced one to portray Christ's return.",
+      "passages": [
+        {
+          "book": "dan",
+          "chapter": 7,
+          "verseStart": 13,
+          "verseEnd": 14,
+          "role": "source"
+        },
+        {
+          "book": "zec",
+          "chapter": 12,
+          "verseStart": 10,
+          "verseEnd": 10,
+          "role": "source"
+        },
+        {
+          "book": "rev",
+          "chapter": 1,
+          "verseStart": 7,
+          "verseEnd": 7,
+          "role": "allusion"
+        },
+        {
+          "book": "rev",
+          "chapter": 14,
+          "verseStart": 14,
+          "verseEnd": 14,
+          "role": "allusion"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-84",
+      "category": "ot_in_nt",
+      "title": "New heavens and a new earth",
+      "description": "Isaiah's promise of new heavens and a new earth is taken up by Peter and fulfilled in John's vision of the renewed creation.",
+      "passages": [
+        {
+          "book": "isa",
+          "chapter": 65,
+          "verseStart": 17,
+          "verseEnd": 17,
+          "role": "source"
+        },
+        {
+          "book": "isa",
+          "chapter": 66,
+          "verseStart": 22,
+          "verseEnd": 22,
+          "role": "source"
+        },
+        {
+          "book": "2pe",
+          "chapter": 3,
+          "verseStart": 13,
+          "verseEnd": 13,
+          "role": "allusion"
+        },
+        {
+          "book": "rev",
+          "chapter": 21,
+          "verseStart": 1,
+          "verseEnd": 1,
+          "role": "allusion"
+        }
+      ]
+    },
+    {
+      "id": "OTNT-85",
+      "category": "ot_in_nt",
+      "title": "River of life and tree of life restored",
+      "description": "Revelation's closing vision restores Eden's tree of life and echoes Ezekiel's life-giving river flowing from the temple, with leaves for healing.",
+      "passages": [
+        {
+          "book": "gen",
+          "chapter": 2,
+          "verseStart": 9,
+          "verseEnd": 10,
+          "role": "source"
+        },
+        {
+          "book": "gen",
+          "chapter": 3,
+          "verseStart": 22,
+          "verseEnd": 24,
+          "role": "source"
+        },
+        {
+          "book": "ezk",
+          "chapter": 47,
+          "verseStart": 1,
+          "verseEnd": 12,
+          "role": "source"
+        },
+        {
+          "book": "rev",
+          "chapter": 22,
+          "verseStart": 1,
+          "verseEnd": 3,
+          "role": "allusion"
+        }
+      ]
+    },
+    {
+      "id": "OTP-01",
+      "category": "ot_parallel",
+      "title": "The Ten Commandments",
+      "description": "The Decalogue given at Sinai is restated by Moses on the plains of Moab. The Deuteronomy Sabbath command grounds rest in Israel's deliverance from Egypt rather than in creation.",
+      "passages": [
+        {
+          "book": "exo",
+          "chapter": 20,
+          "verseStart": 1,
+          "verseEnd": 17,
+          "role": "primary"
+        },
+        {
+          "book": "deu",
+          "chapter": 5,
+          "verseStart": 6,
+          "verseEnd": 21,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "OTP-02",
+      "category": "ot_parallel",
+      "title": "David's Song of Deliverance",
+      "description": "David's thanksgiving song after Yahweh rescued him from all his enemies and from Saul appears in nearly identical form in 2 Samuel and Psalm 18.",
+      "passages": [
+        {
+          "book": "2sa",
+          "chapter": 22,
+          "verseStart": 1,
+          "verseEnd": 51,
+          "role": "primary"
+        },
+        {
+          "book": "psa",
+          "chapter": 18,
+          "verseStart": 1,
+          "verseEnd": 50,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "OTP-03",
+      "category": "ot_parallel",
+      "title": "The Fool Says There Is No God",
+      "description": "Two nearly identical psalms lament universal human corruption and long for salvation out of Zion. Psalm 14 uses the name Yahweh, while Psalm 53 uses Elohim.",
+      "passages": [
+        {
+          "book": "psa",
+          "chapter": 14,
+          "verseStart": 1,
+          "verseEnd": 7,
+          "role": "primary"
+        },
+        {
+          "book": "psa",
+          "chapter": 53,
+          "verseStart": 1,
+          "verseEnd": 6,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "OTP-04",
+      "category": "ot_parallel",
+      "title": "Swords into Plowshares",
+      "description": "Isaiah and Micah share the same oracle of the nations streaming to Yahweh's exalted mountain to learn his ways. There they beat their swords into plowshares.",
+      "passages": [
+        {
+          "book": "isa",
+          "chapter": 2,
+          "verseStart": 2,
+          "verseEnd": 4,
+          "role": "primary"
+        },
+        {
+          "book": "mic",
+          "chapter": 4,
+          "verseStart": 1,
+          "verseEnd": 3,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "OTP-05",
+      "category": "ot_parallel",
+      "title": "Hezekiah and Sennacherib's Invasion",
+      "description": "The Rabshakeh's taunts, Hezekiah's prayer, Isaiah's oracle, and the angel striking the Assyrian camp are narrated in Kings and Isaiah. Chronicles gives an abridged account.",
+      "passages": [
+        {
+          "book": "2ki",
+          "chapter": 18,
+          "verseStart": 13,
+          "verseEnd": 37,
+          "role": "primary"
+        },
+        {
+          "book": "2ki",
+          "chapter": 19,
+          "verseStart": 1,
+          "verseEnd": 37,
+          "role": "primary"
+        },
+        {
+          "book": "isa",
+          "chapter": 36,
+          "verseStart": 1,
+          "verseEnd": 22,
+          "role": "parallel"
+        },
+        {
+          "book": "isa",
+          "chapter": 37,
+          "verseStart": 1,
+          "verseEnd": 38,
+          "role": "parallel"
+        },
+        {
+          "book": "2ch",
+          "chapter": 32,
+          "verseStart": 1,
+          "verseEnd": 23,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "OTP-06",
+      "category": "ot_parallel",
+      "title": "Hezekiah's Illness and the Babylonian Envoys",
+      "description": "Hezekiah is healed with fifteen added years and the sign of the receding shadow. He then shows his treasures to Babylonian envoys, prompting Isaiah's prophecy of exile to Babylon.",
+      "passages": [
+        {
+          "book": "2ki",
+          "chapter": 20,
+          "verseStart": 1,
+          "verseEnd": 19,
+          "role": "primary"
+        },
+        {
+          "book": "isa",
+          "chapter": 38,
+          "verseStart": 1,
+          "verseEnd": 22,
+          "role": "parallel"
+        },
+        {
+          "book": "isa",
+          "chapter": 39,
+          "verseStart": 1,
+          "verseEnd": 8,
+          "role": "parallel"
+        },
+        {
+          "book": "2ch",
+          "chapter": 32,
+          "verseStart": 24,
+          "verseEnd": 31,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "OTP-07",
+      "category": "ot_parallel",
+      "title": "The Davidic Covenant",
+      "description": "Through Nathan, Yahweh promises David an eternal house, throne, and kingdom, and David responds with a humble prayer. Psalm 89 celebrates this covenant in poetry.",
+      "passages": [
+        {
+          "book": "2sa",
+          "chapter": 7,
+          "verseStart": 1,
+          "verseEnd": 29,
+          "role": "primary"
+        },
+        {
+          "book": "1ch",
+          "chapter": 17,
+          "verseStart": 1,
+          "verseEnd": 27,
+          "role": "parallel"
+        },
+        {
+          "book": "psa",
+          "chapter": 89,
+          "verseStart": 19,
+          "verseEnd": 37,
+          "role": "poetic reflection"
+        }
+      ]
+    },
+    {
+      "id": "OTP-08",
+      "category": "ot_parallel",
+      "title": "The Ark Brought to Jerusalem",
+      "description": "Uzzah's death halts the first attempt to move the ark. David later brings it up with rejoicing, with Chronicles adding the role of the Levites.",
+      "passages": [
+        {
+          "book": "2sa",
+          "chapter": 6,
+          "verseStart": 1,
+          "verseEnd": 23,
+          "role": "primary"
+        },
+        {
+          "book": "1ch",
+          "chapter": 13,
+          "verseStart": 1,
+          "verseEnd": 14,
+          "role": "parallel"
+        },
+        {
+          "book": "1ch",
+          "chapter": 15,
+          "verseStart": 1,
+          "verseEnd": 29,
+          "role": "parallel"
+        },
+        {
+          "book": "1ch",
+          "chapter": 16,
+          "verseStart": 1,
+          "verseEnd": 3,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "OTP-09",
+      "category": "ot_parallel",
+      "title": "David's Psalm of Thanks at the Ark's Arrival",
+      "description": "The thanksgiving song appointed when the ark came to Jerusalem combines portions of Psalms 105, 96, and 106.",
+      "passages": [
+        {
+          "book": "1ch",
+          "chapter": 16,
+          "verseStart": 8,
+          "verseEnd": 36,
+          "role": "primary"
+        },
+        {
+          "book": "psa",
+          "chapter": 105,
+          "verseStart": 1,
+          "verseEnd": 15,
+          "role": "parallel"
+        },
+        {
+          "book": "psa",
+          "chapter": 96,
+          "verseStart": 1,
+          "verseEnd": 13,
+          "role": "parallel"
+        },
+        {
+          "book": "psa",
+          "chapter": 106,
+          "verseStart": 47,
+          "verseEnd": 48,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "OTP-10",
+      "category": "ot_parallel",
+      "title": "Dedication of Solomon's Temple",
+      "description": "The ark is installed and the glory cloud fills the house as Solomon offers his dedicatory prayer. Chronicles adds that fire fell from heaven upon the sacrifices.",
+      "passages": [
+        {
+          "book": "1ki",
+          "chapter": 8,
+          "verseStart": 1,
+          "verseEnd": 66,
+          "role": "primary"
+        },
+        {
+          "book": "2ch",
+          "chapter": 5,
+          "verseStart": 2,
+          "verseEnd": 14,
+          "role": "parallel"
+        },
+        {
+          "book": "2ch",
+          "chapter": 6,
+          "verseStart": 1,
+          "verseEnd": 42,
+          "role": "parallel"
+        },
+        {
+          "book": "2ch",
+          "chapter": 7,
+          "verseStart": 1,
+          "verseEnd": 10,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "OTP-11",
+      "category": "ot_parallel",
+      "title": "Solomon Asks for Wisdom",
+      "description": "At Gibeon God invites Solomon to ask for whatever he wishes. Solomon requests wisdom to govern God's people and is also granted riches and honor.",
+      "passages": [
+        {
+          "book": "1ki",
+          "chapter": 3,
+          "verseStart": 4,
+          "verseEnd": 15,
+          "role": "primary"
+        },
+        {
+          "book": "2ch",
+          "chapter": 1,
+          "verseStart": 1,
+          "verseEnd": 13,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "OTP-12",
+      "category": "ot_parallel",
+      "title": "The Fall of Jerusalem",
+      "description": "Under Zedekiah, Nebuchadnezzar's army breaches Jerusalem, burns the temple, and exiles the people. All three accounts close with the release of Jehoiachin or with Sabbath rest for the land.",
+      "passages": [
+        {
+          "book": "2ki",
+          "chapter": 24,
+          "verseStart": 18,
+          "verseEnd": 20,
+          "role": "primary"
+        },
+        {
+          "book": "2ki",
+          "chapter": 25,
+          "verseStart": 1,
+          "verseEnd": 30,
+          "role": "primary"
+        },
+        {
+          "book": "jer",
+          "chapter": 52,
+          "verseStart": 1,
+          "verseEnd": 34,
+          "role": "parallel"
+        },
+        {
+          "book": "jer",
+          "chapter": 39,
+          "verseStart": 1,
+          "verseEnd": 10,
+          "role": "parallel"
+        },
+        {
+          "book": "2ch",
+          "chapter": 36,
+          "verseStart": 11,
+          "verseEnd": 21,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "OTP-13",
+      "category": "ot_parallel",
+      "title": "David's Repentance after Bathsheba",
+      "description": "Psalm 51's superscription ties David's plea for a clean heart to Nathan's rebuke after his sin with Bathsheba and against Uriah.",
+      "passages": [
+        {
+          "book": "psa",
+          "chapter": 51,
+          "verseStart": 1,
+          "verseEnd": 19,
+          "role": "psalm"
+        },
+        {
+          "book": "2sa",
+          "chapter": 11,
+          "verseStart": 1,
+          "verseEnd": 27,
+          "role": "narrative context"
+        },
+        {
+          "book": "2sa",
+          "chapter": 12,
+          "verseStart": 1,
+          "verseEnd": 15,
+          "role": "narrative context"
+        }
+      ]
+    },
+    {
+      "id": "OTP-14",
+      "category": "ot_parallel",
+      "title": "David Feigns Madness before Achish",
+      "description": "Psalms 34 and 56 are linked by their superscriptions to David's flight to Gath. Psalm 34 names the king Abimelech, a royal title, while 1 Samuel calls him Achish.",
+      "passages": [
+        {
+          "book": "1sa",
+          "chapter": 21,
+          "verseStart": 10,
+          "verseEnd": 15,
+          "role": "narrative context"
+        },
+        {
+          "book": "psa",
+          "chapter": 34,
+          "verseStart": 1,
+          "verseEnd": 22,
+          "role": "psalm"
+        },
+        {
+          "book": "psa",
+          "chapter": 56,
+          "verseStart": 1,
+          "verseEnd": 13,
+          "role": "psalm"
+        }
+      ]
+    },
+    {
+      "id": "OTP-15",
+      "category": "ot_parallel",
+      "title": "David Flees from Absalom",
+      "description": "Psalm 3's superscription places David's morning trust in Yahweh during his flight from Absalom's rebellion.",
+      "passages": [
+        {
+          "book": "psa",
+          "chapter": 3,
+          "verseStart": 1,
+          "verseEnd": 8,
+          "role": "psalm"
+        },
+        {
+          "book": "2sa",
+          "chapter": 15,
+          "verseStart": 13,
+          "verseEnd": 37,
+          "role": "narrative context"
+        }
+      ]
+    },
+    {
+      "id": "OTP-16",
+      "category": "ot_parallel",
+      "title": "Doeg the Edomite",
+      "description": "Psalm 52 condemns the deceitful tongue of Doeg, who informed Saul about Ahimelech and slaughtered the priests of Nob.",
+      "passages": [
+        {
+          "book": "psa",
+          "chapter": 52,
+          "verseStart": 1,
+          "verseEnd": 9,
+          "role": "psalm"
+        },
+        {
+          "book": "1sa",
+          "chapter": 22,
+          "verseStart": 6,
+          "verseEnd": 23,
+          "role": "narrative context"
+        }
+      ]
+    },
+    {
+      "id": "OTP-17",
+      "category": "ot_parallel",
+      "title": "Betrayal by the Ziphites",
+      "description": "Psalm 54 is David's cry for vindication when the Ziphites revealed his hiding place to Saul.",
+      "passages": [
+        {
+          "book": "psa",
+          "chapter": 54,
+          "verseStart": 1,
+          "verseEnd": 7,
+          "role": "psalm"
+        },
+        {
+          "book": "1sa",
+          "chapter": 23,
+          "verseStart": 19,
+          "verseEnd": 28,
+          "role": "narrative context"
+        },
+        {
+          "book": "1sa",
+          "chapter": 26,
+          "verseStart": 1,
+          "verseEnd": 1,
+          "role": "narrative context"
+        }
+      ]
+    },
+    {
+      "id": "OTP-18",
+      "category": "ot_parallel",
+      "title": "David in the Cave",
+      "description": "Psalms 57 and 142 are set when David hid in the cave, whether at Adullam or En Gedi where he spared Saul.",
+      "passages": [
+        {
+          "book": "psa",
+          "chapter": 57,
+          "verseStart": 1,
+          "verseEnd": 11,
+          "role": "psalm"
+        },
+        {
+          "book": "psa",
+          "chapter": 142,
+          "verseStart": 1,
+          "verseEnd": 7,
+          "role": "psalm"
+        },
+        {
+          "book": "1sa",
+          "chapter": 22,
+          "verseStart": 1,
+          "verseEnd": 2,
+          "role": "narrative context"
+        },
+        {
+          "book": "1sa",
+          "chapter": 24,
+          "verseStart": 1,
+          "verseEnd": 7,
+          "role": "narrative context"
+        }
+      ]
+    },
+    {
+      "id": "OTP-19",
+      "category": "ot_parallel",
+      "title": "Psalm 108 as a Composite of Psalms 57 and 60",
+      "description": "Psalm 108 joins the praise of Psalm 57:7-11 with the victory oracle of Psalm 60:5-12. Psalm 60's superscription recalls David's wars against Aram and Edom.",
+      "passages": [
+        {
+          "book": "psa",
+          "chapter": 108,
+          "verseStart": 1,
+          "verseEnd": 13,
+          "role": "primary"
+        },
+        {
+          "book": "psa",
+          "chapter": 57,
+          "verseStart": 7,
+          "verseEnd": 11,
+          "role": "parallel"
+        },
+        {
+          "book": "psa",
+          "chapter": 60,
+          "verseStart": 5,
+          "verseEnd": 12,
+          "role": "parallel"
+        },
+        {
+          "book": "2sa",
+          "chapter": 8,
+          "verseStart": 1,
+          "verseEnd": 14,
+          "role": "narrative context"
+        },
+        {
+          "book": "1ch",
+          "chapter": 18,
+          "verseStart": 1,
+          "verseEnd": 13,
+          "role": "narrative context"
+        }
+      ]
+    },
+    {
+      "id": "OTP-20",
+      "category": "ot_parallel",
+      "title": "Make Haste to Help Me",
+      "description": "The closing petition of Psalm 40 reappears almost word for word as the brief Psalm 70.",
+      "passages": [
+        {
+          "book": "psa",
+          "chapter": 40,
+          "verseStart": 13,
+          "verseEnd": 17,
+          "role": "primary"
+        },
+        {
+          "book": "psa",
+          "chapter": 70,
+          "verseStart": 1,
+          "verseEnd": 5,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "OTP-21",
+      "category": "ot_parallel",
+      "title": "The Death of Saul",
+      "description": "Saul and his sons fall on Mount Gilboa, and the men of Jabesh Gilead recover their bodies. Chronicles adds that Saul died for his unfaithfulness.",
+      "passages": [
+        {
+          "book": "1sa",
+          "chapter": 31,
+          "verseStart": 1,
+          "verseEnd": 13,
+          "role": "primary"
+        },
+        {
+          "book": "1ch",
+          "chapter": 10,
+          "verseStart": 1,
+          "verseEnd": 14,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "OTP-22",
+      "category": "ot_parallel",
+      "title": "David's Census and the Threshing Floor",
+      "description": "David's census brings a plague that stops at the threshing floor of Araunah (Ornan). David buys the site and builds an altar there, which Chronicles identifies as the future temple site.",
+      "passages": [
+        {
+          "book": "2sa",
+          "chapter": 24,
+          "verseStart": 1,
+          "verseEnd": 25,
+          "role": "primary"
+        },
+        {
+          "book": "1ch",
+          "chapter": 21,
+          "verseStart": 1,
+          "verseEnd": 30,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "OTP-23",
+      "category": "ot_parallel",
+      "title": "Micaiah's Prophecy and Ahab's Death",
+      "description": "Jehoshaphat joins Ahab against Ramoth Gilead, and Micaiah alone speaks Yahweh's true word against the lying prophets. Ahab dies by a random arrow, as foretold.",
+      "passages": [
+        {
+          "book": "1ki",
+          "chapter": 22,
+          "verseStart": 1,
+          "verseEnd": 40,
+          "role": "primary"
+        },
+        {
+          "book": "2ch",
+          "chapter": 18,
+          "verseStart": 1,
+          "verseEnd": 34,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "OTP-24",
+      "category": "ot_parallel",
+      "title": "Josiah's Reform and Passover",
+      "description": "The Book of the Law is found in the temple, Huldah prophesies, and Josiah renews the covenant, purges idolatry, and keeps a great Passover.",
+      "passages": [
+        {
+          "book": "2ki",
+          "chapter": 22,
+          "verseStart": 1,
+          "verseEnd": 20,
+          "role": "primary"
+        },
+        {
+          "book": "2ki",
+          "chapter": 23,
+          "verseStart": 1,
+          "verseEnd": 30,
+          "role": "primary"
+        },
+        {
+          "book": "2ch",
+          "chapter": 34,
+          "verseStart": 1,
+          "verseEnd": 33,
+          "role": "parallel"
+        },
+        {
+          "book": "2ch",
+          "chapter": 35,
+          "verseStart": 1,
+          "verseEnd": 27,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "OTP-25",
+      "category": "ot_parallel",
+      "title": "The Decree of Cyrus",
+      "description": "Fulfilling Jeremiah's word, Cyrus proclaims that the exiles may return to build Yahweh's house in Jerusalem. This decree ends Chronicles and opens Ezra.",
+      "passages": [
+        {
+          "book": "2ch",
+          "chapter": 36,
+          "verseStart": 22,
+          "verseEnd": 23,
+          "role": "primary"
+        },
+        {
+          "book": "ezr",
+          "chapter": 1,
+          "verseStart": 1,
+          "verseEnd": 3,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "TYP-01",
+      "category": "thematic_typology",
+      "title": "Creation and New Creation",
+      "description": "God's creative word that brought light out of darkness is revealed as the eternal Word in Christ, who makes believers a new creation and will finally make all things new.",
+      "passages": [
+        {
+          "book": "gen",
+          "chapter": 1,
+          "verseStart": 1,
+          "verseEnd": 3,
+          "role": "type"
+        },
+        {
+          "book": "isa",
+          "chapter": 65,
+          "verseStart": 17,
+          "verseEnd": 17,
+          "role": "prophecy"
+        },
+        {
+          "book": "jhn",
+          "chapter": 1,
+          "verseStart": 1,
+          "verseEnd": 5,
+          "role": "fulfillment"
+        },
+        {
+          "book": "2co",
+          "chapter": 5,
+          "verseStart": 17,
+          "verseEnd": 17,
+          "role": "fulfillment"
+        },
+        {
+          "book": "rev",
+          "chapter": 21,
+          "verseStart": 1,
+          "verseEnd": 5,
+          "role": "consummation"
+        }
+      ]
+    },
+    {
+      "id": "TYP-02",
+      "category": "thematic_typology",
+      "title": "The Passover Lamb and Christ",
+      "description": "The unblemished Passover lamb whose blood shielded Israel foreshadows the silent suffering Servant and Christ, the Lamb of God sacrificed for His people and worshiped in heaven.",
+      "passages": [
+        {
+          "book": "exo",
+          "chapter": 12,
+          "verseStart": 3,
+          "verseEnd": 13,
+          "role": "type"
+        },
+        {
+          "book": "exo",
+          "chapter": 12,
+          "verseStart": 46,
+          "verseEnd": 46,
+          "role": "type"
+        },
+        {
+          "book": "isa",
+          "chapter": 53,
+          "verseStart": 7,
+          "verseEnd": 7,
+          "role": "prophecy"
+        },
+        {
+          "book": "jhn",
+          "chapter": 1,
+          "verseStart": 29,
+          "verseEnd": 29,
+          "role": "fulfillment"
+        },
+        {
+          "book": "jhn",
+          "chapter": 19,
+          "verseStart": 36,
+          "verseEnd": 36,
+          "role": "quotation"
+        },
+        {
+          "book": "1co",
+          "chapter": 5,
+          "verseStart": 7,
+          "verseEnd": 7,
+          "role": "fulfillment"
+        },
+        {
+          "book": "1pe",
+          "chapter": 1,
+          "verseStart": 18,
+          "verseEnd": 19,
+          "role": "fulfillment"
+        },
+        {
+          "book": "rev",
+          "chapter": 5,
+          "verseStart": 6,
+          "verseEnd": 10,
+          "role": "consummation"
+        }
+      ]
+    },
+    {
+      "id": "TYP-03",
+      "category": "thematic_typology",
+      "title": "The Divine Shepherd",
+      "description": "Yahweh the Shepherd who leads, seeks, and heals His flock is embodied in Jesus the Good Shepherd who lays down His life, the Chief Shepherd whom elders serve.",
+      "passages": [
+        {
+          "book": "psa",
+          "chapter": 23,
+          "verseStart": 1,
+          "verseEnd": 6,
+          "role": "type"
+        },
+        {
+          "book": "ezk",
+          "chapter": 34,
+          "verseStart": 11,
+          "verseEnd": 16,
+          "role": "prophecy"
+        },
+        {
+          "book": "ezk",
+          "chapter": 34,
+          "verseStart": 23,
+          "verseEnd": 23,
+          "role": "prophecy"
+        },
+        {
+          "book": "jhn",
+          "chapter": 10,
+          "verseStart": 11,
+          "verseEnd": 16,
+          "role": "fulfillment"
+        },
+        {
+          "book": "heb",
+          "chapter": 13,
+          "verseStart": 20,
+          "verseEnd": 20,
+          "role": "fulfillment"
+        },
+        {
+          "book": "1pe",
+          "chapter": 5,
+          "verseStart": 2,
+          "verseEnd": 4,
+          "role": "application"
+        }
+      ]
+    },
+    {
+      "id": "TYP-04",
+      "category": "thematic_typology",
+      "title": "Bread from Heaven",
+      "description": "The manna God rained down in the wilderness points to Jesus, the true bread from heaven who gives eternal life to all who come to Him.",
+      "passages": [
+        {
+          "book": "exo",
+          "chapter": 16,
+          "verseStart": 4,
+          "verseEnd": 15,
+          "role": "type"
+        },
+        {
+          "book": "psa",
+          "chapter": 78,
+          "verseStart": 24,
+          "verseEnd": 25,
+          "role": "allusion"
+        },
+        {
+          "book": "jhn",
+          "chapter": 6,
+          "verseStart": 31,
+          "verseEnd": 35,
+          "role": "fulfillment"
+        },
+        {
+          "book": "jhn",
+          "chapter": 6,
+          "verseStart": 48,
+          "verseEnd": 51,
+          "role": "fulfillment"
+        }
+      ]
+    },
+    {
+      "id": "TYP-05",
+      "category": "thematic_typology",
+      "title": "Living Water",
+      "description": "Water from the struck rock and the prophetic invitation to the thirsty find fulfillment in Christ's gift of living water, the Spirit, flowing to the river of life.",
+      "passages": [
+        {
+          "book": "exo",
+          "chapter": 17,
+          "verseStart": 5,
+          "verseEnd": 6,
+          "role": "type"
+        },
+        {
+          "book": "isa",
+          "chapter": 55,
+          "verseStart": 1,
+          "verseEnd": 3,
+          "role": "prophecy"
+        },
+        {
+          "book": "jhn",
+          "chapter": 4,
+          "verseStart": 10,
+          "verseEnd": 14,
+          "role": "fulfillment"
+        },
+        {
+          "book": "jhn",
+          "chapter": 7,
+          "verseStart": 37,
+          "verseEnd": 39,
+          "role": "fulfillment"
+        },
+        {
+          "book": "1co",
+          "chapter": 10,
+          "verseStart": 4,
+          "verseEnd": 4,
+          "role": "interpretation"
+        },
+        {
+          "book": "rev",
+          "chapter": 22,
+          "verseStart": 1,
+          "verseEnd": 1,
+          "role": "consummation"
+        },
+        {
+          "book": "rev",
+          "chapter": 22,
+          "verseStart": 17,
+          "verseEnd": 17,
+          "role": "consummation"
+        }
+      ]
+    },
+    {
+      "id": "TYP-06",
+      "category": "thematic_typology",
+      "title": "The Suffering Servant",
+      "description": "Isaiah's Servant who is exalted after bearing the sins of many is identified with Jesus, who humbled Himself to death and was highly exalted, leaving an example for His followers.",
+      "passages": [
+        {
+          "book": "isa",
+          "chapter": 52,
+          "verseStart": 13,
+          "verseEnd": 15,
+          "role": "prophecy"
+        },
+        {
+          "book": "isa",
+          "chapter": 53,
+          "verseStart": 4,
+          "verseEnd": 12,
+          "role": "prophecy"
+        },
+        {
+          "book": "act",
+          "chapter": 8,
+          "verseStart": 32,
+          "verseEnd": 35,
+          "role": "quotation"
+        },
+        {
+          "book": "php",
+          "chapter": 2,
+          "verseStart": 5,
+          "verseEnd": 11,
+          "role": "fulfillment"
+        },
+        {
+          "book": "1pe",
+          "chapter": 2,
+          "verseStart": 21,
+          "verseEnd": 25,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "TYP-07",
+      "category": "thematic_typology",
+      "title": "New Covenant: New Heart and Spirit",
+      "description": "God's promise to write His law on hearts and put His Spirit within is inaugurated in Christ's blood and the ministry of the Spirit who gives life.",
+      "passages": [
+        {
+          "book": "jer",
+          "chapter": 31,
+          "verseStart": 31,
+          "verseEnd": 34,
+          "role": "prophecy"
+        },
+        {
+          "book": "ezk",
+          "chapter": 36,
+          "verseStart": 25,
+          "verseEnd": 27,
+          "role": "prophecy"
+        },
+        {
+          "book": "luk",
+          "chapter": 22,
+          "verseStart": 20,
+          "verseEnd": 20,
+          "role": "fulfillment"
+        },
+        {
+          "book": "2co",
+          "chapter": 3,
+          "verseStart": 3,
+          "verseEnd": 6,
+          "role": "fulfillment"
+        },
+        {
+          "book": "heb",
+          "chapter": 8,
+          "verseStart": 8,
+          "verseEnd": 12,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "TYP-08",
+      "category": "thematic_typology",
+      "title": "Faith Credited as Righteousness",
+      "description": "Abraham's believing God and Habakkuk's word that the righteous live by faith ground the apostolic teaching of justification by faith, a faith shown genuine by works.",
+      "passages": [
+        {
+          "book": "gen",
+          "chapter": 15,
+          "verseStart": 6,
+          "verseEnd": 6,
+          "role": "source"
+        },
+        {
+          "book": "hab",
+          "chapter": 2,
+          "verseStart": 4,
+          "verseEnd": 4,
+          "role": "source"
+        },
+        {
+          "book": "rom",
+          "chapter": 1,
+          "verseStart": 17,
+          "verseEnd": 17,
+          "role": "quotation"
+        },
+        {
+          "book": "rom",
+          "chapter": 4,
+          "verseStart": 1,
+          "verseEnd": 5,
+          "role": "quotation"
+        },
+        {
+          "book": "gal",
+          "chapter": 3,
+          "verseStart": 6,
+          "verseEnd": 11,
+          "role": "quotation"
+        },
+        {
+          "book": "jas",
+          "chapter": 2,
+          "verseStart": 21,
+          "verseEnd": 24,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "TYP-09",
+      "category": "thematic_typology",
+      "title": "The Armor of God",
+      "description": "The LORD who puts on righteousness as a breastplate and salvation as a helmet equips His people with that same armor to stand firm.",
+      "passages": [
+        {
+          "book": "isa",
+          "chapter": 59,
+          "verseStart": 16,
+          "verseEnd": 17,
+          "role": "source"
+        },
+        {
+          "book": "isa",
+          "chapter": 11,
+          "verseStart": 5,
+          "verseEnd": 5,
+          "role": "allusion"
+        },
+        {
+          "book": "eph",
+          "chapter": 6,
+          "verseStart": 10,
+          "verseEnd": 17,
+          "role": "fulfillment"
+        },
+        {
+          "book": "1th",
+          "chapter": 5,
+          "verseStart": 8,
+          "verseEnd": 8,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "TYP-10",
+      "category": "nt_parallel",
+      "title": "The Love Commandment Fulfilled",
+      "description": "The commands to love God wholly and neighbor as oneself are named by Jesus as the greatest, and the apostles consistently teach that love fulfills the law because God is love.",
+      "passages": [
+        {
+          "book": "deu",
+          "chapter": 6,
+          "verseStart": 4,
+          "verseEnd": 5,
+          "role": "source"
+        },
+        {
+          "book": "lev",
+          "chapter": 19,
+          "verseStart": 18,
+          "verseEnd": 18,
+          "role": "source"
+        },
+        {
+          "book": "mat",
+          "chapter": 22,
+          "verseStart": 36,
+          "verseEnd": 40,
+          "role": "quotation"
+        },
+        {
+          "book": "rom",
+          "chapter": 13,
+          "verseStart": 8,
+          "verseEnd": 10,
+          "role": "parallel"
+        },
+        {
+          "book": "gal",
+          "chapter": 5,
+          "verseStart": 14,
+          "verseEnd": 14,
+          "role": "parallel"
+        },
+        {
+          "book": "1co",
+          "chapter": 13,
+          "verseStart": 1,
+          "verseEnd": 13,
+          "role": "parallel"
+        },
+        {
+          "book": "1jn",
+          "chapter": 4,
+          "verseStart": 7,
+          "verseEnd": 12,
+          "role": "parallel"
+        }
+      ]
+    },
+    {
+      "id": "TYP-11",
+      "category": "thematic_typology",
+      "title": "Resurrection Hope",
+      "description": "Job's confidence in a living Redeemer, Daniel's vision of awakening, and Ezekiel's dry bones find fulfillment in Jesus, the resurrection and the life, firstfruits of those who sleep.",
+      "passages": [
+        {
+          "book": "job",
+          "chapter": 19,
+          "verseStart": 25,
+          "verseEnd": 27,
+          "role": "anticipation"
+        },
+        {
+          "book": "ezk",
+          "chapter": 37,
+          "verseStart": 11,
+          "verseEnd": 14,
+          "role": "prophecy"
+        },
+        {
+          "book": "dan",
+          "chapter": 12,
+          "verseStart": 2,
+          "verseEnd": 3,
+          "role": "prophecy"
+        },
+        {
+          "book": "jhn",
+          "chapter": 11,
+          "verseStart": 23,
+          "verseEnd": 26,
+          "role": "fulfillment"
+        },
+        {
+          "book": "1co",
+          "chapter": 15,
+          "verseStart": 20,
+          "verseEnd": 22,
+          "role": "fulfillment"
+        },
+        {
+          "book": "1co",
+          "chapter": 15,
+          "verseStart": 51,
+          "verseEnd": 57,
+          "role": "consummation"
+        }
+      ]
+    },
+    {
+      "id": "TYP-12",
+      "category": "thematic_typology",
+      "title": "Blessedness of the Righteous",
+      "description": "The wisdom portrait of the blessed person rooted like a tree by water is echoed and transformed in Jesus' Beatitudes and woes.",
+      "passages": [
+        {
+          "book": "psa",
+          "chapter": 1,
+          "verseStart": 1,
+          "verseEnd": 3,
+          "role": "source"
+        },
+        {
+          "book": "jer",
+          "chapter": 17,
+          "verseStart": 7,
+          "verseEnd": 8,
+          "role": "parallel"
+        },
+        {
+          "book": "mat",
+          "chapter": 5,
+          "verseStart": 3,
+          "verseEnd": 12,
+          "role": "fulfillment"
+        },
+        {
+          "book": "luk",
+          "chapter": 6,
+          "verseStart": 20,
+          "verseEnd": 26,
+          "role": "fulfillment"
+        }
+      ]
+    },
+    {
+      "id": "TYP-13",
+      "category": "thematic_typology",
+      "title": "Adam and Christ",
+      "description": "Through the first Adam sin and death entered the world; through Christ, the last Adam and life-giving Spirit, comes righteousness and life.",
+      "passages": [
+        {
+          "book": "gen",
+          "chapter": 2,
+          "verseStart": 7,
+          "verseEnd": 7,
+          "role": "type"
+        },
+        {
+          "book": "gen",
+          "chapter": 3,
+          "verseStart": 17,
+          "verseEnd": 19,
+          "role": "type"
+        },
+        {
+          "book": "rom",
+          "chapter": 5,
+          "verseStart": 12,
+          "verseEnd": 19,
+          "role": "fulfillment"
+        },
+        {
+          "book": "1co",
+          "chapter": 15,
+          "verseStart": 45,
+          "verseEnd": 49,
+          "role": "fulfillment"
+        }
+      ]
+    },
+    {
+      "id": "TYP-14",
+      "category": "thematic_typology",
+      "title": "The Bronze Serpent Lifted Up",
+      "description": "As those who looked to the serpent Moses lifted up lived, so all who believe in the lifted-up Son of Man receive eternal life.",
+      "passages": [
+        {
+          "book": "num",
+          "chapter": 21,
+          "verseStart": 8,
+          "verseEnd": 9,
+          "role": "type"
+        },
+        {
+          "book": "jhn",
+          "chapter": 3,
+          "verseStart": 14,
+          "verseEnd": 15,
+          "role": "fulfillment"
+        }
+      ]
+    },
+    {
+      "id": "TYP-15",
+      "category": "thematic_typology",
+      "title": "The Sign of Jonah",
+      "description": "Jonah's three days and nights in the great fish prefigure the Son of Man's three days in the heart of the earth, and Nineveh's repentance rebukes the unbelieving generation.",
+      "passages": [
+        {
+          "book": "jon",
+          "chapter": 1,
+          "verseStart": 17,
+          "verseEnd": 17,
+          "role": "type"
+        },
+        {
+          "book": "jon",
+          "chapter": 2,
+          "verseStart": 10,
+          "verseEnd": 10,
+          "role": "type"
+        },
+        {
+          "book": "mat",
+          "chapter": 12,
+          "verseStart": 39,
+          "verseEnd": 41,
+          "role": "fulfillment"
+        },
+        {
+          "book": "luk",
+          "chapter": 11,
+          "verseStart": 29,
+          "verseEnd": 30,
+          "role": "fulfillment"
+        }
+      ]
+    },
+    {
+      "id": "TYP-16",
+      "category": "thematic_typology",
+      "title": "Priest after the Order of Melchizedek",
+      "description": "The priest-king Melchizedek who blessed Abraham, and the oath of Psalm 110, point to Christ's eternal priesthood by the power of an indestructible life.",
+      "passages": [
+        {
+          "book": "gen",
+          "chapter": 14,
+          "verseStart": 18,
+          "verseEnd": 20,
+          "role": "type"
+        },
+        {
+          "book": "psa",
+          "chapter": 110,
+          "verseStart": 4,
+          "verseEnd": 4,
+          "role": "prophecy"
+        },
+        {
+          "book": "heb",
+          "chapter": 7,
+          "verseStart": 1,
+          "verseEnd": 3,
+          "role": "interpretation"
+        },
+        {
+          "book": "heb",
+          "chapter": 7,
+          "verseStart": 15,
+          "verseEnd": 17,
+          "role": "fulfillment"
+        }
+      ]
+    },
+    {
+      "id": "TYP-17",
+      "category": "thematic_typology",
+      "title": "The Beloved Son Offered",
+      "description": "Abraham's offering of his only son Isaac on the mount where the LORD provides foreshadows the Father who did not spare His own Son but gave Him for us.",
+      "passages": [
+        {
+          "book": "gen",
+          "chapter": 22,
+          "verseStart": 1,
+          "verseEnd": 14,
+          "role": "type"
+        },
+        {
+          "book": "jhn",
+          "chapter": 3,
+          "verseStart": 16,
+          "verseEnd": 16,
+          "role": "fulfillment"
+        },
+        {
+          "book": "rom",
+          "chapter": 8,
+          "verseStart": 32,
+          "verseEnd": 32,
+          "role": "allusion"
+        },
+        {
+          "book": "heb",
+          "chapter": 11,
+          "verseStart": 17,
+          "verseEnd": 19,
+          "role": "interpretation"
+        }
+      ]
+    },
+    {
+      "id": "TYP-18",
+      "category": "thematic_typology",
+      "title": "God Dwelling with His People",
+      "description": "The glory that filled the tabernacle and temple tabernacles among us in the incarnate Word, indwells the church as God's temple, and will dwell with humanity forever.",
+      "passages": [
+        {
+          "book": "exo",
+          "chapter": 40,
+          "verseStart": 34,
+          "verseEnd": 35,
+          "role": "type"
+        },
+        {
+          "book": "1ki",
+          "chapter": 8,
+          "verseStart": 10,
+          "verseEnd": 11,
+          "role": "type"
+        },
+        {
+          "book": "jhn",
+          "chapter": 1,
+          "verseStart": 14,
+          "verseEnd": 14,
+          "role": "fulfillment"
+        },
+        {
+          "book": "1co",
+          "chapter": 3,
+          "verseStart": 16,
+          "verseEnd": 16,
+          "role": "application"
+        },
+        {
+          "book": "rev",
+          "chapter": 21,
+          "verseStart": 3,
+          "verseEnd": 3,
+          "role": "consummation"
+        }
+      ]
+    },
+    {
+      "id": "TYP-19",
+      "category": "thematic_typology",
+      "title": "Day of Atonement and Christ's Sacrifice",
+      "description": "The high priest's annual entry with blood into the Most Holy Place foreshadows Christ entering heaven once for all with His own blood to put away sin.",
+      "passages": [
+        {
+          "book": "lev",
+          "chapter": 16,
+          "verseStart": 15,
+          "verseEnd": 22,
+          "role": "type"
+        },
+        {
+          "book": "rom",
+          "chapter": 3,
+          "verseStart": 24,
+          "verseEnd": 25,
+          "role": "fulfillment"
+        },
+        {
+          "book": "heb",
+          "chapter": 9,
+          "verseStart": 11,
+          "verseEnd": 14,
+          "role": "fulfillment"
+        },
+        {
+          "book": "heb",
+          "chapter": 9,
+          "verseStart": 24,
+          "verseEnd": 28,
+          "role": "fulfillment"
+        }
+      ]
+    },
+    {
+      "id": "TYP-20",
+      "category": "thematic_typology",
+      "title": "The Rejected Cornerstone",
+      "description": "The stone the builders rejected and the tested cornerstone laid in Zion are applied to Christ, rejected by men yet chosen by God as the foundation of His spiritual house.",
+      "passages": [
+        {
+          "book": "psa",
+          "chapter": 118,
+          "verseStart": 22,
+          "verseEnd": 23,
+          "role": "prophecy"
+        },
+        {
+          "book": "isa",
+          "chapter": 28,
+          "verseStart": 16,
+          "verseEnd": 16,
+          "role": "prophecy"
+        },
+        {
+          "book": "mat",
+          "chapter": 21,
+          "verseStart": 42,
+          "verseEnd": 42,
+          "role": "quotation"
+        },
+        {
+          "book": "act",
+          "chapter": 4,
+          "verseStart": 11,
+          "verseEnd": 11,
+          "role": "quotation"
+        },
+        {
+          "book": "eph",
+          "chapter": 2,
+          "verseStart": 19,
+          "verseEnd": 22,
+          "role": "application"
+        },
+        {
+          "book": "1pe",
+          "chapter": 2,
+          "verseStart": 4,
+          "verseEnd": 8,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "TYP-21",
+      "category": "thematic_typology",
+      "title": "The Spirit Poured Out on All Flesh",
+      "description": "Moses' longing that all the LORD's people be prophets and Joel's promise of the Spirit poured out are fulfilled at Pentecost.",
+      "passages": [
+        {
+          "book": "num",
+          "chapter": 11,
+          "verseStart": 29,
+          "verseEnd": 29,
+          "role": "anticipation"
+        },
+        {
+          "book": "jol",
+          "chapter": 2,
+          "verseStart": 28,
+          "verseEnd": 32,
+          "role": "prophecy"
+        },
+        {
+          "book": "act",
+          "chapter": 2,
+          "verseStart": 16,
+          "verseEnd": 21,
+          "role": "quotation"
+        },
+        {
+          "book": "rom",
+          "chapter": 10,
+          "verseStart": 13,
+          "verseEnd": 13,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "TYP-22",
+      "category": "thematic_typology",
+      "title": "The Everlasting Davidic King",
+      "description": "God's covenant to establish David's throne forever is fulfilled in Jesus, the Son of David who reigns over an unending kingdom and is the Root and Offspring of David.",
+      "passages": [
+        {
+          "book": "2sa",
+          "chapter": 7,
+          "verseStart": 12,
+          "verseEnd": 16,
+          "role": "covenant"
+        },
+        {
+          "book": "psa",
+          "chapter": 89,
+          "verseStart": 3,
+          "verseEnd": 4,
+          "role": "parallel"
+        },
+        {
+          "book": "isa",
+          "chapter": 9,
+          "verseStart": 6,
+          "verseEnd": 7,
+          "role": "prophecy"
+        },
+        {
+          "book": "luk",
+          "chapter": 1,
+          "verseStart": 31,
+          "verseEnd": 33,
+          "role": "fulfillment"
+        },
+        {
+          "book": "act",
+          "chapter": 2,
+          "verseStart": 30,
+          "verseEnd": 31,
+          "role": "interpretation"
+        },
+        {
+          "book": "rev",
+          "chapter": 22,
+          "verseStart": 16,
+          "verseEnd": 16,
+          "role": "consummation"
+        }
+      ]
+    },
+    {
+      "id": "TYP-23",
+      "category": "nt_parallel",
+      "title": "The Lord's Supper and the Blood of the Covenant",
+      "description": "Echoing the covenant blood at Sinai, the Gospels and Paul transmit consistent accounts of Jesus giving bread and cup as His body and the blood of the covenant.",
+      "passages": [
+        {
+          "book": "exo",
+          "chapter": 24,
+          "verseStart": 8,
+          "verseEnd": 8,
+          "role": "type"
+        },
+        {
+          "book": "mat",
+          "chapter": 26,
+          "verseStart": 26,
+          "verseEnd": 28,
+          "role": "parallel"
+        },
+        {
+          "book": "luk",
+          "chapter": 22,
+          "verseStart": 19,
+          "verseEnd": 20,
+          "role": "parallel"
+        },
+        {
+          "book": "1co",
+          "chapter": 11,
+          "verseStart": 23,
+          "verseEnd": 26,
+          "role": "parallel"
+        },
+        {
+          "book": "heb",
+          "chapter": 9,
+          "verseStart": 20,
+          "verseEnd": 20,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "TYP-24",
+      "category": "thematic_typology",
+      "title": "Sabbath Rest for the People of God",
+      "description": "God's rest on the seventh day and the warning of Psalm 95 point to the rest Christ offers and the Sabbath rest that remains for God's people.",
+      "passages": [
+        {
+          "book": "gen",
+          "chapter": 2,
+          "verseStart": 2,
+          "verseEnd": 3,
+          "role": "type"
+        },
+        {
+          "book": "psa",
+          "chapter": 95,
+          "verseStart": 7,
+          "verseEnd": 11,
+          "role": "source"
+        },
+        {
+          "book": "mat",
+          "chapter": 11,
+          "verseStart": 28,
+          "verseEnd": 30,
+          "role": "fulfillment"
+        },
+        {
+          "book": "heb",
+          "chapter": 4,
+          "verseStart": 1,
+          "verseEnd": 11,
+          "role": "quotation"
+        }
+      ]
+    },
+    {
+      "id": "TYP-25",
+      "category": "thematic_typology",
+      "title": "The Tree of Life Restored",
+      "description": "Access to the tree of life lost in Eden is pictured in wisdom and prophetic vision and finally restored to the redeemed in the new Jerusalem.",
+      "passages": [
+        {
+          "book": "gen",
+          "chapter": 2,
+          "verseStart": 9,
+          "verseEnd": 9,
+          "role": "type"
+        },
+        {
+          "book": "gen",
+          "chapter": 3,
+          "verseStart": 22,
+          "verseEnd": 24,
+          "role": "type"
+        },
+        {
+          "book": "pro",
+          "chapter": 3,
+          "verseStart": 18,
+          "verseEnd": 18,
+          "role": "allusion"
+        },
+        {
+          "book": "ezk",
+          "chapter": 47,
+          "verseStart": 12,
+          "verseEnd": 12,
+          "role": "prophecy"
+        },
+        {
+          "book": "rev",
+          "chapter": 2,
+          "verseStart": 7,
+          "verseEnd": 7,
+          "role": "promise"
+        },
+        {
+          "book": "rev",
+          "chapter": 22,
+          "verseStart": 1,
+          "verseEnd": 2,
+          "role": "consummation"
+        },
+        {
+          "book": "rev",
+          "chapter": 22,
+          "verseStart": 14,
+          "verseEnd": 14,
+          "role": "consummation"
+        }
+      ]
+    }
+  ]
+}

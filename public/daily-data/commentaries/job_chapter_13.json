@@ -1,0 +1,28 @@
+[
+    {
+        "id": "401bb680-6159-49dd-9283-bf498c707e88",
+        "father_name": "John Chrysostom",
+        "file_name": "Job 13_16.toml",
+        "append_to_author_name": "",
+        "ts": 407,
+        "book": "job",
+        "location_start": 13000016,
+        "location_end": 13000016,
+        "txt": "\u201cAnd he shall turn to me for salvation; for fraud shall gain no entrance before him.\u201d This means, my consolation is that \u201cfraud shall gain no entrance before him.\u201d \u201cYou see, I do not speak like you, with hidden thoughts. I know that there is no dissimulation in him.\u201d\n",
+        "source_url": "",
+        "source_title": "COMMENTARY ON JOB 13:15B-16"
+    },
+    {
+        "id": "5a4fa631-1c5c-4f90-94b1-3b1407923c2d",
+        "father_name": "Ephrem the Syrian",
+        "file_name": "Job 13_15.toml",
+        "append_to_author_name": "",
+        "ts": 373,
+        "book": "job",
+        "location_start": 13000015,
+        "location_end": 13000015,
+        "txt": "These words mean, \u201cEven if he kills me, I will support myself with my hope and faith in him.\u201d O admirable man, who, being destined to be killed, praises his killer and looks at him. Indeed Job knew that if he had taken away his life, the same one who is the Lord of Abraham, would have given it back to him. He believed that God was able to make alive those who had died.\n",
+        "source_url": "",
+        "source_title": "COMMENTARY ON JOB 13:15"
+    }
+]

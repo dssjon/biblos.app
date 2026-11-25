@@ -1,0 +1,41 @@
+[
+    {
+        "id": "a7d21958-d86b-4b5b-ba61-b8a75af6057d",
+        "father_name": "Origen of Alexandria",
+        "file_name": "Leviticus 21_17.toml",
+        "append_to_author_name": "",
+        "ts": 253,
+        "book": "leviticus",
+        "location_start": 21000017,
+        "location_end": 21000017,
+        "txt": "Moreover, blameless priests served the Godhead by offering blameless sacrifices, while those who were blemished and offered blemished sacrifices and whom Moses described in Leviticus were separated from the altar. And who else is the blameless priest offering a blameless sacrifice than the person who holds fast to his confession and fulfills every requirement the account of martyrdom demands? He is the one we have spoken of before.\n",
+        "source_url": "https://books.google.com/books/about/Prayer.html?id=GEN3tk5GlfEC",
+        "source_title": "EXHORTATION TO MARTYRDOM 30"
+    },
+    {
+        "id": "222e22b5-75c8-43c6-acbf-24a6fa699b0d",
+        "father_name": "Gregory of Nazianzus",
+        "file_name": "Leviticus 21_17.toml",
+        "append_to_author_name": "",
+        "ts": 390,
+        "book": "leviticus",
+        "location_start": 21000017,
+        "location_end": 21000017,
+        "txt": "I know also that not even bodily blemishes in either priests or victims passed without notice, but that it was required by the law that perfect sacrifices must be offered by perfect men\u2014a symbol, I take it, of integrity of soul.\n",
+        "source_url": "",
+        "source_title": "ORATION 2 (IN DEFENSE OF HIS FLIGHT TO PONTUS) 94"
+    },
+    {
+        "id": "2f01d977-2ebd-4192-9349-f6e482f4a1c5",
+        "father_name": "John Chrysostom",
+        "file_name": "Leviticus 21_9.toml",
+        "append_to_author_name": "",
+        "ts": 407,
+        "book": "leviticus",
+        "location_start": 21000009,
+        "location_end": 21000009,
+        "txt": "But why speak of the men engaged in the ministry? Even the daughters of priests, who are of no significance for the priestly office, incur a far more severe penalty than do others for the same sins, because of their fathers\u2019 dignity. The offense is the same (it is prostitution in both cases) when committed by them and the daughters of ordinary people, but their punishment is far greater. You see how thoroughly God proves to you that he demands much more punishment of the ruler than of the subjects. \n",
+        "source_url": "",
+        "source_title": "On the Priesthood 6.16"
+    }
+]

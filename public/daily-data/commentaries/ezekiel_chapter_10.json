@@ -1,0 +1,54 @@
+[
+    {
+        "id": "ebe03001-d983-45e5-9932-19d18414e352",
+        "father_name": "Origen of Alexandria",
+        "file_name": "Ezekiel 10_4.toml",
+        "append_to_author_name": "",
+        "ts": 253,
+        "book": "ezekiel",
+        "location_start": 10000004,
+        "location_end": 10000004,
+        "txt": "The prophet did not see the throne but the likeness of the throne, just as he said earlier that he did not see the glory of the Lord but the likeness of the glory of the Lord.\n",
+        "source_url": "",
+        "source_title": "EXCERPTS ON EZEKIEL 10"
+    },
+    {
+        "id": "d04b5439-7899-45ce-826e-0a24a229b5fe",
+        "father_name": "Bede",
+        "file_name": "Ezekiel 10_5.toml",
+        "append_to_author_name": "",
+        "ts": 735,
+        "book": "ezekiel",
+        "location_start": 10000005,
+        "location_end": 10000005,
+        "txt": "The prophet Ezekiel clearly declares that \u201ccherubim\u201d is the name of the angelic powers that he describes as having appeared to him with wings, according to the pattern in which they are ordered to be deployed here.\n",
+        "source_url": "https://historicalchristian.faith/by_father.php?file=Bede%2FOn%2520the%2520Tabernacle.html",
+        "source_title": "On the Tabernacle 1:5.25:18-21"
+    },
+    {
+        "id": "d28a76b0-95fd-40bd-a7a3-d3eef2a60033",
+        "father_name": "Jerome",
+        "file_name": "Ezekiel 10_18.toml",
+        "append_to_author_name": "",
+        "ts": 420,
+        "book": "ezekiel",
+        "location_start": 10000018,
+        "location_end": 10000018,
+        "txt": "I linger long in the land of the midday sun, for it was there and then that the spouse found her bridegroom at rest and Joseph drank wine with his brothers once more. I will return to Jerusalem and, passing through Tekoa the home of Amos, I will look on the glistening cross of Mount Olive from which the Savior made his ascension to the Father. Here year by year a red heifer was burned as an offering to the Lord, and its ashes were used to purify the children of Israel. Here also according to Ezekiel the cherubim after leaving the temple founded the church of the Lord.\n",
+        "source_url": "https://historicalchristian.faith/by_father.php?file=Jerome/Letters/letter_108.html",
+        "source_title": "LETTER 108.12"
+    },
+    {
+        "id": "aa182c7b-07e5-462f-bffb-be56dc90f2a8",
+        "father_name": "Jerome",
+        "file_name": "Ezekiel 10_4.toml",
+        "append_to_author_name": "",
+        "ts": 420,
+        "book": "ezekiel",
+        "location_start": 10000004,
+        "location_end": 10000004,
+        "txt": "Note, reader, how this higher vision both harmonizes and is at variance with what went before; if you compare each and take our suggestion, you understand divine mysteries and what I impressed on you previously, namely, how it is not truth that is meant on the firmament, on the throne and on the hand of the man, but only the likeness of the truth.\n",
+        "source_url": "",
+        "source_title": "COMMENTARY ON EZEKIEL 3:10.2-8"
+    }
+]

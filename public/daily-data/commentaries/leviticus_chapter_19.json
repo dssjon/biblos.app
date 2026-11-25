@@ -1,0 +1,41 @@
+[
+    {
+        "id": "f493de5a-036b-4c97-97f6-37c8ed0da373",
+        "father_name": "Augustine of Hippo",
+        "file_name": "Leviticus 19_18.toml",
+        "append_to_author_name": "",
+        "ts": 430,
+        "book": "leviticus",
+        "location_start": 19000018,
+        "location_end": 19000018,
+        "txt": "Long before Christ it had been said, \u201cYou shall not covet\u201d; long before it had been said, \u201cYou shall love your neighbor as yourself,\u201d a phrase which, as the apostle says, expresses the fulfillment of the whole law. And as no one loves himself unless he loves God, the Lord says that the whole Law and the Prophets depend on these two commandments.\n",
+        "source_url": "https://historicalchristian.faith/by_father.php?file=Augustine%2520of%2520Hippo%2FLetters.html",
+        "source_title": "LETTER 177"
+    },
+    {
+        "id": "5ce895e8-0251-400d-8d9c-017c4b391e71",
+        "father_name": "Ambrose of Milan",
+        "file_name": "Leviticus 19_13.toml",
+        "append_to_author_name": "",
+        "ts": 397,
+        "book": "leviticus",
+        "location_start": 19000013,
+        "location_end": 19000013,
+        "txt": "Let no one deny the hireling the wage he is owed, since we too are hirelings of our God, and from him we look forward to the reward of our labor. And if you indeed, whatever type of businessman you are, deny your hireling a monetary payment that is a perishable trifle, you shall be denied the reward of heaven that has been promised. You shall not defraud, as the law says, the hireling of his pay.\n",
+        "source_url": "https://www.newadvent.org/fathers/340962.htm",
+        "source_title": "LETTER 62 (19).3"
+    },
+    {
+        "id": "8f1896ce-ba9c-4a38-a868-afb61aaab5d5",
+        "father_name": "Jerome",
+        "file_name": "Leviticus 19_15.toml",
+        "append_to_author_name": "",
+        "ts": 420,
+        "book": "leviticus",
+        "location_start": 19000015,
+        "location_end": 19000015,
+        "txt": "\u201cYou shall not be partial to the poor,\u201d a precept given lest under pretext of showing pity we should judge an unjust judgment. For each individual is to be judged not by his personal importance but by the merits of his case. His wealth need not stand in the way of the rich man, if he makes a good use of it; and poverty of itself can be no recommendation to the poor if in the midst of squalor and want he fails to stay away from wrongdoing.\n",
+        "source_url": "https://historicalchristian.faith/by_father.php?file=Jerome/Letters/letter_079.html",
+        "source_title": "LETTER 79.1"
+    }
+]

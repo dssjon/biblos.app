@@ -1,0 +1,28 @@
+[
+    {
+        "id": "aecde235-17c2-4fe1-9bff-0a436e2e97d2",
+        "father_name": "John Chrysostom",
+        "file_name": "Job 24_5.toml",
+        "append_to_author_name": "",
+        "ts": 407,
+        "book": "job",
+        "location_start": 24000005,
+        "location_end": 24000005,
+        "txt": "\u201cAnd they have departed,\u201d he says, \u201clike asses in the field,\u201d that is, they have scorned everybody and have mocked everyone. However, nobody commits any injustice against them and does not ill-treat them.\n",
+        "source_url": "",
+        "source_title": "COMMENTARY ON JOB 24:1-8"
+    },
+    {
+        "id": "bd53daa7-2234-4257-81e1-25b78a1ec7fc",
+        "father_name": "Ephrem the Syrian",
+        "file_name": "Job 24_25.toml",
+        "append_to_author_name": "",
+        "ts": 373,
+        "book": "job",
+        "location_start": 24000025,
+        "location_end": 24000025,
+        "txt": "\u201cIf it is not so, may his wrath make me lie,\u201d that is, if sinners do not go into that scorn that I have mentioned before, may the wrath of God prove false what I have said.\n",
+        "source_url": "",
+        "source_title": "COMMENTARY ON JOB 24:25"
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "id": "2fcc30e6-885c-4a8e-bdce-246faffc1b74",
+        "father_name": "John Chrysostom",
+        "file_name": "1 Kings 15_23.toml",
+        "append_to_author_name": "",
+        "ts": 407,
+        "book": "1kings",
+        "location_start": 15000023,
+        "location_end": 15000023,
+        "txt": "\u201cWhat, then,\u201d you will say, \u201cdo all illnesses come in punishment for sin?\u201d No, not all, but many do; some spring from laxity. I say this because gluttony and drunkenness and sloth give rise to sicknesses of this kind. Accordingly, we must be watchful for one thing only: that we bear every blow with gratitude. At times the blow comes to chastise sin, as in the book of Kings we see a man [i.e., King Asa] seized with a foot disease for this reason. On the other hand, the blow might be inflicted to increase righteousness still further, as God says to Job, \u201cDo you think that I have had dealings with you for any other reason than \u2018that you might be justified?\u2019\u00a0\u201d\n",
+        "source_url": "",
+        "source_title": "HOMILIES ON THE GOSPEL OF JOHN 38.1"
+    },
+    {
+        "id": "00af9656-9a5c-4697-8f5f-0b90da6322ae",
+        "father_name": "Jerome",
+        "file_name": "1 Kings 15_14.toml",
+        "append_to_author_name": "",
+        "ts": 420,
+        "book": "1kings",
+        "location_start": 15000014,
+        "location_end": 15000014,
+        "txt": "Regarding many kings of the line of David, we read that they were saved not through their own merit but through the virtues of their father, David, who did that which was pleasing in the sight of God. And we come to Asa, the king of Judah, of whom it is written: \u201cAsa did that which was right in the sight of the Lord, as did David, his father.\u201d And after a lengthy account of his many virtues, the story is concluded with these words: \u201cBut the high places he did not take away. Nevertheless, the heart of Asa was perfect with God all the days of his life.\u201d You see that he, too, is referred to as just, and his heart, indeed, was perfect with God, and yet he erred in that he did not take away the high places, as, we read, Hezekiah and Josiah had done.\n",
+        "source_url": "https://www.newadvent.org/fathers/30112.htm",
+        "source_title": "Against the Pelagians 2.21"
+    }
+]

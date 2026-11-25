@@ -1,0 +1,431 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Classical light theme inspired by ESV - warm, book-like colors */
+  --background: oklch(0.97 0.01 60); /* Warm cream/off-white */
+  --foreground: oklch(0.25 0.01 30); /* Dark charcoal brown */
+  --card: oklch(0.99 0.005 60); /* Slightly warmer white for cards */
+  --card-foreground: oklch(0.25 0.01 30);
+  --popover: oklch(0.99 0.005 60);
+  --popover-foreground: oklch(0.25 0.01 30);
+  --primary: oklch(0.35 0.02 30); /* Deep brown for primary elements */
+  --primary-foreground: oklch(0.97 0.01 60);
+  --secondary: oklch(0.92 0.01 60); /* Light tan for secondary elements */
+  --secondary-foreground: oklch(0.25 0.01 30);
+  --muted: oklch(0.9 0.01 60); /* Muted tan */
+  --muted-foreground: oklch(0.5 0.01 30); /* Medium gray-brown text */
+  --accent: oklch(0.55 0.08 200); /* Muted teal/blue for accents */
+  --accent-foreground: oklch(0.97 0.01 60);
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.99 0 0);
+  --border: oklch(0.88 0.01 60); /* Subtle tan borders */
+  --input: oklch(0.95 0.01 60);
+  --ring: oklch(0.55 0.08 200); /* Teal ring for focus states */
+  --chart-1: oklch(0.646 0.222 41.116);
+  --chart-2: oklch(0.6 0.118 184.704);
+  --chart-3: oklch(0.398 0.07 227.392);
+  --chart-4: oklch(0.828 0.189 84.429);
+  --chart-5: oklch(0.769 0.188 70.08);
+  --radius: 0.375rem; /* Smaller radius for classical look */
+  --sidebar: oklch(0.97 0.01 60);
+  --sidebar-foreground: oklch(0.25 0.01 30);
+  --sidebar-primary: oklch(0.35 0.02 30);
+  --sidebar-primary-foreground: oklch(0.97 0.01 60);
+  --sidebar-accent: oklch(0.92 0.01 60);
+  --sidebar-accent-foreground: oklch(0.25 0.01 30);
+  --sidebar-border: oklch(0.88 0.01 60);
+  --sidebar-ring: oklch(0.55 0.08 200);
+}
+
+.dark {
+  /* Classical dark theme - warm, readable dark colors */
+  --background: oklch(0.18 0.01 30); /* Warm dark brown-gray */
+  --foreground: oklch(0.95 0.01 60); /* Warm off-white text */
+  --card: oklch(0.22 0.01 30); /* Slightly lighter card background */
+  --card-foreground: oklch(0.95 0.01 60);
+  --popover: oklch(0.2 0.01 30);
+  --popover-foreground: oklch(0.95 0.01 60);
+  --primary: oklch(0.9 0.01 60); /* Light cream for primary in dark */
+  --primary-foreground: oklch(0.18 0.01 30);
+  --secondary: oklch(0.28 0.01 30); /* Subtle gray-brown for secondary */
+  --secondary-foreground: oklch(0.95 0.01 60);
+  --muted: oklch(0.3 0.01 30);
+  --muted-foreground: oklch(0.65 0.01 40); /* Muted warm gray text */
+  --accent: oklch(0.65 0.08 200); /* Brighter teal for dark mode */
+  --accent-foreground: oklch(0.95 0.01 60);
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.95 0.01 60);
+  --border: oklch(0.32 0.01 30); /* Subtle borders */
+  --input: oklch(0.28 0.01 30);
+  --ring: oklch(0.65 0.08 200);
+  --chart-1: oklch(0.646 0.222 41.116);
+  --chart-2: oklch(0.6 0.118 184.704);
+  --chart-3: oklch(0.398 0.07 227.392);
+  --chart-4: oklch(0.828 0.189 84.429);
+  --chart-5: oklch(0.769 0.188 70.08);
+  --radius: 0.375rem;
+  --sidebar: oklch(0.2 0.01 30);
+  --sidebar-foreground: oklch(0.95 0.01 60);
+  --sidebar-primary: oklch(0.9 0.01 60);
+  --sidebar-primary-foreground: oklch(0.18 0.01 30);
+  --sidebar-accent: oklch(0.28 0.01 30);
+  --sidebar-accent-foreground: oklch(0.95 0.01 60);
+  --sidebar-border: oklch(0.32 0.01 30);
+  --sidebar-ring: oklch(0.65 0.08 200);
+}
+
+@theme inline {
+  /* Using classical serif fonts throughout for consistent classical design */
+  --font-sans: var(--font-crimson);
+  --font-serif: var(--font-crimson);
+  --font-mono: var(--font-geist-mono);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+  /* Classical typography styles for headings */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-sans);
+  }
+}
+
+/* Subtle scrollbar for classical design */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: oklch(0.94 0.01 60);
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: oklch(0.2 0.01 30);
+}
+
+::-webkit-scrollbar-thumb {
+  background: oklch(0.75 0.01 40);
+  border-radius: 5px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: oklch(0.4 0.01 30);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: oklch(0.65 0.02 40);
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: oklch(0.5 0.01 30);
+}
+
+/* Smooth transitions for interactive elements */
+button,
+input,
+select {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ESV Text Styles - Classical Typography */
+.esv-text {
+  color: var(--foreground);
+  font-family: var(--font-crimson), Georgia, serif;
+  font-size: 1.125rem;
+  line-height: 1.8;
+  letter-spacing: 0.01em;
+}
+
+/* Paragraph styles with classical indentation */
+.esv-text p {
+  text-indent: 1.5em;
+  margin-bottom: 0.75em;
+}
+
+/* Desktop styles */
+@media (min-width: 1024px) {
+  .esv-text {
+    padding-right: 2rem;
+    font-size: 1.25rem;
+    line-height: 1.85;
+  }
+
+  .esv-text p {
+    padding-right: 1rem;
+  }
+}
+
+/* Dark mode overrides for ESV content */
+.dark .esv-text {
+  color: var(--foreground) !important;
+  background-color: var(--background) !important;
+}
+
+.dark .esv-text p,
+.dark .esv-text h2,
+.dark .esv-text h3,
+.dark .esv-text h4,
+.dark .esv-text .chapter-num,
+.dark .esv-text .verse-num {
+  color: var(--foreground) !important;
+}
+
+/* Classical book name styling */
+.esv-text h2.book-name {
+  margin: 1.5rem 0;
+  padding: 1.5rem 0 2rem;
+  font-family: var(--font-crimson), Georgia, serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--primary);
+  text-align: center;
+  letter-spacing: 0.02em;
+  border-bottom: 1px solid var(--border);
+}
+
+.esv-text h3 {
+  font-family: var(--font-crimson), Georgia, serif;
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--primary);
+  letter-spacing: 0.01em;
+}
+
+/* Hide extra text causing duplication */
+.esv-text h2.extra_text {
+  display: none;
+}
+
+/* Chapter and Verse Numbers */
+.esv-text .chapter-num {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+  color: var(--muted-foreground);
+}
+
+.esv-text .verse-num {
+  font-size: 0.7rem;
+  vertical-align: super;
+  margin-right: 0.25rem;
+  font-weight: 600;
+  color: var(--muted-foreground);
+  opacity: 0.7;
+}
+
+/* Passage Separator */
+.passage-separator {
+  margin: 2rem 0;
+  border: 0;
+  border-top: 1px solid var(--border);
+}
+
+/* Dark mode override for passage separator */
+.dark .passage-separator {
+  border-top-color: var(--border);
+}
+
+/* Commentary Panel - Classical styling */
+aside {
+  background-color: var(--sidebar-bg);
+  color: var(--sidebar-foreground);
+  overflow-y: auto;
+  border-left: 1px solid var(--sidebar-border);
+}
+
+/* Verse with commentary highlight */
+.verse-with-commentary {
+  background-color: var(--secondary);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.verse-with-commentary:hover {
+  background-color: var(--muted);
+}
+
+/* Modal styles - Classical */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: oklch(0.15 0.01 30 / 0.6);
+  z-index: 1000;
+  backdrop-filter: blur(2px);
+}
+
+.modal-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--card);
+  color: var(--card-foreground);
+  padding: 2rem;
+  max-height: 80vh;
+  overflow-y: auto;
+  width: 90%;
+  max-width: 650px;
+  z-index: 1001;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  box-shadow: 0 8px 24px oklch(0.15 0.01 30 / 0.15);
+}
+
+.modal-close-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--muted-foreground);
+  transition: color 0.2s ease;
+}
+
+.modal-close-button:hover {
+  color: var(--foreground);
+}
+
+.modal-title {
+  font-family: var(--font-crimson), Georgia, serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.5rem;
+}
+
+.commentary-item {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: var(--secondary);
+  border-left: 2px solid var(--primary);
+  border-radius: var(--radius);
+}
+
+.commentary-item h3 {
+  font-family: var(--font-crimson), Georgia, serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 0.25rem;
+}
+
+.commentary-item p {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  font-family: var(--font-crimson), Georgia, serif;
+  color: var(--foreground);
+}
+
+@media (max-width: 767px) {
+  .fixed-height-mobile {
+    height: calc(100vh - 5rem);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .commentary-sections-mobile {
+    flex-grow: 1;
+    overflow-y: auto;
+  }
+}
+
+/* Ensure the main content has enough bottom padding */
+main {
+  padding-bottom: 4rem;
+}
+
+/* Subtle scrollbar for classical design */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--secondary);
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: var(--muted);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--muted-foreground);
+  border-radius: 5px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: var(--muted);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--foreground);
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary-foreground);
+}
+
+/* Smooth transitions for interactive elements */
+button,
+input,
+select {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}

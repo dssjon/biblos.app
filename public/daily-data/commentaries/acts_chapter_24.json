@@ -1,0 +1,54 @@
+[
+    {
+        "id": "2a46b12d-377f-4ab8-ba3d-1358e277cd8c",
+        "father_name": "Bede",
+        "file_name": "Acts 24_5.toml",
+        "append_to_author_name": "",
+        "ts": 735,
+        "book": "acts",
+        "location_start": 24000005,
+        "location_end": 24000005,
+        "txt": "At that time Christians were called Nazarenes as an insult. Afterwards, however, a heretical sect arose among the Jews, which was called the Nazarenes. \u201cThey believed in Christ as the son of God, born of the virgin Mary, and they said that it was he who suffered under Pontius Pilate and rose from the grave. In him we also believe. But while they wanted to be both Jews and Christians, they were neither Jews nor Christians.\u201d\n",
+        "source_url": "https://historicalchristian.faith/by_father.php?file=Bede%2FCommentary%2520on%2520Acts.html",
+        "source_title": "Commentary on Acts 24.5"
+    },
+    {
+        "id": "0ad67688-3772-4221-a4a8-68222a3fbf12",
+        "father_name": "John Chrysostom",
+        "file_name": "Acts 24_7.toml",
+        "append_to_author_name": "",
+        "ts": 407,
+        "book": "acts",
+        "location_start": 24000007,
+        "location_end": 24000007,
+        "txt": "Then comes the accusation against Lysias. \u201cIt was not right for him,\u201d he says, \u201cto drag him away with great violence.\u201d \u2026 \u201cHe tried,\u201d he says, \u201cto profane the temple,\u201d but [Tertullus] does not say how. He also magnified what concerned Paul, but see how he diminished what concerned him. \u201cWe seized him,\u201d he says, \u201cand would have judged him according to our law.\u201d He claims that it was unpleasant to them to come to foreign courts and that they would have not given trouble to [Felix], if he had not forced them, and that it was not right for Lysias to take Paul away. \u201cThese,\u201d he says, \u201cwere in fact offenses against us, because the trial ought to have taken place among us.\u201d See now the rest as a confirmation that things were so, \u201cwith great violence,\u201d he says. That, indeed, was violence. \u201cFrom him,\u201d he says, \u201cyou will be able to learn.\u201d \u2026 He puts Paul in the position to become his own accuser. \u201cFrom him,\u201d he says, \u201cyou will be able to know by judging.\u201d And the very witnesses of the things that were said, they are the accusers\u2014they are the witnesses and the accusers.\n",
+        "source_url": "",
+        "source_title": "CATENA ON THE ACTS OF THE APOSTLES 24.7-9"
+    },
+    {
+        "id": "d0714462-b06b-41da-bce8-b82c460ff621",
+        "father_name": "John Chrysostom",
+        "file_name": "Acts 24_26.toml",
+        "append_to_author_name": "",
+        "ts": 407,
+        "book": "acts",
+        "location_start": 24000026,
+        "location_end": 24000026,
+        "txt": "And not only so, but even after conversing with him\u2014 for it was towards the end of his government\u2014 he left him bound, willing to show the Jews a pleasure\n",
+        "source_url": "",
+        "source_title": ""
+    },
+    {
+        "id": "1bca94ed-5ce2-4732-81ad-ba46b6762583",
+        "father_name": "John Chrysostom",
+        "file_name": "Acts 24_3.toml",
+        "append_to_author_name": "",
+        "ts": 407,
+        "book": "acts",
+        "location_start": 24000003,
+        "location_end": 24000003,
+        "txt": "See how [Tertullus] approaches the judge with praises from the start and wants to hand Paul over as a revolutionary and a rebel. Then, notice how he hastens as if he has many things to say.\n",
+        "source_url": "",
+        "source_title": "CATENA ON THE ACTS OF THE APOSTLES 24.2-3"
+    }
+]

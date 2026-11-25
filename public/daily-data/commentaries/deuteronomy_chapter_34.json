@@ -1,0 +1,28 @@
+[
+    {
+        "id": "1f44685c-4d95-4f23-85f1-dcbcee155100",
+        "father_name": "Gregory of Nyssa",
+        "file_name": "Deuteronomy 34_5.toml",
+        "append_to_author_name": "",
+        "ts": 395,
+        "book": "deuteronomy",
+        "location_start": 34000005,
+        "location_end": 34000005,
+        "txt": "Moses\u2019 death is recorded to have been even more sublime than his life. He died on a mountain peak and left behind neither trace nor memorial of his earthly burden in life. The impress of beauty was not altered by time but remained unchangeable in the changeable nature.\n",
+        "source_url": "",
+        "source_title": "INSCRIPTIONS OF THE PSALMS 1.56"
+    },
+    {
+        "id": "4c41355c-6229-4849-a60f-27bda43146b0",
+        "father_name": "Ambrose of Milan",
+        "file_name": "Deuteronomy 34_5.toml",
+        "append_to_author_name": "",
+        "ts": 397,
+        "book": "deuteronomy",
+        "location_start": 34000005,
+        "location_end": 34000005,
+        "txt": "We do not read of [Moses], as we do of others, that he fell sick and died. We read that \u201che died by the word of God\u201d\u2014for God does not grow weak or undergo diminution or addition. Hence Scripture added, \u201cNo man has known of his sepulcher until this present day\u201d\u2014by which we are to understand that he was taken up into heaven rather than buried, for death may be called a separation of the soul from the body. He died therefore as the Scripture states: \u201cby the word of God\u201d\u2014not \u201cin accordance with the word\u201d\u2014so as to make known that this was not an announcement of his death but was more in the nature of a gracious gift to one who was translated rather than left here and whose sepulcher was known to no one.\n",
+        "source_url": "",
+        "source_title": "CAIN AND ABEL 1.2.8"
+    }
+]

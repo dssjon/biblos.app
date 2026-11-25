@@ -1,0 +1,28 @@
+[
+    {
+        "id": "e8dd99fb-b674-41a4-9ed5-7755fc41bcb5",
+        "father_name": "Augustine of Hippo",
+        "file_name": "Deuteronomy 17_11.toml",
+        "append_to_author_name": "",
+        "ts": 430,
+        "book": "deuteronomy",
+        "location_start": 17000011,
+        "location_end": 17000011,
+        "txt": "Just as a person has to pick his way between fire and water so as to be neither burned nor drowned, so we should steer our way between the pinnacle of pride and the whirlpool of sloth, as it is written, \u201cturning neither to the right nor to the left.\u201d For there are some who, through fear of being carried up to the heights on the right, slip and are drowned on the left. Others \u2026 fear to be sucked in by the soft ease of sloth on the left and are ruined and destroyed by the ostentation of boasting on the other side, and [they] vanish into smoke and ashes.\n",
+        "source_url": "https://historicalchristian.faith/by_father.php?file=Augustine%2520of%2520Hippo%2FLetters.html",
+        "source_title": "LETTER 48"
+    },
+    {
+        "id": "cd6a7fda-b835-4c35-9835-a96de49e8544",
+        "father_name": "Basil of Caesarea",
+        "file_name": "Deuteronomy 17_20.toml",
+        "append_to_author_name": "",
+        "ts": 379,
+        "book": "deuteronomy",
+        "location_start": 17000020,
+        "location_end": 17000020,
+        "txt": "You are a wayfarer, like to him who prayed, \u201cDirect my steps.\u201d \u201cGive heed to yourself\u201d that you may swerve not from the path, that you decline neither to the right nor the left. Keep to the king\u2019s highway. The architect should lay the firm foundation of faith which is Jesus Christ and let the builder look to his materials: not wood, nor hay nor stubble but gold, silver, precious stones.\n",
+        "source_url": "",
+        "source_title": "HOMILY ON THE WORDS \u201cGIVE HEED TO YOURSELF.\u201d"
+    }
+]

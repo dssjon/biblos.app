@@ -1,0 +1,28 @@
+[
+    {
+        "id": "d3ec1b72-009b-48ae-a69a-9f83fce562c9",
+        "father_name": "Origen of Alexandria",
+        "file_name": "Deuteronomy 16_10.toml",
+        "append_to_author_name": "",
+        "ts": 253,
+        "book": "deuteronomy",
+        "location_start": 16000010,
+        "location_end": 16000010,
+        "txt": "An offering of \u201cfirst fruits,\u201d that is, from the beginning of the harvest, is commanded. If you remember well, the law commands this is to be done on the day of Pentecost. This was obviously given to them as a \u201cshadow,\u201d but the truth was reserved for us. For on the day of Pentecost, after they offered up the sacrifice of prayers, the church of the apostles received the first fruits of the coming of the Holy Spirit.\n",
+        "source_url": "https://www.google.com/books/edition/Homilies_on_Leviticus_1_16/Eo9Da7xaBuUC?hl=en&gbpv=1&dq=homilies+on+leviticus+origen&printsec=frontcover",
+        "source_title": "HOMILIES ON LEVITICUS 2.2.5"
+    },
+    {
+        "id": "a64400a1-1fc6-4ff4-bc30-a4ccdec77406",
+        "father_name": "Jerome",
+        "file_name": "Deuteronomy 16_20.toml",
+        "append_to_author_name": "",
+        "ts": 420,
+        "book": "deuteronomy",
+        "location_start": 16000020,
+        "location_end": 16000020,
+        "txt": "In another place: \u201cYou shall follow justly after that which is just,\u201d lest we turn from justice, by asserting our own view of truth, recalling the experience of Saul and Agag.\n",
+        "source_url": "https://www.newadvent.org/fathers/30112.htm",
+        "source_title": "Against the Pelagians 2.3"
+    }
+]

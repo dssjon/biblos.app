@@ -1,0 +1,41 @@
+[
+    {
+        "id": "76289590-d3a4-475b-aa5b-0605c4bd0c53",
+        "father_name": "Augustine of Hippo",
+        "file_name": "Leviticus 6_3.toml",
+        "append_to_author_name": "",
+        "ts": 430,
+        "book": "leviticus",
+        "location_start": 6000003,
+        "location_end": 6000003,
+        "txt": "Shall we therefore say that when it is written that whoever finds another man\u2019s property of any kind that has been lost, should return it to him who has lost it, doesn\u2019t pertain to us? Do not many other like things pertain whereby people learn to live piously and uprightly? Isn\u2019t especially the Decalogue itself, which is contained in those two tables of stone, apart from the carnal observance of the sabbath, which signifies spiritual sanctification and rest?\n",
+        "source_url": "",
+        "source_title": "AGAINST TWO LETTERS OF THE PELAGIANS 3.10"
+    },
+    {
+        "id": "c593a6e6-390f-42ed-b65f-db4c0b16754e",
+        "father_name": "Bede",
+        "file_name": "Leviticus 6_10.toml",
+        "append_to_author_name": "",
+        "ts": 735,
+        "book": "leviticus",
+        "location_start": 6000010,
+        "location_end": 6000010,
+        "txt": "The priest who offers the holocaust is the Lord who is himself accustomed to kindle in us the fire of his charity and through it to make the sacrifices of our good actions acceptable to himself. And he is clothed in linen garments when he does these things because, in order that he may excite us to works of virtue, he sets before us the examples of his own incarnation, passion and death, which can be signified by linen, as we have frequently said.\n",
+        "source_url": "https://historicalchristian.faith/by_father.php?file=Bede%2FOn%2520the%2520Tabernacle.html",
+        "source_title": "On the Tabernacle 2.11"
+    },
+    {
+        "id": "24f0e93d-c132-4474-b53d-e70a4f8df124",
+        "father_name": "Bede",
+        "file_name": "Leviticus 6_9.toml",
+        "append_to_author_name": "",
+        "ts": 735,
+        "book": "leviticus",
+        "location_start": 6000009,
+        "location_end": 6000009,
+        "txt": "A holocaust is burned on the altar when a good work is performed with the burning fire of charity in the heart of any elect person who is devoted to God completely (that is, with both body and soul). This is done all night until the morning when one does not cease to persevere in good works throughout all the time of his life, until one is taken from the body and merits seeing the morning of the world to come. The fire will be on the same altar, because we ought to be burning with that charity alone which the Lord gives to his church through the Holy Spirit.\n",
+        "source_url": "https://historicalchristian.faith/by_father.php?file=Bede%2FOn%2520the%2520Tabernacle.html",
+        "source_title": "On the Tabernacle 2.11"
+    }
+]

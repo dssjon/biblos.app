@@ -1,0 +1,28 @@
+[
+    {
+        "id": "91ad8a68-f05d-484c-a5d3-d397552dc5c9",
+        "father_name": "John Chrysostom",
+        "file_name": "Leviticus 15_5.toml",
+        "append_to_author_name": "",
+        "ts": 407,
+        "book": "leviticus",
+        "location_start": 15000005,
+        "location_end": 15000005,
+        "txt": "The washing which is common to all persons is that of the baths, which usually cleanses away the filth of the body. There is also the washing of the Jews, which is more solemn than that of the baths but much inferior to the bath of grace. While this [baptismal] bath cleanses bodily filth, it does not merely remove the uncleanness of the body but also that which clings to a weak conscience.\n",
+        "source_url": "",
+        "source_title": "BAPTISMAL INSTRUCTIONS 9.13"
+    },
+    {
+        "id": "e5bf88b6-8af3-4cb5-acc5-e7ba942b50b4",
+        "father_name": "Clement of Alexandria",
+        "file_name": "Leviticus 15_18.toml",
+        "append_to_author_name": "",
+        "ts": 215,
+        "book": "leviticus",
+        "location_start": 15000018,
+        "location_end": 15000018,
+        "txt": "In the past, a man coming from marital intercourse was required to wash. It cannot be too strongly said that the providence of God revealed through the Lord no longer makes this demand. The Lord eliminates washing after intercourse as unnecessary since he has cleansed believers by one single baptism for every such encounter, just as he takes in the many washings prescribed by Moses by one single baptism.\n",
+        "source_url": "",
+        "source_title": "STROMATEIS 3.82.6"
+    }
+]

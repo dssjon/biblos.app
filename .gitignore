@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+/test-results/
+/playwright-report/
+
+# Next.js
+/.next/
+/out/
+
+# Production
+/build
+dist/
+
+# Misc
+.DS_Store
+*.pem
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+
+# Python & fallback-api generated data
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+fallback-api/data/*.json
+
+# Batch build artifacts
+.batch-work/
+
+# Legacy webpack artifacts
+bundle.js
+public/bundle.js
+*.LICENSE.*

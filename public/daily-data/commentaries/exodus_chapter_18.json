@@ -1,0 +1,41 @@
+[
+    {
+        "id": "a36dcdfe-65ba-42f1-a7d9-b952b73d51fe",
+        "father_name": "Augustine of Hippo",
+        "file_name": "Exodus 18_21.toml",
+        "append_to_author_name": "",
+        "ts": 430,
+        "book": "exodus",
+        "location_start": 18000021,
+        "location_end": 18000021,
+        "txt": "Moses in fact took care to appoint teachers of reading and writing for God\u2019s people before they had any written record of God\u2019s law. The Septuagint Scripture calls these instructors grammatoeisagogo\u0131\u0301, which is Greek for \u201cbringers-in of letters,\u201d because they brought them, in a sense, into their students\u2019 minds or perhaps introduced their students to them.\n",
+        "source_url": "https://historicalchristian.faith/by_father.php?file=Augustine%2520of%2520Hippo%2FThe%2520City%2520of%2520God%2FBook%252018.html",
+        "source_title": "City of God 18.39"
+    },
+    {
+        "id": "fa46a496-e83e-4b70-b73e-f36205bf30cc",
+        "father_name": "Augustine of Hippo",
+        "file_name": "Exodus 18_19.toml",
+        "append_to_author_name": "",
+        "ts": 430,
+        "book": "exodus",
+        "location_start": 18000019,
+        "location_end": 18000019,
+        "txt": "God spoke to Moses, did he not? Yet Moses very prudently and humbly yielded to the advice of his father-in-law, foreigner though he was, with regard to governing and directing such a mighty nation. For he realized that from whatever intellect right counsel proceeded, it should be attributed not to him who conceived it but to the One who is the Truth, the immutable God.\n",
+        "source_url": "",
+        "source_title": "ON CHRISTIAN TEACHING, PROLOGUE 7"
+    },
+    {
+        "id": "c1487d74-be28-4873-977d-f8b87e01140e",
+        "father_name": "John Chrysostom",
+        "file_name": "Exodus 18_24.toml",
+        "append_to_author_name": "",
+        "ts": 407,
+        "book": "exodus",
+        "location_start": 18000024,
+        "location_end": 18000024,
+        "txt": "For nothing was ever more humble than he, who, being leader of so great a people, and having overwhelmed in the sea the king and the host of all the Egyptians, as if they had been flies, and having wrought so many wonders both in Egypt and by the Red Sea and in the wilderness, and received such high testimony, yet felt exactly as if he had been an ordinary person. As a son-in-law he was humbler than his father-in-law; Moses took advice from him and was not indignant. Nor did he say, \u201cWhat is this? After such and so great achievements, have you come to us with your counsel?\u201d\n",
+        "source_url": "",
+        "source_title": "HOMILIES ON 1 CORINTHIANS 1.4"
+    }
+]

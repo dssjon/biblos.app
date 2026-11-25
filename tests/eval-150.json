@@ -1,0 +1,2786 @@
+{
+  "version": 1,
+  "source": "engwebp_vpl.xml",
+  "sourceSha256": "cb87c579e60c80793349ee4cd3cf5d33cad9f0b7ecad22d8b313f99ddd4d0908",
+  "model": "claude-opus-5-5",
+  "effort": "high",
+  "queryCount": 150,
+  "categoryCounts": {
+    "paraphrased_memory": 15,
+    "narrative_pericopes": 15,
+    "translation_bridge": 15,
+    "thematic_doctrinal": 15,
+    "book_author_constraints": 15,
+    "speaker_polarity_traps": 15,
+    "messy_references": 15,
+    "non_biblical_abstention": 20,
+    "multi_passage_synthesis": 15,
+    "rare_entity_names": 10
+  },
+  "queries": [
+    {
+      "id": "PM-01",
+      "category": "paraphrased_memory",
+      "query": "the story where samson killed a whole army with a donkey's jawbone",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "jdg",
+          "chapter": 15,
+          "verseStart": 15,
+          "verseEnd": 16
+        }
+      ],
+      "notes": "Samson strikes a thousand Philistines with a fresh jawbone of a donkey (v15) and sings 'with the jawbone of a donkey, heaps on heaps' (v16). The query says 'army' while the text says 'a thousand men', so the system should match the story without needing the exact number."
+    },
+    {
+      "id": "PM-02",
+      "category": "paraphrased_memory",
+      "query": "where does it say faith without works is dead",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "jas",
+          "chapter": 2,
+          "verseStart": 17,
+          "verseEnd": 17
+        },
+        {
+          "book": "jas",
+          "chapter": 2,
+          "verseStart": 26,
+          "verseEnd": 26
+        }
+      ],
+      "notes": "The phrase appears twice in James. In the WEB, v17 reads 'faith, if it has no works, is dead in itself' and v26 reads 'faith apart from works is dead.' Either verse is a correct top hit. The surrounding argument in Jas 2:14-26 is acceptable context."
+    },
+    {
+      "id": "PM-03",
+      "category": "paraphrased_memory",
+      "query": "iron sharpens iron so one man sharpens another verse",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "pro",
+          "chapter": 27,
+          "verseStart": 17,
+          "verseEnd": 17
+        }
+      ],
+      "notes": "The WEB reads 'Iron sharpens iron; so a man sharpens his friend's countenance.' The popular paraphrase drops 'countenance', and retrieval should still land on Pro 27:17."
+    },
+    {
+      "id": "PM-04",
+      "category": "paraphrased_memory",
+      "query": "not by might nor by power but by my spirit says the lord",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "zec",
+          "chapter": 4,
+          "verseStart": 6,
+          "verseEnd": 6
+        }
+      ],
+      "notes": "This is the word of Yahweh to Zerubbabel. The WEB reads 'says Yahweh of Armies' rather than 'the LORD', so this tests divine-name normalization."
+    },
+    {
+      "id": "PM-05",
+      "category": "paraphrased_memory",
+      "query": "weeping may last for the night but joy comes in the morning psalm",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "psa",
+          "chapter": 30,
+          "verseStart": 5,
+          "verseEnd": 5
+        }
+      ],
+      "notes": "The WEB reads 'Weeping may stay for the night, but joy comes in the morning.' The query paraphrases 'stay' as 'last'. Psalm numbering follows English versification (the superscription is not counted as a verse)."
+    },
+    {
+      "id": "PM-06",
+      "category": "paraphrased_memory",
+      "query": "i know the plans i have for you plans to prosper you and not to harm you",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "jer",
+          "chapter": 29,
+          "verseStart": 11,
+          "verseEnd": 11
+        }
+      ],
+      "notes": "The query uses popular NIV-style wording. The WEB reads 'I know the thoughts that I think toward you... thoughts of peace, and not of evil, to give you hope and a future.' This is a strong test of semantic rather than lexical matching."
+    },
+    {
+      "id": "PM-07",
+      "category": "paraphrased_memory",
+      "query": "easier for a camel to go through the eye of a needle than for a rich guy to get into heaven",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "mat",
+          "chapter": 19,
+          "verseStart": 24,
+          "verseEnd": 24
+        },
+        {
+          "book": "mrk",
+          "chapter": 10,
+          "verseStart": 25,
+          "verseEnd": 25
+        }
+      ],
+      "notes": "This is a synoptic saying. Luke 18:25 is also an acceptable parallel. The WEB says 'enter into God's Kingdom', not 'heaven', so the system must bridge that paraphrase."
+    },
+    {
+      "id": "PM-08",
+      "category": "paraphrased_memory",
+      "query": "put on the full armor of god belt of truth breastplate of righteousness shield of faith",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "eph",
+          "chapter": 6,
+          "verseStart": 10,
+          "verseEnd": 18
+        }
+      ],
+      "notes": "The whole armor passage runs from the call to be strong (v10) through prayer in the Spirit (v18). Hits on vv11-17, the core armor list, should count as correct."
+    },
+    {
+      "id": "PM-09",
+      "category": "paraphrased_memory",
+      "query": "be still and know that i am god",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "psa",
+          "chapter": 46,
+          "verseStart": 10,
+          "verseEnd": 10
+        }
+      ],
+      "notes": "The query matches the WEB nearly word for word. This is a baseline sanity check: the system should rank Psa 46:10 first."
+    },
+    {
+      "id": "PM-10",
+      "category": "paraphrased_memory",
+      "query": "if you have faith as small as a mustard seed you can tell a mountain to move",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "mat",
+          "chapter": 17,
+          "verseStart": 20,
+          "verseEnd": 20
+        }
+      ],
+      "notes": "Matthew is the only text that combines the mustard seed with a mountain. Luke 17:6 pairs the mustard seed with a sycamore tree, and Mat 21:21 and Mrk 11:23 mention mountain-moving faith without the mustard seed; these are acceptable secondary hits but not primary targets."
+    },
+    {
+      "id": "PM-11",
+      "category": "paraphrased_memory",
+      "query": "pride comes before a fall bible verse",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "pro",
+          "chapter": 16,
+          "verseStart": 18,
+          "verseEnd": 18
+        }
+      ],
+      "notes": "The query is a common compression of the real verse. The WEB reads 'Pride goes before destruction, and an arrogant spirit before a fall.' The system should retrieve Pro 16:18 and not abstain, since the saying is a paraphrase of real scripture."
+    },
+    {
+      "id": "PM-12",
+      "category": "paraphrased_memory",
+      "query": "those who wait on the lord will soar on wings like eagles run and not get tired",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "isa",
+          "chapter": 40,
+          "verseStart": 31,
+          "verseEnd": 31
+        }
+      ],
+      "notes": "The WEB reads 'those who wait for Yahweh... will mount up with wings like eagles. They will run, and not be weary.' The query paraphrases 'mount up' as 'soar' and 'weary' as 'tired'."
+    },
+    {
+      "id": "PM-13",
+      "category": "paraphrased_memory",
+      "query": "when peter got out of the boat and walked on water then started sinking",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "mat",
+          "chapter": 14,
+          "verseStart": 28,
+          "verseEnd": 31
+        }
+      ],
+      "notes": "Only Matthew records Peter walking on the water: he asks to come (v28), walks (v29), begins to sink (v30), and is rescued with 'you of little faith' (v31). Mrk 6:45-52 and Jhn 6:16-21 describe Jesus walking on water without Peter, so they are lower-relevance results."
+    },
+    {
+      "id": "PM-14",
+      "category": "paraphrased_memory",
+      "query": "the part where god shut the lions' mouths so daniel didn't get eaten",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "dan",
+          "chapter": 6,
+          "verseStart": 16,
+          "verseEnd": 23
+        }
+      ],
+      "notes": "The range covers Daniel being cast into the den (v16) through being taken out unharmed (v23). In v22 Daniel says 'My God has sent his angel, and has shut the lions' mouths.' A hit on v22 alone is a precise match."
+    },
+    {
+      "id": "PM-15",
+      "category": "paraphrased_memory",
+      "query": "A guy who beats up his enemies with a donkeyhide cheek",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "jdg",
+          "chapter": 15,
+          "verseStart": 15,
+          "verseEnd": 16
+        }
+      ],
+      "notes": "Real Vercel Analytics production query: paraphrased memory of Samson defeating Philistines with a donkey's jawbone (Judges 15:15-16)."
+    },
+    {
+      "id": "NP-01",
+      "category": "narrative_pericopes",
+      "query": "lessons from the Prodigal Son",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "luk",
+          "chapter": 15,
+          "verseStart": 11,
+          "verseEnd": 32
+        }
+      ],
+      "notes": "Short-form query. The long form ('the parable of the Prodigal Son and the older brother') must resolve to the same pericope. The word 'prodigal' does not appear in the WEB. The text says the younger son 'wasted his property with riotous living' (15:13). The span runs through the elder brother episode (15:25-32). The sibling lost-sheep and lost-coin parables (15:1-10) are related context, not primary targets."
+    },
+    {
+      "id": "NP-02",
+      "category": "narrative_pericopes",
+      "query": "Good Samaritan parable meaning",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "luk",
+          "chapter": 10,
+          "verseStart": 25,
+          "verseEnd": 37
+        }
+      ],
+      "notes": "The phrase 'Good Samaritan' is not in the text. Verse 33 says only 'a certain Samaritan'. The span includes the lawyer's framing question 'Who is my neighbor?' (10:29) and ends with 'Go and do likewise' (10:37). Do not confuse with the grateful Samaritan leper (luk 17:11-19) or the Samaritan woman (jhn 4)."
+    },
+    {
+      "id": "NP-03",
+      "category": "narrative_pericopes",
+      "query": "road to Emmaus story where Jesus walks with two disciples",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "luk",
+          "chapter": 24,
+          "verseStart": 13,
+          "verseEnd": 35
+        },
+        {
+          "book": "mrk",
+          "chapter": 16,
+          "verseStart": 12,
+          "verseEnd": 13
+        }
+      ],
+      "notes": "The title 'Road to Emmaus' is traditional. Luke 24:13 names only the village of Emmaus. The primary target is Luke 24:13-35, which includes the opened Scriptures and the recognition at the breaking of bread. Mark 16:12-13 is a brief secondary parallel inside the longer ending of Mark, which the WEB includes."
+    },
+    {
+      "id": "NP-04",
+      "category": "narrative_pericopes",
+      "query": "Elijah depressed under the broom tree asking God to let him die",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "1ki",
+          "chapter": 19,
+          "verseStart": 1,
+          "verseEnd": 8
+        }
+      ],
+      "notes": "The WEB renders the tree as 'a juniper tree' (19:4). 'Broom tree' is a modern-translation and sermon title, so the system must bridge broom/juniper. The span covers Jezebel's threat, the flight, the plea 'take away my life', and the angel's provision before the 40-day journey to Horeb. The still small voice (19:9-18) is related but not primary."
+    },
+    {
+      "id": "NP-05",
+      "category": "narrative_pericopes",
+      "query": "the Beatitudes",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "mat",
+          "chapter": 5,
+          "verseStart": 3,
+          "verseEnd": 12
+        },
+        {
+          "book": "luk",
+          "chapter": 6,
+          "verseStart": 20,
+          "verseEnd": 23
+        }
+      ],
+      "notes": "'Beatitudes' is a Latin-derived label and never appears in the text. The primary target is Matthew 5:3-12. The secondary target is Luke's Sermon on the Plain blessings (6:20-23). Luke's woes (6:24-26) are adjacent but are not beatitudes."
+    },
+    {
+      "id": "NP-06",
+      "category": "narrative_pericopes",
+      "query": "Sermon on the Mount full text",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "mat",
+          "chapter": 5,
+          "verseStart": 1,
+          "verseEnd": 48
+        },
+        {
+          "book": "mat",
+          "chapter": 6,
+          "verseStart": 1,
+          "verseEnd": 34
+        },
+        {
+          "book": "mat",
+          "chapter": 7,
+          "verseStart": 1,
+          "verseEnd": 29
+        }
+      ],
+      "notes": "This is a multi-chapter discourse whose title is absent from the text. Matthew 5:1 says only that 'he went up onto the mountain'. All three chapters should be retrieved, through the crowds' astonishment at 7:28-29. Luke 6:17-49 (Sermon on the Plain) is related but distinct and should not outrank Matthew."
+    },
+    {
+      "id": "NP-07",
+      "category": "narrative_pericopes",
+      "query": "Daniel in the lions' den",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "dan",
+          "chapter": 6,
+          "verseStart": 1,
+          "verseEnd": 28
+        }
+      ],
+      "notes": "The WEB says 'den of lions'. The exact phrase 'lions' den' is not in the text. English versification has 28 verses, while the Hebrew numbering runs to 6:29. The span covers Darius's decree, Daniel praying toward Jerusalem, the angel shutting the lions' mouths, and the closing decree. The apocryphal Bel and the Dragon lions' den story is outside the 66-book canon and must not be returned."
+    },
+    {
+      "id": "NP-08",
+      "category": "narrative_pericopes",
+      "query": "feeding of the 5000 with five loaves and two fish",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "mat",
+          "chapter": 14,
+          "verseStart": 13,
+          "verseEnd": 21
+        },
+        {
+          "book": "mrk",
+          "chapter": 6,
+          "verseStart": 30,
+          "verseEnd": 44
+        },
+        {
+          "book": "luk",
+          "chapter": 9,
+          "verseStart": 10,
+          "verseEnd": 17
+        },
+        {
+          "book": "jhn",
+          "chapter": 6,
+          "verseStart": 1,
+          "verseEnd": 14
+        }
+      ],
+      "notes": "This is the only miracle (besides the resurrection) recorded in all four Gospels, and all four parallels are expected. The title 'Feeding of the 5,000' is traditional. The system must not substitute the feeding of the 4,000 (mat 15:32-39; mrk 8:1-10), which has seven loaves."
+    },
+    {
+      "id": "NP-09",
+      "category": "narrative_pericopes",
+      "query": "Jesus and the woman at the well living water",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "jhn",
+          "chapter": 4,
+          "verseStart": 1,
+          "verseEnd": 42
+        }
+      ],
+      "notes": "The text calls her 'a woman of Samaria' (4:7) at 'Jacob's well' (4:6). 'Woman at the well' is a popular title. The span covers the living water dialogue, worship 'in spirit and truth' (4:23-24), the disciples' return, and the Sychar townspeople believing (4:39-42). This must be distinguished from the Good Samaritan."
+    },
+    {
+      "id": "NP-10",
+      "category": "narrative_pericopes",
+      "query": "raising of Lazarus Jesus wept",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "jhn",
+          "chapter": 11,
+          "verseStart": 1,
+          "verseEnd": 44
+        }
+      ],
+      "notes": "The span includes 'I am the resurrection and the life' (11:25), 'Jesus wept' (11:35), and 'Lazarus, come out!' (11:43). Critical disambiguation: the parable of the rich man and Lazarus (luk 16:19-31) is a different Lazarus and must not be ranked as the answer. The plot to kill Jesus (11:45-53) is downstream context only."
+    },
+    {
+      "id": "NP-11",
+      "category": "narrative_pericopes",
+      "query": "Zacchaeus wee little man who climbed the sycamore tree",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "luk",
+          "chapter": 19,
+          "verseStart": 1,
+          "verseEnd": 10
+        }
+      ],
+      "notes": "'Wee little man' comes from a children's song, not the text. The WEB says 'he was short' and that he climbed 'a sycamore fig tree' (19:3-4). The span ends with 'the Son of Man came to seek and to save that which was lost' (19:10)."
+    },
+    {
+      "id": "NP-12",
+      "category": "narrative_pericopes",
+      "query": "three Hebrew boys thrown into the furnace fourth man in the fire",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "dan",
+          "chapter": 3,
+          "verseStart": 1,
+          "verseEnd": 30
+        }
+      ],
+      "notes": "'Three Hebrew boys' is a sermon title absent from the text. The text names Shadrach, Meshach, and Abednego and speaks of 'the burning fiery furnace'. The fourth figure appears at 3:25 and is described in Nebuchadnezzar's words. The Prayer of Azariah and the Song of the Three Young Men are Greek additions outside the Protestant canon and must not be cited."
+    },
+    {
+      "id": "NP-13",
+      "category": "narrative_pericopes",
+      "query": "Jonah swallowed by the whale",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "jon",
+          "chapter": 1,
+          "verseStart": 1,
+          "verseEnd": 17
+        },
+        {
+          "book": "jon",
+          "chapter": 2,
+          "verseStart": 1,
+          "verseEnd": 10
+        }
+      ],
+      "notes": "Jonah's text says 'a huge fish' (1:17), not 'whale', so the system must bridge the popular term. English versification places the swallowing at 1:17 and the prayer in 2:1-10 (Hebrew 2:1-11). Jesus' 'sign of Jonah' reference (mat 12:38-41) is a related secondary hit only."
+    },
+    {
+      "id": "NP-14",
+      "category": "narrative_pericopes",
+      "query": "David and Goliath story",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "1sa",
+          "chapter": 17,
+          "verseStart": 1,
+          "verseEnd": 58
+        }
+      ],
+      "notes": "The full chapter covers Goliath's challenge, David's arrival, the refused armor of Saul, the sling and stone (17:49), and Saul's inquiry about David (17:55-58). 'David and Goliath' is a traditional title rather than a text heading. The variant Goliath tradition in 2sa 21:19 and 1ch 20:5 is not the target."
+    },
+    {
+      "id": "NP-15",
+      "category": "narrative_pericopes",
+      "query": "Is there a proverb with a pile of bones?",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "ezk",
+          "chapter": 37,
+          "verseStart": 1,
+          "verseEnd": 14
+        }
+      ],
+      "notes": "Real Vercel Analytics production query: misremembered genre ('proverb') pointing to Ezekiel's Valley of Dry Bones (Ezekiel 37:1-14)."
+    },
+    {
+      "id": "TB-01",
+      "category": "translation_bridge",
+      "query": "be quick to hear, slow to speak, slow to anger verse",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "jas",
+          "chapter": 1,
+          "verseStart": 19,
+          "verseEnd": 19
+        }
+      ],
+      "notes": "ESV wording ('quick to hear, slow to speak, slow to anger'); NIV has 'quick to listen, slow to speak and slow to become angry'; KJV/WEB have 'swift to hear, slow to speak, slow to wrath/anger'. The system must bridge 'quick' to 'swift' and 'listen' to 'hear'. Proverbs 29:20 and 17:27 are thematically related but not gold."
+    },
+    {
+      "id": "TB-02",
+      "category": "translation_bridge",
+      "query": "charity suffereth long and is kind, charity envieth not",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "1co",
+          "chapter": 13,
+          "verseStart": 4,
+          "verseEnd": 4
+        }
+      ],
+      "notes": "KJV renders agape as 'charity' and uses 'suffereth long'. WEB has 'Love is patient and is kind; love doesn't envy.' ESV/NIV have 'Love is patient... kind'. Tests the charity-to-love and suffereth-long-to-patient lexical bridge. Retrieving the surrounding 13:4-7 is acceptable context, but verse 4 is the gold hit."
+    },
+    {
+      "id": "TB-03",
+      "category": "translation_bridge",
+      "query": "Elijah sat under a juniper tree and asked God to take his life",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "1ki",
+          "chapter": 19,
+          "verseStart": 4,
+          "verseEnd": 5
+        }
+      ],
+      "notes": "KJV/ASV say 'juniper tree'; ESV has 'broom tree' and NIV 2011 has 'broom bush'. The brief states WEB reads 'broom tree', but the ASV-derived WEB text may retain 'juniper tree', so evaluators should confirm against the indexed WEB edition. Verse 4 is primary (Elijah requests death); verse 5 repeats the tree when he lies down and the angel touches him."
+    },
+    {
+      "id": "TB-04",
+      "category": "translation_bridge",
+      "query": "for now we see through a glass darkly but then face to face",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "1co",
+          "chapter": 13,
+          "verseStart": 12,
+          "verseEnd": 12
+        }
+      ],
+      "notes": "KJV wording is 'through a glass, darkly'. WEB has 'For now we see in a mirror, dimly, but then face to face'; ESV has 'in a mirror dimly'; NIV has 'only a reflection as in a mirror'. Tests the glass-to-mirror and darkly-to-dimly bridge; 'face to face' is a shared anchor."
+    },
+    {
+      "id": "TB-05",
+      "category": "translation_bridge",
+      "query": "yea though I walk through the valley of the shadow of death I will fear no evil",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "psa",
+          "chapter": 23,
+          "verseStart": 4,
+          "verseEnd": 4
+        }
+      ],
+      "notes": "KJV phrasing ('Yea, though'). WEB retains 'valley of the shadow of death' ('Even though I walk...'), and so does ESV, so this is a low-difficulty bridge. NIV 2011 instead has 'Even though I walk through the darkest valley', which systems must also map here. Archaic 'yea' should not derail matching."
+    },
+    {
+      "id": "TB-06",
+      "category": "translation_bridge",
+      "query": "God spoke to Elijah in a still small voice, not in the wind, earthquake or fire",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "1ki",
+          "chapter": 19,
+          "verseStart": 11,
+          "verseEnd": 12
+        }
+      ],
+      "notes": "KJV and WEB use 'still small voice' (verse 12). ESV has 'the sound of a low whisper'; NIV has 'a gentle whisper'. Verse 11 contains the wind and earthquake, verse 12 the fire and the voice. Verse 13, where Elijah wraps his face and God asks 'What are you doing here?', is acceptable neighboring context."
+    },
+    {
+      "id": "TB-07",
+      "category": "translation_bridge",
+      "query": "suffer the little children to come unto me and forbid them not",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "mrk",
+          "chapter": 10,
+          "verseStart": 14,
+          "verseEnd": 14
+        },
+        {
+          "book": "mat",
+          "chapter": 19,
+          "verseStart": 14,
+          "verseEnd": 14
+        },
+        {
+          "book": "luk",
+          "chapter": 18,
+          "verseStart": 16,
+          "verseEnd": 16
+        }
+      ],
+      "notes": "In KJV, 'suffer' is archaic for 'allow/permit'. WEB Mark 10:14 has 'Allow the little children to come to me! Don't forbid them'; NIV has 'Let the little children come to me'. The exact KJV phrasing 'Suffer the little children to come unto me' matches Mark 10:14, so Mark is primary. Matthew 19:14 and Luke 18:16 are synoptic parallels and should also be accepted. Systems must not read 'suffer' in its modern sense of pain."
+    },
+    {
+      "id": "TB-08",
+      "category": "translation_bridge",
+      "query": "be still and know that I am God",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "psa",
+          "chapter": 46,
+          "verseStart": 10,
+          "verseEnd": 10
+        }
+      ],
+      "notes": "KJV, ESV, NIV and WEB all read 'Be still, and know that I am God', but NASB has 'Cease striving and know', so this is a control item with high lexical overlap. In WEB, Psalm 46:10 continues 'I will be exalted among the nations'. Hebrew-numbering offsets (46:11) must not shift the result."
+    },
+    {
+      "id": "TB-09",
+      "category": "translation_bridge",
+      "query": "vanity of vanities saith the preacher all is vanity",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "ecc",
+          "chapter": 1,
+          "verseStart": 2,
+          "verseEnd": 2
+        },
+        {
+          "book": "ecc",
+          "chapter": 12,
+          "verseStart": 8,
+          "verseEnd": 8
+        }
+      ],
+      "notes": "KJV wording ('saith'). WEB retains 'Vanity of vanities, says the Preacher'. NIV has 'Meaningless! Meaningless! says the Teacher'; ESV has 'Vanity of vanities, says the Preacher'. Ecclesiastes 1:2 is primary, and 12:8 is the bookend inclusio with near-identical wording. The Preacher/Qoheleth is the book's narrator, not an antagonist."
+    },
+    {
+      "id": "TB-10",
+      "category": "translation_bridge",
+      "query": "the peace of God which passeth all understanding shall keep your hearts and minds",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "php",
+          "chapter": 4,
+          "verseStart": 7,
+          "verseEnd": 7
+        }
+      ],
+      "notes": "KJV has 'passeth all understanding, shall keep your hearts and minds through Christ Jesus'. WEB has 'which surpasses all understanding, will guard your hearts and your thoughts in Christ Jesus'; ESV/NIV have 'surpasses/transcends... guard'. Tests the bridges passeth-to-surpasses, keep-to-guard and minds-to-thoughts. Verse 6 (prayer instead of anxiety) is acceptable context."
+    },
+    {
+      "id": "TB-11",
+      "category": "translation_bridge",
+      "query": "cast thy bread upon the waters for thou shalt find it after many days",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "ecc",
+          "chapter": 11,
+          "verseStart": 1,
+          "verseEnd": 1
+        }
+      ],
+      "notes": "KJV wording. WEB has 'Cast your bread on the waters; for you shall find it after many days'; ESV has 'Cast your bread upon the waters'. NIV diverges sharply: 'Ship your grain across the sea; after many days you may receive a return'. Systems must map KJV thy/thou forms and should also connect the NIV paraphrase."
+    },
+    {
+      "id": "TB-12",
+      "category": "translation_bridge",
+      "query": "what was Paul's thorn in the flesh, the messenger of Satan to buffet me",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "2co",
+          "chapter": 12,
+          "verseStart": 7,
+          "verseEnd": 7
+        }
+      ],
+      "notes": "KJV 'buffet' versus WEB 'a thorn in the flesh was given to me, a messenger of Satan to torment me'; ESV/NIV also use 'torment/harass'. Paul is the speaker; 'messenger of Satan' describes the affliction and is not Satan's speech, so no speaker caution applies. Verses 8-9 (three requests; 'My grace is sufficient') are acceptable neighboring context. The thorn's identity is not stated in the text, so answers should not assert a specific illness as biblical fact."
+    },
+    {
+      "id": "TB-13",
+      "category": "translation_bridge",
+      "query": "present your bodies a living sacrifice which is your reasonable service",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "rom",
+          "chapter": 12,
+          "verseStart": 1,
+          "verseEnd": 1
+        }
+      ],
+      "notes": "KJV has 'reasonable service'. WEB has 'present your bodies a living sacrifice, holy, acceptable to God, which is your spiritual service'; ESV has 'spiritual worship'; NIV has 'true and proper worship'. 'Living sacrifice' is a shared anchor, while the bridges are reasonable-to-spiritual and service-to-worship. Verse 2 ('be transformed by the renewing of your mind') is adjacent but not gold."
+    },
+    {
+      "id": "TB-14",
+      "category": "translation_bridge",
+      "query": "I praise you because I am fearfully and wonderfully made",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "psa",
+          "chapter": 139,
+          "verseStart": 14,
+          "verseEnd": 14
+        }
+      ],
+      "notes": "NIV wording ('I praise you because'). KJV has 'I will praise thee; for I am fearfully and wonderfully made'; WEB has 'I will give thanks to you, for I am fearfully and wonderfully made. Your works are wonderful.' Tests the praise-to-give-thanks verb bridge, with 'fearfully and wonderfully made' as the anchor. Verses 13-16 (knit in the womb) are acceptable context."
+    },
+    {
+      "id": "TB-15",
+      "category": "translation_bridge",
+      "query": "walk by faith not by sight scripture",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "2co",
+          "chapter": 5,
+          "verseStart": 7,
+          "verseEnd": 7
+        }
+      ],
+      "notes": "KJV, ESV and WEB read 'for we walk by faith, not by sight' (KJV in parentheses). NIV has 'For we live by faith, not by sight', which systems must also map here. Distractors to rank lower: Habakkuk 2:4, Romans 1:17 and Hebrews 10:38 ('the righteous shall live by faith') and Hebrews 11:1 (faith as evidence of things not seen)."
+    },
+    {
+      "id": "TD-01",
+      "category": "thematic_doctrinal",
+      "query": "What did Jesus say about eternal life?",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "jhn",
+          "chapter": 3,
+          "verseStart": 14,
+          "verseEnd": 16
+        },
+        {
+          "book": "jhn",
+          "chapter": 5,
+          "verseStart": 24,
+          "verseEnd": 24
+        },
+        {
+          "book": "jhn",
+          "chapter": 17,
+          "verseStart": 3,
+          "verseEnd": 3
+        }
+      ],
+      "notes": "Core Johannine teaching. John 3:14-15 is clearly Jesus speaking to Nicodemus. Some scholars read 3:16 as the evangelist's commentary, but retrieval should still surface it. John 5:24 covers passing from death to life by hearing and believing. John 17:3 defines eternal life as knowing the Father and Jesus Christ. Acceptable secondary hits: Jhn 10:27-28, Jhn 11:25-26, Mat 19:16-21, Jhn 6:40."
+    },
+    {
+      "id": "TD-02",
+      "category": "thematic_doctrinal",
+      "query": "bible verses about anxiety and not worrying about tomorrow",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "mat",
+          "chapter": 6,
+          "verseStart": 25,
+          "verseEnd": 34
+        },
+        {
+          "book": "php",
+          "chapter": 4,
+          "verseStart": 6,
+          "verseEnd": 7
+        },
+        {
+          "book": "1pe",
+          "chapter": 5,
+          "verseStart": 7,
+          "verseEnd": 7
+        }
+      ],
+      "notes": "Sermon on the Mount teaching on worry (birds of the sky, lilies, 'don't be anxious for tomorrow'). Php 4:6-7 is the prayer-and-peace antidote to anxiety. 1 Pet 5:7 says to cast all your worries on him. Secondary hits: Psa 55:22, Luk 12:22-31."
+    },
+    {
+      "id": "TD-03",
+      "category": "thematic_doctrinal",
+      "query": "How many times am I supposed to forgive someone who keeps hurting me?",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "mat",
+          "chapter": 18,
+          "verseStart": 21,
+          "verseEnd": 35
+        },
+        {
+          "book": "eph",
+          "chapter": 4,
+          "verseStart": 31,
+          "verseEnd": 32
+        },
+        {
+          "book": "col",
+          "chapter": 3,
+          "verseStart": 13,
+          "verseEnd": 13
+        }
+      ],
+      "notes": "Peter's question and the answer 'seventy times seven', followed by the parable of the unforgiving servant. Eph 4:32 and Col 3:13 ground forgiving others in God's forgiveness in Christ. Secondary hits: Luk 17:3-4, Mat 6:14-15."
+    },
+    {
+      "id": "TD-04",
+      "category": "thematic_doctrinal",
+      "query": "scripture for comfort when grieving the death of a loved one",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "1th",
+          "chapter": 4,
+          "verseStart": 13,
+          "verseEnd": 18
+        },
+        {
+          "book": "jhn",
+          "chapter": 11,
+          "verseStart": 25,
+          "verseEnd": 26
+        },
+        {
+          "book": "rev",
+          "chapter": 21,
+          "verseStart": 3,
+          "verseEnd": 4
+        }
+      ],
+      "notes": "1 Thess 4:13-18 says believers do not grieve as those without hope, and ends 'comfort one another with these words'. Jhn 11:25-26 is 'I am the resurrection and the life', spoken at Lazarus' death. Rev 21:4 promises God will wipe away every tear. Secondary hits: Psa 23, 2Co 1:3-4, Mat 5:4, Psa 34:18."
+    },
+    {
+      "id": "TD-05",
+      "category": "thematic_doctrinal",
+      "query": "what did Jesus teach about servant leadership and humility",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "mrk",
+          "chapter": 10,
+          "verseStart": 42,
+          "verseEnd": 45
+        },
+        {
+          "book": "jhn",
+          "chapter": 13,
+          "verseStart": 12,
+          "verseEnd": 17
+        },
+        {
+          "book": "php",
+          "chapter": 2,
+          "verseStart": 3,
+          "verseEnd": 8
+        }
+      ],
+      "notes": "Mark 10:42-45 contrasts Gentile rulers with servanthood and says the Son of Man came to serve. Jhn 13:12-17 is the foot-washing example. Php 2:3-8 is the Christ-hymn calling believers to humble self-emptying. Secondary hits: Mat 20:25-28, Luk 22:24-27, 1Pe 5:5-6."
+    },
+    {
+      "id": "TD-06",
+      "category": "thematic_doctrinal",
+      "query": "Are we saved by grace through faith or by doing good works?",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "eph",
+          "chapter": 2,
+          "verseStart": 8,
+          "verseEnd": 10
+        },
+        {
+          "book": "rom",
+          "chapter": 3,
+          "verseStart": 21,
+          "verseEnd": 28
+        },
+        {
+          "book": "tit",
+          "chapter": 3,
+          "verseStart": 4,
+          "verseEnd": 7
+        }
+      ],
+      "notes": "Eph 2:8-10 is the locus classicus: saved by grace through faith, not of works, yet created for good works. Rom 3:21-28 covers justification by faith apart from the works of the law. Tit 3:5 says 'not by works of righteousness'. A good answer may also surface Jas 2:14-26 for balance, but it is not a core target."
+    },
+    {
+      "id": "TD-07",
+      "category": "thematic_doctrinal",
+      "query": "How did Jesus teach his disciples to pray?",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "mat",
+          "chapter": 6,
+          "verseStart": 5,
+          "verseEnd": 13
+        },
+        {
+          "book": "luk",
+          "chapter": 11,
+          "verseStart": 1,
+          "verseEnd": 13
+        }
+      ],
+      "notes": "Two Lord's Prayer accounts. Matthew sets it in the Sermon on the Mount with warnings against hypocritical and babbling prayer. Luke adds the persistent friend at midnight and ask/seek/knock. Secondary hits: Luk 18:1-8, 1Th 5:17."
+    },
+    {
+      "id": "TD-08",
+      "category": "thematic_doctrinal",
+      "query": "what does the bible say about tithing and cheerful generous giving",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "2co",
+          "chapter": 9,
+          "verseStart": 6,
+          "verseEnd": 11
+        },
+        {
+          "book": "mal",
+          "chapter": 3,
+          "verseStart": 8,
+          "verseEnd": 10
+        },
+        {
+          "book": "act",
+          "chapter": 20,
+          "verseStart": 35,
+          "verseEnd": 35
+        }
+      ],
+      "notes": "2 Cor 9:7 says God loves a cheerful giver, with sowing and reaping generously. Mal 3:8-10 is the classic tithe text ('bring the whole tithe into the storehouse'). Acts 20:35 quotes Jesus: 'It is more blessed to give than to receive.' Secondary hits: Luk 21:1-4, 1Ti 6:17-19, Pro 3:9-10."
+    },
+    {
+      "id": "TD-09",
+      "category": "thematic_doctrinal",
+      "query": "How do I ask God for wisdom when I don't know what decision to make?",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "jas",
+          "chapter": 1,
+          "verseStart": 5,
+          "verseEnd": 8
+        },
+        {
+          "book": "pro",
+          "chapter": 3,
+          "verseStart": 5,
+          "verseEnd": 6
+        },
+        {
+          "book": "pro",
+          "chapter": 2,
+          "verseStart": 1,
+          "verseEnd": 6
+        }
+      ],
+      "notes": "Jas 1:5 says to ask God, who gives wisdom generously, while asking in faith without doubting. Pro 3:5-6 says trust in the LORD and he will direct your paths. Pro 2:6 says the LORD gives wisdom. Secondary hits: Pro 1:7, Psa 32:8."
+    },
+    {
+      "id": "TD-10",
+      "category": "thematic_doctrinal",
+      "query": "What does God require of us regarding justice for the poor and oppressed?",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "mic",
+          "chapter": 6,
+          "verseStart": 8,
+          "verseEnd": 8
+        },
+        {
+          "book": "amo",
+          "chapter": 5,
+          "verseStart": 21,
+          "verseEnd": 24
+        },
+        {
+          "book": "isa",
+          "chapter": 1,
+          "verseStart": 16,
+          "verseEnd": 17
+        }
+      ],
+      "notes": "Mic 6:8: do justly, love mercy, walk humbly. Amos 5:24: let justice roll down like waters, in the context of God rejecting worship without justice. Isa 1:17: seek justice, defend the fatherless, plead for the widow. Secondary hits: Pro 31:8-9, Jer 22:3, Jas 1:27, Pro 14:31."
+    },
+    {
+      "id": "TD-11",
+      "category": "thematic_doctrinal",
+      "query": "bible passages on love and marriage between husband and wife",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "eph",
+          "chapter": 5,
+          "verseStart": 25,
+          "verseEnd": 33
+        },
+        {
+          "book": "1co",
+          "chapter": 13,
+          "verseStart": 4,
+          "verseEnd": 7
+        },
+        {
+          "book": "gen",
+          "chapter": 2,
+          "verseStart": 24,
+          "verseEnd": 24
+        }
+      ],
+      "notes": "Eph 5:25-33: husbands love wives as Christ loved the church, the two become one flesh. 1 Cor 13:4-7 is the 'love is patient, love is kind' passage, commonly read at weddings. Gen 2:24 is the foundational one-flesh text, quoted by Jesus in Mat 19:5 and Mrk 10:7-8. Secondary hits: Mrk 10:6-9, Col 3:18-19, Sng 8:6-7."
+    },
+    {
+      "id": "TD-12",
+      "category": "thematic_doctrinal",
+      "query": "What does true repentance look like and how do I turn back to God after sinning?",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "psa",
+          "chapter": 51,
+          "verseStart": 1,
+          "verseEnd": 12
+        },
+        {
+          "book": "act",
+          "chapter": 3,
+          "verseStart": 19,
+          "verseEnd": 19
+        },
+        {
+          "book": "2co",
+          "chapter": 7,
+          "verseStart": 9,
+          "verseEnd": 10
+        }
+      ],
+      "notes": "Psalm 51 is David's penitential prayer ('create in me a clean heart'), using WEB English verse numbering. Acts 3:19: repent and turn again so your sins may be blotted out. 2 Cor 7:10 distinguishes godly sorrow that leads to repentance from worldly sorrow. Secondary hits: Luk 15:11-32 (prodigal son), 1Jn 1:9, Joel 2:12-13."
+    },
+    {
+      "id": "TD-13",
+      "category": "thematic_doctrinal",
+      "query": "What is the armor of God and how do Christians fight spiritual warfare?",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "eph",
+          "chapter": 6,
+          "verseStart": 10,
+          "verseEnd": 18
+        },
+        {
+          "book": "2co",
+          "chapter": 10,
+          "verseStart": 3,
+          "verseEnd": 5
+        },
+        {
+          "book": "jas",
+          "chapter": 4,
+          "verseStart": 7,
+          "verseEnd": 7
+        }
+      ],
+      "notes": "Eph 6:10-18 is the full armor of God, wrestling not against flesh and blood. 2 Cor 10:3-5 says the weapons of our warfare are not fleshly and take every thought captive. Jas 4:7: submit to God, resist the devil and he will flee. Secondary hits: 1Pe 5:8-9, Mat 4:1-11. Any devil quotations in Mat 4 must not be attributed to God."
+    },
+    {
+      "id": "TD-14",
+      "category": "thematic_doctrinal",
+      "query": "where can I find hope in the bible when I'm going through suffering",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "rom",
+          "chapter": 8,
+          "verseStart": 18,
+          "verseEnd": 28
+        },
+        {
+          "book": "rom",
+          "chapter": 5,
+          "verseStart": 1,
+          "verseEnd": 5
+        },
+        {
+          "book": "2co",
+          "chapter": 4,
+          "verseStart": 16,
+          "verseEnd": 18
+        }
+      ],
+      "notes": "Rom 8:18 says present sufferings are not worthy to be compared with the coming glory, and 8:28 that all things work together for good. Rom 5:3-5: suffering produces perseverance, character, and hope that does not disappoint. 2 Cor 4:17 speaks of light momentary affliction and an eternal weight of glory. Secondary hits: 1Pe 4:12-13, Lam 3:21-26, Jas 1:2-4. The speeches of Job's friends should not be returned as authoritative answers."
+    },
+    {
+      "id": "TD-15",
+      "category": "thematic_doctrinal",
+      "query": "What does the Bible say about caring for the earth and being stewards of creation?",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "gen",
+          "chapter": 1,
+          "verseStart": 26,
+          "verseEnd": 28
+        },
+        {
+          "book": "gen",
+          "chapter": 2,
+          "verseStart": 15,
+          "verseEnd": 15
+        },
+        {
+          "book": "psa",
+          "chapter": 24,
+          "verseStart": 1,
+          "verseEnd": 2
+        }
+      ],
+      "notes": "Gen 1:26-28 is the creation mandate and human dominion as image-bearers. Gen 2:15: God put man in the garden 'to cultivate and keep it', the stewardship framing. Psa 24:1: the earth is the LORD's, which grounds ownership in God rather than humans. Secondary hits: Lev 25:23-24, Psa 104, Rom 8:19-22."
+    },
+    {
+      "id": "BA-01",
+      "category": "book_author_constraints",
+      "query": "What does Paul say about love in his letters to the Corinthians?",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "1co",
+          "chapter": 13,
+          "verseStart": 1,
+          "verseEnd": 13
+        }
+      ],
+      "notes": "Author plus corpus constraint (Paul, Corinthian correspondence). The primary target is the love chapter, 1 Corinthians 13. The system must stay within 1co/2co. It should not surface 1 John 4:7-21, which is a different author and has the strongest lexical overlap on 'love.' It should also not lead with Romans 13:8-10, which is Paul but the wrong letter."
+    },
+    {
+      "id": "BA-02",
+      "category": "book_author_constraints",
+      "query": "James on taming the tongue",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "jas",
+          "chapter": 3,
+          "verseStart": 1,
+          "verseEnd": 12
+        }
+      ],
+      "notes": "Book constraint (James). The target is the tongue discourse in James 3:1-12: the bridle, the ship's rudder, the small fire, the untameable tongue, and blessing and cursing from one mouth. The system must not substitute Proverbs passages on speech, such as Proverbs 18:21 or 15:1, or Psalm 34:13, even though they are thematically close."
+    },
+    {
+      "id": "BA-03",
+      "category": "book_author_constraints",
+      "query": "Isaiah's suffering servant passage - wounded for our transgressions",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "isa",
+          "chapter": 53,
+          "verseStart": 1,
+          "verseEnd": 12
+        },
+        {
+          "book": "isa",
+          "chapter": 52,
+          "verseStart": 13,
+          "verseEnd": 15
+        }
+      ],
+      "notes": "Book constraint (Isaiah). The primary target is Isaiah 53:1-12; the phrase 'wounded for our transgressions' is 53:5. The Fourth Servant Song formally begins at 52:13, so 52:13-15 is an acceptable secondary hit. The system must not return the NT quotations of this passage in place of the Isaiah source, namely Acts 8:32-33 and 1 Peter 2:22-25."
+    },
+    {
+      "id": "BA-04",
+      "category": "book_author_constraints",
+      "query": "Hebrews chapter on faith and the heroes of faith",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "heb",
+          "chapter": 11,
+          "verseStart": 1,
+          "verseEnd": 40
+        }
+      ],
+      "notes": "Book constraint (Hebrews). The target is the full faith chapter, Hebrews 11:1-40: the definition of faith in 11:1 and the roll call of Abel, Enoch, Noah, Abraham, Moses and others. The system should not substitute Pauline faith passages such as Romans 4 or Galatians 3, and should not open with James 2:14-26 on faith and works."
+    },
+    {
+      "id": "BA-05",
+      "category": "book_author_constraints",
+      "query": "Psalm about God being our refuge and strength, a very present help in trouble",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "psa",
+          "chapter": 46,
+          "verseStart": 1,
+          "verseEnd": 11
+        }
+      ],
+      "notes": "Book constraint (Psalms). The target is Psalm 46, which has 11 verses in English versification. The quoted wording is 46:1, and the psalm also contains 'Be still, and know that I am God' (46:10). Psalm 91 and Psalm 18:2 are plausible distractors on 'refuge.' The system should rank Psalm 46 first because the query echoes 46:1."
+    },
+    {
+      "id": "BA-06",
+      "category": "book_author_constraints",
+      "query": "Romans - nothing can separate us from the love of God",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "rom",
+          "chapter": 8,
+          "verseStart": 31,
+          "verseEnd": 39
+        }
+      ],
+      "notes": "Book constraint (Romans). The target is Romans 8:31-39, Paul's climax beginning 'If God is for us, who can be against us?', with the 'neither death nor life' list in 8:38-39. The system must not drift to John 10:28-29 or 1 John 4 on God's love. Note that WEB Romans 16 ends at verse 25, which does not affect this target."
+    },
+    {
+      "id": "BA-07",
+      "category": "book_author_constraints",
+      "query": "fruit of the Spirit list in Galatians",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "gal",
+          "chapter": 5,
+          "verseStart": 22,
+          "verseEnd": 23
+        }
+      ],
+      "notes": "Book constraint (Galatians). The target is Galatians 5:22-23: love, joy, peace, patience, kindness, goodness, faith, gentleness, self-control. The system should not substitute Ephesians 5:9, which mentions the 'fruit of the light/Spirit,' or 1 Corinthians 12 on gifts of the Spirit, since the user named Galatians. The contrasting works of the flesh in 5:19-21 are acceptable as context but should not outrank the target."
+    },
+    {
+      "id": "BA-08",
+      "category": "book_author_constraints",
+      "query": "Ephesians put on the whole armor of God",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "eph",
+          "chapter": 6,
+          "verseStart": 10,
+          "verseEnd": 18
+        }
+      ],
+      "notes": "Book constraint (Ephesians). The target is Ephesians 6:10-18: the belt of truth, breastplate of righteousness, shield of faith, helmet of salvation, sword of the Spirit, and prayer in 6:18. The system must not substitute 1 Thessalonians 5:8 (breastplate of faith and love) or Romans 13:12 ('armor of light'), which are Pauline but the wrong book."
+    },
+    {
+      "id": "BA-09",
+      "category": "book_author_constraints",
+      "query": "Proverbs verse about trusting in the Lord with all your heart and not leaning on your own understanding",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "pro",
+          "chapter": 3,
+          "verseStart": 5,
+          "verseEnd": 6
+        }
+      ],
+      "notes": "Book constraint (Proverbs). The target is Proverbs 3:5-6, with the 'he will make your paths straight' promise in 3:6. The system should not lead with Psalm 37:3-5 or Isaiah 26:3-4 on trust, which come from different books. The book name in the query should firmly anchor Proverbs."
+    },
+    {
+      "id": "BA-10",
+      "category": "book_author_constraints",
+      "query": "What does Peter say about humbling yourself and suffering a little while?",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "1pe",
+          "chapter": 5,
+          "verseStart": 6,
+          "verseEnd": 10
+        }
+      ],
+      "notes": "Author constraint (Peter). This is ambiguous across 1 Peter and 2 Peter, so the system must resolve it to 1 Peter. The target is 1 Peter 5:6-10: humble yourselves under God's mighty hand, cast all your worries on him, the devil as a roaring lion, and 'after you have suffered a little while' restoration (5:10). 1 Peter 5:5 quotes Proverbs 3:34, but the system should not return Proverbs or James 4:6-10, which is parallel humility language by a different author."
+    },
+    {
+      "id": "BA-11",
+      "category": "book_author_constraints",
+      "query": "Revelation God will wipe away every tear, no more death or crying",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "rev",
+          "chapter": 21,
+          "verseStart": 1,
+          "verseEnd": 5
+        }
+      ],
+      "notes": "Book constraint (Revelation). The target is Revelation 21:1-5: the new heaven and new earth, the tear-wiping promise in 21:4, and 'I make all things new' in 21:5. The system must stay in Revelation 21 rather than Revelation 7:17, which shares the tear-wiping phrase but is the wrong context. It must not return the OT source Isaiah 25:8, which is outside the book constraint."
+    },
+    {
+      "id": "BA-12",
+      "category": "book_author_constraints",
+      "query": "Jeremiah prophecy of the new covenant written on their hearts",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "jer",
+          "chapter": 31,
+          "verseStart": 31,
+          "verseEnd": 34
+        }
+      ],
+      "notes": "Book constraint (Jeremiah). The target is Jeremiah 31:31-34; 'I will write it in their heart' is 31:33. Hebrews 8:8-12 and 10:16-17 quote this passage nearly verbatim and are strong lexical distractors. The system must return the Jeremiah source, not the Hebrews citations. Ezekiel 36:26 (heart of flesh) is also a related but wrong-book distractor."
+    },
+    {
+      "id": "BA-13",
+      "category": "book_author_constraints",
+      "query": "Micah what does the Lord require of you - do justice, love mercy, walk humbly",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "mic",
+          "chapter": 6,
+          "verseStart": 8,
+          "verseEnd": 8
+        }
+      ],
+      "notes": "Book constraint (Micah). The target is the single verse Micah 6:8, which in the WEB reads 'to act justly, to love mercy, and to walk humbly with your God.' The system should not substitute thematically similar prophetic texts such as Amos 5:24, Hosea 6:6 or Isaiah 1:17. The 'love mercy' paraphrase in the query should still match the WEB wording."
+    },
+    {
+      "id": "BA-14",
+      "category": "book_author_constraints",
+      "query": "Gospel of John - In the beginning was the Word, and the Word became flesh",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "jhn",
+          "chapter": 1,
+          "verseStart": 1,
+          "verseEnd": 14
+        }
+      ],
+      "notes": "Book constraint (Gospel of John). The target is the prologue, John 1:1-14, with 'the Word became flesh' at 1:14. The system must not confuse it with Genesis 1:1, which shares the opening 'In the beginning.' It must also not return 1 John 1:1-3, which uses similar 'Word of life' language but is a different book, though plausibly the same author. The query explicitly says Gospel, so jhn is required."
+    },
+    {
+      "id": "BA-15",
+      "category": "book_author_constraints",
+      "query": "What are all the statements in John 6 about Jesus body?",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "jhn",
+          "chapter": 6,
+          "verseStart": 35,
+          "verseEnd": 58
+        }
+      ],
+      "notes": "Real Vercel Analytics production query: book and chapter constrained Bread of Life discourse (John 6:35-58)."
+    },
+    {
+      "id": "SP-01",
+      "category": "speaker_polarity_traps",
+      "query": "though your beginning was small your latter end will greatly increase bible promise",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": true,
+      "expectedPassages": [
+        {
+          "book": "job",
+          "chapter": 8,
+          "verseStart": 5,
+          "verseEnd": 7
+        },
+        {
+          "book": "job",
+          "chapter": 42,
+          "verseStart": 7,
+          "verseEnd": 8
+        }
+      ],
+      "notes": "Speaker: Bildad the Shuhite (Job 8:1), one of Job's three friends. His promise is conditional ('if you were pure and upright') and rests on his flawed retribution theology. God rebukes Eliphaz, Bildad, and Zophar in Job 42:7-8 for not speaking what is right. The system must not present Job 8:7 as a direct divine promise. Job 42:7-8 is the context passage that grounds the caution."
+    },
+    {
+      "id": "SP-02",
+      "category": "speaker_polarity_traps",
+      "query": "man is born to trouble as the sparks fly upward meaning",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": true,
+      "expectedPassages": [
+        {
+          "book": "job",
+          "chapter": 5,
+          "verseStart": 6,
+          "verseEnd": 7
+        }
+      ],
+      "notes": "Speaker: Eliphaz the Temanite, first speech (Job 4:1-5:27). That speech also includes his claimed night-spirit revelation in Job 4:12-17. Eliphaz is among the friends rebuked by God in Job 42:7. Attribute the line to Eliphaz, not to God or Job. Do not cite it as an authoritative divine statement on suffering."
+    },
+    {
+      "id": "SP-03",
+      "category": "speaker_polarity_traps",
+      "query": "acquaint now yourself with him and be at peace thereby good shall come",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": true,
+      "expectedPassages": [
+        {
+          "book": "job",
+          "chapter": 22,
+          "verseStart": 21,
+          "verseEnd": 22
+        }
+      ],
+      "notes": "Speaker: Eliphaz, third speech (Job 22:1). The verse is popular in devotionals, but in context it accompanies false accusations against Job (Job 22:5-9). God says in Job 42:7 that Eliphaz did not speak rightly. The system must attribute it to Eliphaz and flag the rebuked-counselor context."
+    },
+    {
+      "id": "SP-04",
+      "category": "speaker_polarity_traps",
+      "query": "verse that says the innocent never perish and the wicked writhe in pain all their days",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": true,
+      "expectedPassages": [
+        {
+          "book": "job",
+          "chapter": 4,
+          "verseStart": 7,
+          "verseEnd": 8
+        },
+        {
+          "book": "job",
+          "chapter": 11,
+          "verseStart": 20,
+          "verseEnd": 20
+        },
+        {
+          "book": "job",
+          "chapter": 15,
+          "verseStart": 20,
+          "verseEnd": 24
+        }
+      ],
+      "notes": "Three speakers share this strict-retribution claim. Job 4:7-8 and 15:20-24 are Eliphaz; Job 11:20 is Zophar the Naamathite (Job 11:1). Job's suffering as an innocent man (Job 1:1, 1:8) and God's verdict in Job 42:7 refute this theology. The system must not present 'the innocent never perish' as God's teaching."
+    },
+    {
+      "id": "SP-05",
+      "category": "speaker_polarity_traps",
+      "query": "God speaks once yes twice in a dream in a vision of the night",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": true,
+      "expectedPassages": [
+        {
+          "book": "job",
+          "chapter": 33,
+          "verseStart": 14,
+          "verseEnd": 18
+        }
+      ],
+      "notes": "Speaker: Elihu son of Barachel (Job 32:2), a young human interlocutor whose speeches run through Job 32-37. God neither explicitly commends nor rebukes him: he is absent from the Job 42:7 rebuke, but God's opening question in Job 38:2 may be aimed at him. The words are a human argument, not a divine oracle. The system must attribute them to Elihu, not to God."
+    },
+    {
+      "id": "SP-06",
+      "category": "speaker_polarity_traps",
+      "query": "he will give his angels charge over you lest you dash your foot against a stone and all these kingdoms I will give you temptation of Jesus",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": true,
+      "expectedPassages": [
+        {
+          "book": "mat",
+          "chapter": 4,
+          "verseStart": 5,
+          "verseEnd": 9
+        },
+        {
+          "book": "luk",
+          "chapter": 4,
+          "verseStart": 5,
+          "verseEnd": 11
+        }
+      ],
+      "notes": "Speaker: the devil/Satan. He quotes Psalm 91:11-12 out of context to tempt Jesus to jump from the temple pinnacle (Matt 4:6; Luke 4:10-11). He also offers all the kingdoms of the world in exchange for worship (Luke 4:5-7; Matt 4:8-9). Jesus rejects both (Matt 4:7, 4:10; Luke 4:8, 4:12). The system must flag Satan as speaker and must not treat his offer or his use of Psalm 91 as endorsed. If Psalm 91:11-12 is surfaced, it should be identified as the source text being misapplied."
+    },
+    {
+      "id": "SP-07",
+      "category": "speaker_polarity_traps",
+      "query": "I know who you are the Holy One of God demon in the synagogue",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": true,
+      "expectedPassages": [
+        {
+          "book": "luk",
+          "chapter": 4,
+          "verseStart": 33,
+          "verseEnd": 35
+        },
+        {
+          "book": "mrk",
+          "chapter": 1,
+          "verseStart": 23,
+          "verseEnd": 26
+        }
+      ],
+      "notes": "Speaker: an unclean spirit/demon possessing a man in the Capernaum synagogue. The title is accurate, but Jesus rebukes and silences the demon ('Be silent, and come out of him!'). This is demonic speech that Jesus did not accept, not a model confession. The system must attribute it to the demon."
+    },
+    {
+      "id": "SP-08",
+      "category": "speaker_polarity_traps",
+      "query": "you will not surely die your eyes will be opened and you will be like God",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": true,
+      "expectedPassages": [
+        {
+          "book": "gen",
+          "chapter": 3,
+          "verseStart": 1,
+          "verseEnd": 5
+        }
+      ],
+      "notes": "Speaker: the serpent, the tempter, contradicting God's command in Gen 2:17. These are deceptive words; Gen 3:13 has Eve say 'The serpent deceived me.' The system must never present 'you will be like God' or 'you will not surely die' as a divine promise."
+    },
+    {
+      "id": "SP-09",
+      "category": "speaker_polarity_traps",
+      "query": "if Cain is avenged seven times truly Lamech seventy-seven times",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": true,
+      "expectedPassages": [
+        {
+          "book": "gen",
+          "chapter": 4,
+          "verseStart": 23,
+          "verseEnd": 24
+        }
+      ],
+      "notes": "Speaker: Lamech, descendant of Cain, boasting to his wives Adah and Zillah about killing a man. This is a violent vengeance song, not divine instruction; contrast God's protective mark on Cain in Gen 4:15. Jesus' 'seventy times seven' on forgiveness (Matt 18:22) reverses its spirit. The system must attribute the song to Lamech."
+    },
+    {
+      "id": "SP-10",
+      "category": "speaker_polarity_traps",
+      "query": "bible verse that says there is no God",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": true,
+      "expectedPassages": [
+        {
+          "book": "psa",
+          "chapter": 14,
+          "verseStart": 1,
+          "verseEnd": 1
+        },
+        {
+          "book": "psa",
+          "chapter": 53,
+          "verseStart": 1,
+          "verseEnd": 1
+        }
+      ],
+      "notes": "The words 'There is no God' are put in the mouth of the fool: 'The fool has said in his heart, There is no God' (Psalm 14:1; parallel Psalm 53:1). The psalmist condemns this statement. The system must not return the phrase stripped of its speaker or imply that Scripture asserts it."
+    },
+    {
+      "id": "SP-11",
+      "category": "speaker_polarity_traps",
+      "query": "let us eat and drink for tomorrow we die bible",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": true,
+      "expectedPassages": [
+        {
+          "book": "1co",
+          "chapter": 15,
+          "verseStart": 32,
+          "verseEnd": 34
+        },
+        {
+          "book": "isa",
+          "chapter": 22,
+          "verseStart": 13,
+          "verseEnd": 14
+        }
+      ],
+      "notes": "In 1 Cor 15:32 Paul cites this slogan hypothetically: it is the logic of those who deny the resurrection. He then warns 'Don't be deceived' (15:33-34). In Isa 22:13 it is the reckless saying of Jerusalem's revelers, which the LORD condemns in 22:14. It is not an endorsed life philosophy. The system must attribute it to the rejected viewpoint, not to Paul or God."
+    },
+    {
+      "id": "SP-12",
+      "category": "speaker_polarity_traps",
+      "query": "it is expedient that one man should die for the people",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": true,
+      "expectedPassages": [
+        {
+          "book": "jhn",
+          "chapter": 11,
+          "verseStart": 49,
+          "verseEnd": 53
+        },
+        {
+          "book": "jhn",
+          "chapter": 18,
+          "verseStart": 14,
+          "verseEnd": 14
+        }
+      ],
+      "notes": "Speaker: Caiaphas the high priest, arguing politically for Jesus' death. John 11:51-52 says he unwittingly prophesied, but his intent was to plot murder (11:53). The system must attribute the line to Caiaphas, not present it as Jesus' or God's direct teaching, and note the ironic-prophecy framing."
+    },
+    {
+      "id": "SP-13",
+      "category": "speaker_polarity_traps",
+      "query": "don't let Hezekiah make you trust in the LORD saying the LORD will deliver us",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": true,
+      "expectedPassages": [
+        {
+          "book": "2ki",
+          "chapter": 18,
+          "verseStart": 28,
+          "verseEnd": 35
+        },
+        {
+          "book": "isa",
+          "chapter": 36,
+          "verseStart": 13,
+          "verseEnd": 20
+        }
+      ],
+      "notes": "Speaker: the Rabshakeh, the Assyrian field commander sent by Sennacherib. He mocks Judah's trust in the LORD and claims no god can deliver from Assyria. God refutes him through Isaiah (2 Ki 19:6-7) and by destroying the Assyrian army (2 Ki 19:35). The system must treat this as enemy propaganda, not divine counsel."
+    },
+    {
+      "id": "SP-14",
+      "category": "speaker_polarity_traps",
+      "query": "I have broken the yoke of the king of Babylon within two years prophecy",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": true,
+      "expectedPassages": [
+        {
+          "book": "jer",
+          "chapter": 28,
+          "verseStart": 1,
+          "verseEnd": 4
+        },
+        {
+          "book": "jer",
+          "chapter": 28,
+          "verseStart": 15,
+          "verseEnd": 17
+        }
+      ],
+      "notes": "Speaker: Hananiah son of Azzur, a false prophet who used the formula 'Thus says the LORD' while prophesying false peace. Jeremiah exposes him: 'The LORD has not sent you' (Jer 28:15). Hananiah dies that same year (28:17). The system must flag that this 'thus says the LORD' is false prophecy and not God's word."
+    },
+    {
+      "id": "SP-15",
+      "category": "speaker_polarity_traps",
+      "query": "he casts out demons by Beelzebul the prince of the demons",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": true,
+      "expectedPassages": [
+        {
+          "book": "mat",
+          "chapter": 12,
+          "verseStart": 24,
+          "verseEnd": 28
+        },
+        {
+          "book": "mrk",
+          "chapter": 3,
+          "verseStart": 22,
+          "verseEnd": 27
+        },
+        {
+          "book": "luk",
+          "chapter": 11,
+          "verseStart": 15,
+          "verseEnd": 20
+        }
+      ],
+      "notes": "Speakers: the Pharisees (Matt 12:24), the scribes from Jerusalem (Mark 3:22), and some in the crowd (Luke 11:15), slandering Jesus. Jesus refutes the accusation with the divided-kingdom argument. The system must attribute it to Jesus' opponents and surface his rebuttal, never implying that Scripture affirms the charge."
+    },
+    {
+      "id": "MR-01",
+      "category": "messy_references",
+      "query": "jn 3:16",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "jhn",
+          "chapter": 3,
+          "verseStart": 16,
+          "verseEnd": 16
+        }
+      ],
+      "notes": "Two-letter abbreviation 'jn' must resolve to John (jhn), not Jonah (jon), Joel (jol), or 1 John (1jn). Single verse: 'For God so loved the world...'"
+    },
+    {
+      "id": "MR-02",
+      "category": "messy_references",
+      "query": "1 cor 13:4-7",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "1co",
+          "chapter": 13,
+          "verseStart": 4,
+          "verseEnd": 7
+        }
+      ],
+      "notes": "Numeric prefix with a space and the 'cor' abbreviation must map to 1 Corinthians (1co), not 2 Corinthians. Verse range 4-7 is the 'love is patient and kind' definition passage. The parser must keep the full hyphenated range."
+    },
+    {
+      "id": "MR-03",
+      "category": "messy_references",
+      "query": "ps 23",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "psa",
+          "chapter": 23,
+          "verseStart": 1,
+          "verseEnd": 6
+        }
+      ],
+      "notes": "Chapter-only reference with the 'ps' abbreviation for Psalms. The system should return the whole Psalm 23 (verses 1-6, 'Yahweh is my shepherd'). It must not default to verse 1 only, and must not confuse 'ps' with Proverbs."
+    },
+    {
+      "id": "MR-04",
+      "category": "messy_references",
+      "query": "2nd tim 3:16-17",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "2ti",
+          "chapter": 3,
+          "verseStart": 16,
+          "verseEnd": 17
+        }
+      ],
+      "notes": "Ordinal word prefix '2nd' plus the abbreviation 'tim' must normalize to 2 Timothy (2ti), not 1 Timothy. The passage is 'Every Scripture is God-breathed...' and verse 17 is the last verse of the chapter."
+    },
+    {
+      "id": "MR-05",
+      "category": "messy_references",
+      "query": "gen 1:1-3",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "gen",
+          "chapter": 1,
+          "verseStart": 1,
+          "verseEnd": 3
+        }
+      ],
+      "notes": "A standard short abbreviation that happens to equal the canonical code. The range covers creation's opening and 'Let there be light.' This is a baseline test that range parsing keeps all three verses."
+    },
+    {
+      "id": "MR-06",
+      "category": "messy_references",
+      "query": "matt 5:3-10",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "mat",
+          "chapter": 5,
+          "verseStart": 3,
+          "verseEnd": 10
+        }
+      ],
+      "notes": "Four-letter abbreviation 'matt' must normalize to Matthew (mat). Verses 3-10 are the eight Beatitudes. The system should not stretch the range to 5:11-12 unless it clearly marks those as context."
+    },
+    {
+      "id": "MR-07",
+      "category": "messy_references",
+      "query": "rom 8 28",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "rom",
+          "chapter": 8,
+          "verseStart": 28,
+          "verseEnd": 28
+        }
+      ],
+      "notes": "There is no colon, only a space between chapter and verse. The parser must read '8 28' as chapter 8, verse 28 ('all things work together for good'), not as chapter 8 or chapter 28. Romans has only 16 chapters, so a chapter-28 reading is invalid."
+    },
+    {
+      "id": "MR-08",
+      "category": "messy_references",
+      "query": "1st john 4:8",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "1jn",
+          "chapter": 4,
+          "verseStart": 8,
+          "verseEnd": 8
+        }
+      ],
+      "notes": "Ordinal '1st' with the full book name 'john' must resolve to the epistle 1 John (1jn), not the Gospel of John (jhn). Single verse: 'God is love.'"
+    },
+    {
+      "id": "MR-09",
+      "category": "messy_references",
+      "query": "phil 4:6-7",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "php",
+          "chapter": 4,
+          "verseStart": 6,
+          "verseEnd": 7
+        }
+      ],
+      "notes": "The ambiguous 'phil' abbreviation should resolve to Philippians (php), not Philemon (phm). Philemon has only one chapter, so a chapter-4 reference also rules it out. Passage: 'In nothing be anxious... the peace of God.'"
+    },
+    {
+      "id": "MR-10",
+      "category": "messy_references",
+      "query": "eph 2:8-9",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "eph",
+          "chapter": 2,
+          "verseStart": 8,
+          "verseEnd": 9
+        }
+      ],
+      "notes": "Three-letter abbreviation that matches the canonical code. Passage: 'by grace you have been saved through faith... not of works.' Both verses of the range are required."
+    },
+    {
+      "id": "MR-11",
+      "category": "messy_references",
+      "query": "isa 40:31",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "isa",
+          "chapter": 40,
+          "verseStart": 31,
+          "verseEnd": 31
+        }
+      ],
+      "notes": "Lowercase abbreviation for Isaiah. Verse 31 is the final verse of chapter 40: 'mount up with wings like eagles.' This tests boundary handling at the last verse of a chapter."
+    },
+    {
+      "id": "MR-12",
+      "category": "messy_references",
+      "query": "prov 3:5-6",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "pro",
+          "chapter": 3,
+          "verseStart": 5,
+          "verseEnd": 6
+        }
+      ],
+      "notes": "The 'prov' abbreviation must map to Proverbs (pro). Passage: 'Trust in Yahweh with all your heart... he will make your paths straight.'"
+    },
+    {
+      "id": "MR-13",
+      "category": "messy_references",
+      "query": "phlm 1:15-16",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "phm",
+          "chapter": 1,
+          "verseStart": 15,
+          "verseEnd": 16
+        }
+      ],
+      "notes": "Uses the SBL-style abbreviation 'phlm', which must map to Philemon (phm), not Philippians. Philemon is a single-chapter book with 25 verses, so the explicit '1:' must be handled. Passage: Onesimus received back 'no longer as a slave... a beloved brother.'"
+    },
+    {
+      "id": "MR-14",
+      "category": "messy_references",
+      "query": "rev 21:4",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "rev",
+          "chapter": 21,
+          "verseStart": 4,
+          "verseEnd": 4
+        }
+      ],
+      "notes": "The 'rev' abbreviation must map to Revelation, which users often mistakenly call 'Revelations.' Single verse: 'He will wipe away every tear... death will be no more.'"
+    },
+    {
+      "id": "MR-15",
+      "category": "messy_references",
+      "query": "song of songs 8:6-7",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "sng",
+          "chapter": 8,
+          "verseStart": 6,
+          "verseEnd": 7
+        }
+      ],
+      "notes": "The alternate book title 'Song of Songs' must resolve to Song of Solomon (sng), the WEB canonical name. Passage: 'love is strong as death... Many waters can't quench love.' This tests alias mapping for multi-word book names."
+    },
+    {
+      "id": "AB-01",
+      "category": "non_biblical_abstention",
+      "query": "Where in the Bible does it say God helps those who help themselves?",
+      "shouldAbstain": true,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [],
+      "notes": "ABSTENTION REASON: Not in the Bible. The saying appears in Algernon Sidney's Discourses Concerning Government (c. 1698). It was popularized by Benjamin Franklin's Poor Richard's Almanack (1736). It has ancient Greek antecedents such as Aesop's fable 'Hercules and the Wagoner'. The system must not fabricate a verse or present any passage as the source. It may optionally state that the phrase is a common misattribution. Grading: any retrieved passage presented as the source counts as a failure."
+    },
+    {
+      "id": "AB-02",
+      "category": "non_biblical_abstention",
+      "query": "cleanliness is next to godliness bible verse",
+      "shouldAbstain": true,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [],
+      "notes": "ABSTENTION REASON: Not in the Bible. The phrase is best known from John Wesley's sermon 'On Dress' (1791), which called it a proverb. Similar ideas appear in earlier rabbinic sayings and in Francis Bacon. Levitical purity laws concern ritual cleanness, but no verse contains this phrase. The system must not cite Leviticus or any other text as the source."
+    },
+    {
+      "id": "AB-03",
+      "category": "non_biblical_abstention",
+      "query": "what verse says God works in mysterious ways",
+      "shouldAbstain": true,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [],
+      "notes": "ABSTENTION REASON: Not a Bible verse. It derives from William Cowper's hymn 'Light Shining out of Darkness' (1773), whose first line is 'God moves in a mysterious way'. Isa 55:8-9 and Rom 11:33 express related themes about God's inscrutable ways, but neither contains this saying. The system must not present them as the quotation."
+    },
+    {
+      "id": "AB-04",
+      "category": "non_biblical_abstention",
+      "query": "Is 'this too shall pass' in the Bible? Which book?",
+      "shouldAbstain": true,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [],
+      "notes": "ABSTENTION REASON: Not in the Bible. The phrase comes from medieval Persian Sufi poetry and folklore about a king's ring inscription. It was popularized in English by Edward FitzGerald and by Abraham Lincoln's 1859 address. It is sometimes confused with the KJV formula 'it came to pass' or with 2 Cor 4:17-18 on momentary affliction, but no verse says this. The system must abstain and must not invent a citation."
+    },
+    {
+      "id": "AB-05",
+      "category": "non_biblical_abstention",
+      "query": "hate the sin love the sinner scripture reference",
+      "shouldAbstain": true,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [],
+      "notes": "ABSTENTION REASON: Not a Bible quotation. It traces to Augustine's Letter 211 (c. 424 AD): 'with love for persons and hatred of sins'. Gandhi later popularized the form 'Hate the sin and not the sinner'. Jude 1:22-23 and Rom 12:9 touch on related ideas but do not contain the phrase. The system must not present any verse as its source."
+    },
+    {
+      "id": "AB-06",
+      "category": "non_biblical_abstention",
+      "query": "to thine own self be true kjv verse",
+      "shouldAbstain": true,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [],
+      "notes": "ABSTENTION REASON: Not biblical. The line is from Shakespeare's Hamlet, Act 1 Scene 3, spoken by Polonius to Laertes. Its Elizabethan English makes people assume it is KJV scripture. The system must abstain and must not attribute it to Proverbs or any other book."
+    },
+    {
+      "id": "AB-07",
+      "category": "non_biblical_abstention",
+      "query": "bible verse God will never give you more than you can handle",
+      "shouldAbstain": true,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [],
+      "notes": "ABSTENTION REASON: A misquote, not an actual verse. It is commonly attributed to 1 Cor 10:13. That verse speaks of temptation, saying God 'will not allow you to be tempted above what you are able' and will provide 'the way of escape'. It does not say God limits life's burdens or suffering. Paul elsewhere says he was 'weighed down exceedingly, beyond our power' (2 Cor 1:8). The system must not return the misquoted wording as a verbatim verse. It may note the 1 Cor 10:13 misattribution and its actual wording."
+    },
+    {
+      "id": "AB-08",
+      "category": "non_biblical_abstention",
+      "query": "money is the root of all evil verse",
+      "shouldAbstain": true,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [],
+      "notes": "ABSTENTION REASON: A misquote. The exact phrase 'money is the root of all evil' does not appear in the Bible. 1 Tim 6:10 (WEB) reads 'For the love of money is a root of all kinds of evil.' The verse targets the love of money, not money itself. The system must not affirm the misquoted wording as scripture. It may point to 1 Tim 6:10 as the correction."
+    },
+    {
+      "id": "AB-09",
+      "category": "non_biblical_abstention",
+      "query": "the lion shall lie down with the lamb bible quote",
+      "shouldAbstain": true,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [],
+      "notes": "ABSTENTION REASON: A misquote; no verse pairs the lion lying down with the lamb. Isa 11:6 (WEB) reads 'The wolf will live with the lamb, and the leopard will lie down with the young goat'. Isa 65:25 has 'The wolf and the lamb will feed together, and the lion will eat straw like the ox.' The popular wording conflates these passages and later artwork. The system must not present the misquote as verbatim scripture. It may note Isa 11:6 / Isa 65:25 as the actual texts."
+    },
+    {
+      "id": "AB-10",
+      "category": "non_biblical_abstention",
+      "query": "where does the bible say moderation in all things",
+      "shouldAbstain": true,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [],
+      "notes": "ABSTENTION REASON: Not in the Bible. The maxim comes from Greek wisdom: 'Nothing in excess' (meden agan) was inscribed at Delphi. It also echoes Hesiod and Aristotle's golden mean, and Latin forms such as Horace's 'est modus in rebus'. KJV Php 4:5 'Let your moderation be known unto all men' is sometimes confused with it, but WEB renders that word 'gentleness' and it is not this maxim. The system must abstain and must not cite Php 4:5 or Ecclesiastes as the source."
+    },
+    {
+      "id": "AB-11",
+      "category": "non_biblical_abstention",
+      "query": "What voltage does USB-C Power Delivery use?",
+      "shouldAbstain": true,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [],
+      "notes": "ABSTENTION REASON: Purely out-of-domain consumer electronics / hardware specification question. It has no relation to scripture. The system should decline or redirect and must not retrieve passages via spurious keyword overlap (e.g., 'power'). Any returned Bible passage counts as a precision failure."
+    },
+    {
+      "id": "AB-12",
+      "category": "non_biblical_abstention",
+      "query": "How do I reset my Wi-Fi password?",
+      "shouldAbstain": true,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [],
+      "notes": "ABSTENTION REASON: Out-of-domain home networking / IT support question with no biblical content. The system should abstain rather than surface loosely matched verses on words like 'reset' or 'word'. Any retrieved passage is a failure."
+    },
+    {
+      "id": "AB-13",
+      "category": "non_biblical_abstention",
+      "query": "Kubernetes pod CrashLoopBackOff",
+      "shouldAbstain": true,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [],
+      "notes": "ABSTENTION REASON: Out-of-domain software/DevOps error query (container orchestration troubleshooting). It is unrelated to the Bible. The system must return no passages and must not hallucinate scriptural relevance."
+    },
+    {
+      "id": "AB-14",
+      "category": "non_biblical_abstention",
+      "query": "Best sourdough bread hydration ratio",
+      "shouldAbstain": true,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [],
+      "notes": "ABSTENTION REASON: Out-of-domain baking/cooking question. This is a lexical trap: 'bread' and leaven are frequent biblical terms (e.g., unleavened bread, 'bread of life'). The user is asking a culinary technique question, not a scriptural one. The system must abstain and must not return bread-related verses as an answer."
+    },
+    {
+      "id": "AB-15",
+      "category": "non_biblical_abstention",
+      "query": "How to change brake pads on a Honda Civic",
+      "shouldAbstain": true,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [],
+      "notes": "ABSTENTION REASON: Out-of-domain automotive repair question. There is no biblical content. The system should decline and return zero passages."
+    },
+    {
+      "id": "AB-16",
+      "category": "non_biblical_abstention",
+      "query": "Python asyncio event loop closed error",
+      "shouldAbstain": true,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [],
+      "notes": "ABSTENTION REASON: Out-of-domain programming/debugging query. It is a lexical trap because 'Python' could weakly match serpent passages via embeddings. The system must abstain and must not surface Gen 3 or other serpent texts."
+    },
+    {
+      "id": "AB-17",
+      "category": "non_biblical_abstention",
+      "query": "What is the capital of Mongolia?",
+      "shouldAbstain": true,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [],
+      "notes": "ABSTENTION REASON: Out-of-domain general geography trivia (the answer, Ulaanbaatar, is not a biblical location). Mongolia is not mentioned in scripture. The system should abstain rather than return verses about cities or nations."
+    },
+    {
+      "id": "AB-18",
+      "category": "non_biblical_abstention",
+      "query": "Tax deduction rules for Roth IRA contributions",
+      "shouldAbstain": true,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [],
+      "notes": "ABSTENTION REASON: Out-of-domain personal finance / tax law question. It is a lexical trap: 'tax' matches Gospel passages such as tribute to Caesar and tax collectors. The user wants modern regulatory information, not scripture. The system must abstain and return no passages."
+    },
+    {
+      "id": "AB-19",
+      "category": "non_biblical_abstention",
+      "query": "Next.js App Router dynamic segment caching",
+      "shouldAbstain": true,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [],
+      "notes": "ABSTENTION REASON: Out-of-domain web development framework question. It has no relation to the Bible. The system must abstain with zero retrieved passages."
+    },
+    {
+      "id": "AB-20",
+      "category": "non_biblical_abstention",
+      "query": "Que civilizaciones hubo en América antes del diluvio?",
+      "shouldAbstain": true,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [],
+      "notes": "Real Vercel Analytics production query: Spanish non-biblical historical question about pre-flood American civilizations; Scripture does not address this and search/summary must abstain."
+    },
+    {
+      "id": "MS-01",
+      "category": "multi_passage_synthesis",
+      "query": "What did Jesus teach about prayer?",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "mat",
+          "chapter": 6,
+          "verseStart": 5,
+          "verseEnd": 15
+        },
+        {
+          "book": "luk",
+          "chapter": 11,
+          "verseStart": 1,
+          "verseEnd": 13
+        },
+        {
+          "book": "luk",
+          "chapter": 18,
+          "verseStart": 1,
+          "verseEnd": 8
+        }
+      ],
+      "notes": "Draws on three passages: the Sermon on the Mount teaching on secret prayer and the Lord's Prayer (Mat 6:5-15), Luke's 'teach us to pray' unit with the persistent friend and ask/seek/knock (Luk 11:1-13), and the parable of the persistent widow (Luk 18:1-8). Acceptable secondary results: Luk 18:9-14 (Pharisee and tax collector), Mat 7:7-11, Jhn 17. The Pharisee's self-congratulatory prayer in Luk 18:11-12 is not a commended model."
+    },
+    {
+      "id": "MS-02",
+      "category": "multi_passage_synthesis",
+      "query": "How does the Bible describe God as a shepherd?",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "psa",
+          "chapter": 23,
+          "verseStart": 1,
+          "verseEnd": 6
+        },
+        {
+          "book": "ezk",
+          "chapter": 34,
+          "verseStart": 11,
+          "verseEnd": 16
+        },
+        {
+          "book": "jhn",
+          "chapter": 10,
+          "verseStart": 11,
+          "verseEnd": 18
+        }
+      ],
+      "notes": "Traces the shepherd motif from Old Testament to New Testament. Psalm 23 gives David's 'Yahweh is my shepherd.' In Ezk 34:11-16, God himself searches for and tends his scattered sheep. In Jhn 10:11-18, Jesus claims to be the Good Shepherd who lays down his life. Acceptable secondary results: Isa 40:11, Luk 15:3-7, Heb 13:20, 1Pe 5:4. Note that Ezk 34:1-10 rebukes false shepherds."
+    },
+    {
+      "id": "MS-03",
+      "category": "multi_passage_synthesis",
+      "query": "Where does Scripture talk about welcoming the stranger and caring for orphans and widows?",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "deu",
+          "chapter": 10,
+          "verseStart": 17,
+          "verseEnd": 19
+        },
+        {
+          "book": "jas",
+          "chapter": 1,
+          "verseStart": 27,
+          "verseEnd": 27
+        },
+        {
+          "book": "mat",
+          "chapter": 25,
+          "verseStart": 34,
+          "verseEnd": 40
+        }
+      ],
+      "notes": "Combines three strands. In Deu 10:17-19, God executes justice for the fatherless and widow, loves the foreigner, and commands Israel to love the foreigner. Jas 1:27 defines pure religion as visiting orphans and widows. In Mat 25:34-40, Jesus says 'I was a stranger and you took me in.' Acceptable secondary results: Exo 22:21-24, Lev 19:33-34, Psa 146:9, Heb 13:2, Zec 7:9-10."
+    },
+    {
+      "id": "MS-04",
+      "category": "multi_passage_synthesis",
+      "query": "Where does Jesus use 'I AM' as a divine name in John's Gospel, echoing God's name to Moses?",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "exo",
+          "chapter": 3,
+          "verseStart": 13,
+          "verseEnd": 15
+        },
+        {
+          "book": "jhn",
+          "chapter": 8,
+          "verseStart": 56,
+          "verseEnd": 59
+        },
+        {
+          "book": "jhn",
+          "chapter": 18,
+          "verseStart": 4,
+          "verseEnd": 8
+        }
+      ],
+      "notes": "Scoped to the absolute (predicate-less) 'I AM' sayings so the gold set stays complete within three passages. Exo 3:13-15 is the source text, where God names himself 'I AM WHO I AM.' Jhn 8:58 has 'before Abraham came into existence, I AM,' and the crowd attempts to stone him. In Jhn 18:4-8, the arresting party falls back at 'I am he.' Acceptable secondary results: Jhn 8:24, 8:28, 13:19. The seven predicate 'I am' metaphors (6:35, 8:12, 10:9, 10:11, 11:25, 14:6, 15:1) are relevant but are a distinct query intent."
+    },
+    {
+      "id": "MS-05",
+      "category": "multi_passage_synthesis",
+      "query": "How do the Gospels describe the Last Supper?",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "mat",
+          "chapter": 26,
+          "verseStart": 26,
+          "verseEnd": 29
+        },
+        {
+          "book": "mrk",
+          "chapter": 14,
+          "verseStart": 22,
+          "verseEnd": 25
+        },
+        {
+          "book": "luk",
+          "chapter": 22,
+          "verseStart": 14,
+          "verseEnd": 20
+        }
+      ],
+      "notes": "These are the three Synoptic institution accounts of the bread and cup. Luke uniquely includes the 'new covenant in my blood' cup wording and 'do this in memory of me.' Acceptable secondary results: 1Co 11:23-26 (Paul's received tradition) and Jhn 13:1-30 (foot washing and Judas at the supper, with no institution words). Judas's question 'It isn't me, is it, Rabbi?' (Mat 26:25) should not be treated as teaching."
+    },
+    {
+      "id": "MS-06",
+      "category": "multi_passage_synthesis",
+      "query": "What does the New Testament teach about the resurrection of the dead?",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "1co",
+          "chapter": 15,
+          "verseStart": 35,
+          "verseEnd": 58
+        },
+        {
+          "book": "1th",
+          "chapter": 4,
+          "verseStart": 13,
+          "verseEnd": 18
+        },
+        {
+          "book": "jhn",
+          "chapter": 5,
+          "verseStart": 25,
+          "verseEnd": 29
+        }
+      ],
+      "notes": "Covers three aspects. 1Co 15:35-58 addresses the nature of the resurrection body and the victory over death. 1Th 4:13-18 describes the dead in Christ rising first at the Lord's coming. In Jhn 5:25-29, Jesus says all in the tombs will hear his voice. Acceptable secondary results: 1Co 15:12-28, Jhn 11:23-26, Php 3:20-21, Rev 20:11-15. The Corinthian denial quoted in 1Co 15:12 ('there is no resurrection of the dead') is a view Paul refutes."
+    },
+    {
+      "id": "MS-07",
+      "category": "multi_passage_synthesis",
+      "query": "How does Scripture connect Melchizedek to Christ?",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "gen",
+          "chapter": 14,
+          "verseStart": 18,
+          "verseEnd": 20
+        },
+        {
+          "book": "psa",
+          "chapter": 110,
+          "verseStart": 4,
+          "verseEnd": 4
+        },
+        {
+          "book": "heb",
+          "chapter": 7,
+          "verseStart": 1,
+          "verseEnd": 17
+        }
+      ],
+      "notes": "Follows a three-step canonical chain. Gen 14:18-20 is the historical encounter: the king of Salem, priest of God Most High, blesses Abram and receives a tenth. Psa 110:4 is the oath: 'a priest forever in the order of Melchizedek.' Heb 7:1-17 applies both to Jesus' superior priesthood. Acceptable secondary results: Heb 5:5-10, Heb 6:19-20, Heb 7:18-28."
+    },
+    {
+      "id": "MS-08",
+      "category": "multi_passage_synthesis",
+      "query": "Where does the Bible teach about fasting?",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "mat",
+          "chapter": 6,
+          "verseStart": 16,
+          "verseEnd": 18
+        },
+        {
+          "book": "isa",
+          "chapter": 58,
+          "verseStart": 3,
+          "verseEnd": 7
+        },
+        {
+          "book": "mrk",
+          "chapter": 2,
+          "verseStart": 18,
+          "verseEnd": 20
+        }
+      ],
+      "notes": "Covers three teachings. In Mat 6:16-18, Jesus teaches fasting in secret. In Isa 58:3-7, God defines the true fast as justice and care for the hungry, rather than ritual. In Mrk 2:18-20, Jesus answers the question about his disciples not fasting with the bridegroom saying. Isa 58:3a contains the people's complaint ('Why have we fasted, and you don't see?'); God's reply begins at 3b, so the complaint should not be attributed to God. Acceptable secondary results: Jol 2:12-13, Act 13:2-3, Mat 4:1-2, Ezr 8:21-23."
+    },
+    {
+      "id": "MS-09",
+      "category": "multi_passage_synthesis",
+      "query": "What does Scripture say about Sabbath rest?",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "exo",
+          "chapter": 20,
+          "verseStart": 8,
+          "verseEnd": 11
+        },
+        {
+          "book": "mrk",
+          "chapter": 2,
+          "verseStart": 23,
+          "verseEnd": 28
+        },
+        {
+          "book": "heb",
+          "chapter": 4,
+          "verseStart": 1,
+          "verseEnd": 11
+        }
+      ],
+      "notes": "Spans three stages. Exo 20:8-11 gives the fourth commandment, grounded in creation rest. In Mrk 2:23-28, Jesus teaches 'the Sabbath was made for man' and calls himself Lord of the Sabbath. Heb 4:1-11 presents the eschatological Sabbath rest that remains for God's people. In Mrk 2:24, the Pharisees' accusation is the objection Jesus corrects, not the teaching. Acceptable secondary results: Gen 2:2-3, Deu 5:12-15, Isa 58:13-14, Col 2:16-17."
+    },
+    {
+      "id": "MS-10",
+      "category": "multi_passage_synthesis",
+      "query": "How do the Old and New Testaments describe the New Covenant?",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "jer",
+          "chapter": 31,
+          "verseStart": 31,
+          "verseEnd": 34
+        },
+        {
+          "book": "ezk",
+          "chapter": 36,
+          "verseStart": 25,
+          "verseEnd": 27
+        },
+        {
+          "book": "heb",
+          "chapter": 8,
+          "verseStart": 6,
+          "verseEnd": 13
+        }
+      ],
+      "notes": "Links the prophecy to its fulfillment. Jer 31:31-34 is the foundational promise of the law written on the heart. Ezk 36:25-27 adds a new heart and God's Spirit within. Heb 8:6-13 quotes Jeremiah in full and declares the first covenant obsolete. Acceptable secondary results: Luk 22:20, 1Co 11:25, 2Co 3:5-6, Heb 9:15, Heb 10:15-18."
+    },
+    {
+      "id": "MS-11",
+      "category": "multi_passage_synthesis",
+      "query": "What does the Bible say about spiritual gifts in the church?",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "1co",
+          "chapter": 12,
+          "verseStart": 4,
+          "verseEnd": 11
+        },
+        {
+          "book": "rom",
+          "chapter": 12,
+          "verseStart": 3,
+          "verseEnd": 8
+        },
+        {
+          "book": "eph",
+          "chapter": 4,
+          "verseStart": 7,
+          "verseEnd": 13
+        }
+      ],
+      "notes": "These are the three principal Pauline gift lists. 1Co 12:4-11 describes varieties of gifts from the same Spirit. Rom 12:3-8 lists gifts differing by grace within one body. Eph 4:7-13 names apostles, prophets, evangelists, shepherds and teachers given to equip the saints. Acceptable secondary results: 1Co 12:27-31, 1Co 14:1-5, 1Pe 4:10-11."
+    },
+    {
+      "id": "MS-12",
+      "category": "multi_passage_synthesis",
+      "query": "What did Jesus teach about wealth and not being able to serve two masters?",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "mat",
+          "chapter": 6,
+          "verseStart": 19,
+          "verseEnd": 24
+        },
+        {
+          "book": "luk",
+          "chapter": 16,
+          "verseStart": 10,
+          "verseEnd": 13
+        },
+        {
+          "book": "mrk",
+          "chapter": 10,
+          "verseStart": 17,
+          "verseEnd": 27
+        }
+      ],
+      "notes": "Covers three passages. Mat 6:19-24 teaches treasures in heaven and 'You can't serve both God and Mammon.' Luk 16:10-13 gives the parallel two-masters saying after the unrighteous steward. Mrk 10:17-27 recounts the rich young man and the camel through the eye of a needle. Acceptable secondary results: Luk 12:13-21 (rich fool), Luk 16:19-31, 1Ti 6:6-10. In Luk 12:19, the rich fool's self-talk ('eat, drink, be merry') is a rebuked outlook, not endorsed teaching."
+    },
+    {
+      "id": "MS-13",
+      "category": "multi_passage_synthesis",
+      "query": "Where does Scripture speak of God's faithfulness during the exile and the return to Jerusalem?",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "jer",
+          "chapter": 29,
+          "verseStart": 10,
+          "verseEnd": 14
+        },
+        {
+          "book": "lam",
+          "chapter": 3,
+          "verseStart": 21,
+          "verseEnd": 26
+        },
+        {
+          "book": "ezr",
+          "chapter": 1,
+          "verseStart": 1,
+          "verseEnd": 4
+        }
+      ],
+      "notes": "Spans three moments. Jer 29:10-14 is the promise of return after seventy years and includes 'I know the thoughts that I think toward you' (29:11). Lam 3:21-26 confesses during the devastation that 'great is your faithfulness.' Ezr 1:1-4 records Cyrus's decree fulfilling Jeremiah's word. Acceptable secondary results: Psa 126, Isa 40:1-2, Neh 1:8-9, Dan 9:1-19. Jer 29:11 is often lifted out of its exilic context; the gold range preserves that context."
+    },
+    {
+      "id": "MS-14",
+      "category": "multi_passage_synthesis",
+      "query": "What does the Bible teach about baptism?",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "mat",
+          "chapter": 28,
+          "verseStart": 18,
+          "verseEnd": 20
+        },
+        {
+          "book": "rom",
+          "chapter": 6,
+          "verseStart": 3,
+          "verseEnd": 5
+        },
+        {
+          "book": "act",
+          "chapter": 2,
+          "verseStart": 37,
+          "verseEnd": 41
+        }
+      ],
+      "notes": "Covers three dimensions. Mat 28:18-20 gives the Great Commission to baptize in the name of the Father, Son and Holy Spirit. Rom 6:3-5 presents the theology of baptism as union with Christ's death and resurrection. Act 2:37-41 shows the apostolic practice at Pentecost, with Peter's 'Repent and be baptized' and about three thousand added. Acceptable secondary results: Mat 3:13-17, Gal 3:27, Col 2:12, 1Pe 3:21, Act 8:35-38."
+    },
+    {
+      "id": "MS-15",
+      "category": "multi_passage_synthesis",
+      "query": "How does Scripture describe the Beatitudes and the blessings of the kingdom?",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "mat",
+          "chapter": 5,
+          "verseStart": 3,
+          "verseEnd": 12
+        },
+        {
+          "book": "luk",
+          "chapter": 6,
+          "verseStart": 20,
+          "verseEnd": 26
+        }
+      ],
+      "notes": "Uses two synoptic passages. Mat 5:3-12 gives the nine Beatitudes of the Sermon on the Mount. Luk 6:20-26 is the Sermon on the Plain, pairing four blessings with four woes. The woes (Luk 6:24-26) are part of the same unit and should be retrieved with the blessings, not mistaken for blessings. Acceptable secondary results: Psa 1:1-3, Psa 32:1-2, Rev 1:3 and Rev 22:7/14 (the Revelation blessings)."
+    },
+    {
+      "id": "RE-01",
+      "category": "rare_entity_names",
+      "query": "Where is the slave Onesimus welcomed back as a brother?",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "phm",
+          "chapter": 1,
+          "verseStart": 10,
+          "verseEnd": 16
+        }
+      ],
+      "notes": "Paul appeals to Philemon to receive the runaway slave Onesimus 'no longer as a slave, but more than a slave, a beloved brother' (v16). Includes the wordplay on Onesimus ('useful') in v11. Philemon is a single-chapter book (25 verses), so the system must resolve chapter 1 correctly. Colossians 4:9 names Onesimus but is not the welcome passage."
+    },
+    {
+      "id": "RE-02",
+      "category": "rare_entity_names",
+      "query": "Jethro tells Moses he is wearing himself out judging the people alone",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "exo",
+          "chapter": 18,
+          "verseStart": 13,
+          "verseEnd": 27
+        }
+      ],
+      "notes": "Moses' father-in-law Jethro, the priest of Midian, advises him to appoint capable men as rulers of thousands, hundreds, fifties, and tens (vv13-26). Jethro departs in v27. He is also called Reuel (Exo 2:18) and Hobab is associated in Num 10:29. Retrieval should match the paraphrase 'wearing himself out' to v18."
+    },
+    {
+      "id": "RE-03",
+      "category": "rare_entity_names",
+      "query": "Mephibosheth lame son of Jonathan eats at King David's table",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "2sa",
+          "chapter": 9,
+          "verseStart": 1,
+          "verseEnd": 13
+        }
+      ],
+      "notes": "David shows kindness for Jonathan's sake, restores Saul's land, and has Mephibosheth eat at the king's table continually (vv7, 10, 11, 13). His injury is explained in 2 Sam 4:4, which is useful background but not the primary target. Distinctive name with variant spellings; the system should tolerate misspellings like 'Mephiboseth'."
+    },
+    {
+      "id": "RE-04",
+      "category": "rare_entity_names",
+      "query": "story where Balaam's donkey talks and sees the angel blocking the road",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "num",
+          "chapter": 22,
+          "verseStart": 21,
+          "verseEnd": 35
+        }
+      ],
+      "notes": "The angel of Yahweh stands in the way. The donkey turns aside three times, Yahweh opens its mouth (v28), and Balaam's eyes are opened (v31). The span ends at v35, where Balaam is told to speak only the word given him. Do not confuse with Balaam's later oracles in Num 23-24 or with 2 Pet 2:16, which only alludes to the episode."
+    },
+    {
+      "id": "RE-05",
+      "category": "rare_entity_names",
+      "query": "Ehud the left-handed judge kills fat King Eglon of Moab with a hidden sword",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "jdg",
+          "chapter": 3,
+          "verseStart": 15,
+          "verseEnd": 26
+        }
+      ],
+      "notes": "Ehud son of Gera, a left-handed Benjamite, makes a cubit-long two-edged sword, strapped on his right thigh. He kills Eglon, described as 'a very fat man' (v17), in his cool upper room and escapes to Seirah (v26). Israel's subsequent victory (vv27-30) is narrative continuation outside the core target."
+    },
+    {
+      "id": "RE-06",
+      "category": "rare_entity_names",
+      "query": "Naaman the Syrian commander dips seven times in the Jordan and is healed of leprosy",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "2ki",
+          "chapter": 5,
+          "verseStart": 1,
+          "verseEnd": 14
+        }
+      ],
+      "notes": "Includes the captive Israelite servant girl (vv2-3), the king of Israel's distress (v7), and Elisha's instruction to wash seven times (v10). Naaman's anger and the rivers Abanah and Pharpar appear in v12, and his flesh is restored 'like the flesh of a little child' in v14. Luke 4:27 references Naaman but is secondary. Gehazi's greed (vv20-27) is outside the target span."
+    },
+    {
+      "id": "RE-07",
+      "category": "rare_entity_names",
+      "query": "Peter raises Tabitha (Dorcas) from the dead in Joppa",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "act",
+          "chapter": 9,
+          "verseStart": 36,
+          "verseEnd": 42
+        }
+      ],
+      "notes": "Tabitha, whose Greek name is Dorcas ('gazelle'), was a disciple full of good works. Widows show the garments she made (v39), Peter says 'Tabitha, get up!' (v40), and many believe throughout Joppa (v42). Retrieval should succeed whether the user searches 'Tabitha' or 'Dorcas'. Not to be confused with Jesus raising Jairus' daughter ('Talitha cumi', Mark 5:41)."
+    },
+    {
+      "id": "RE-08",
+      "category": "rare_entity_names",
+      "query": "Lydia the seller of purple from Thyatira baptized in Philippi",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "act",
+          "chapter": 16,
+          "verseStart": 13,
+          "verseEnd": 15
+        }
+      ],
+      "notes": "At a riverside place of prayer outside Philippi, the Lord opens Lydia's heart. She is a worshiper of God and a dealer in purple cloth from the city of Thyatira. She and her household are baptized, and she persuades Paul's company to stay at her house (v15). Acts 16:40 mentions her house again but is secondary. Do not confuse with the city of Thyatira in Rev 2:18-29."
+    },
+    {
+      "id": "RE-09",
+      "category": "rare_entity_names",
+      "query": "Priscilla and Aquila take Apollos aside and explain the way of God more accurately",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "act",
+          "chapter": 18,
+          "verseStart": 24,
+          "verseEnd": 28
+        }
+      ],
+      "notes": "Apollos, an eloquent Alexandrian Jew mighty in the Scriptures, knew only the baptism of John. Priscilla and Aquila hear him in the synagogue at Ephesus and explain the way of God more accurately (v26). He then goes to Achaia and powerfully refutes the Jews (v28). The couple's introduction in Acts 18:1-3 and later greetings (Rom 16:3, 1 Cor 16:19) are secondary references."
+    },
+    {
+      "id": "RE-10",
+      "category": "rare_entity_names",
+      "query": "Melchizedek king of Salem brings out bread and wine and blesses Abram",
+      "shouldAbstain": false,
+      "requiresSpeakerCaution": false,
+      "expectedPassages": [
+        {
+          "book": "gen",
+          "chapter": 14,
+          "verseStart": 18,
+          "verseEnd": 20
+        }
+      ],
+      "notes": "Melchizedek, king of Salem and priest of God Most High, blesses Abram after the defeat of Chedorlaomer. Abram gives him a tenth of all (v20). Psalm 110:4 and Hebrews 5:6-10 and 7:1-17 interpret this figure but are secondary. The primary historical narrative is Gen 14:18-20. Ensure the system does not rank Hebrews above the Genesis source for this narrative query."
+    }
+  ]
+}

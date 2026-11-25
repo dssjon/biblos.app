@@ -1,0 +1,28 @@
+[
+    {
+        "id": "7da86504-ae20-4541-be63-2545437fe97d",
+        "father_name": "Basil of Caesarea",
+        "file_name": "Job 19_21.toml",
+        "append_to_author_name": "",
+        "ts": 379,
+        "book": "job",
+        "location_start": 19000021,
+        "location_end": 19000021,
+        "txt": "The noble Job in his harsh adversity cried out in blame not misery.\nThat is to say, 'You're meant to be merciful not unjustly reproach me! Instead you assail me and overwhelm a man with whose sufferings you ought to show sympathy for friendship's sake.\n",
+        "source_url": "",
+        "source_title": ""
+    },
+    {
+        "id": "615ca7ce-59ae-46cd-a59b-c344682a3f40",
+        "father_name": "John Chrysostom",
+        "file_name": "Job 19_3.toml",
+        "append_to_author_name": "",
+        "ts": 407,
+        "book": "job",
+        "location_start": 19000003,
+        "location_end": 19000003,
+        "txt": "\u201cOnly know that the Lord has dealt with me thus.\u2026 You speak against me; you do not feel for me but bear hard upon me.\u2026 May the dignity of him who punishes me make you change your mind,\u201d he says. We do not have to trample underfoot the people who are punished by God, but we must shed tears and grieve over their fate. Above all, we must not rejoice over the death of anybody, because such an action will not be left unpunished. Who would have not respected Job\u2019s misfortune, at least because of the dignity of him who chastised him?\n",
+        "source_url": "",
+        "source_title": "COMMENTARY ON JOB 19:3A"
+    }
+]

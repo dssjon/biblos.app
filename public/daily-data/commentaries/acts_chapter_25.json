@@ -1,0 +1,28 @@
+[
+    {
+        "id": "17092766-1f1d-4ef2-84c4-726314b86d2e",
+        "father_name": "John Chrysostom",
+        "file_name": "Acts 25_9.toml",
+        "append_to_author_name": "",
+        "ts": 407,
+        "book": "acts",
+        "location_start": 25000009,
+        "location_end": 25000009,
+        "txt": "I am not giving you up to them\u2014 but this was the fact\u2014 and he leaves the point to his own choice, that by this mark of respect he might get him to yield: since his was the sentence, and it would have been too barefaced, when he had been convicted of nothing here, to take him back there. But Paul said, At C\u00e6sar's tribunal am I standing, etc.\n",
+        "source_url": "",
+        "source_title": ""
+    },
+    {
+        "id": "9e7b981c-7eb0-4cc1-a959-49e1c1bd381c",
+        "father_name": "John Chrysostom",
+        "file_name": "Acts 25_5.toml",
+        "append_to_author_name": "",
+        "ts": 407,
+        "book": "acts",
+        "location_start": 25000005,
+        "location_end": 25000005,
+        "txt": "Again accusers, again at C\u00e6sarea, again Paul is brought forth. And having come, immediately he sat on the judgment-seat\n",
+        "source_url": "",
+        "source_title": ""
+    }
+]

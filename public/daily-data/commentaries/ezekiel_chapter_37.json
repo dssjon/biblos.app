@@ -1,0 +1,93 @@
+[
+    {
+        "id": "40b72fbf-171b-46a7-b6e0-7dc259c52952",
+        "father_name": "Basil of Caesarea",
+        "file_name": "Ezekiel 37_5.toml",
+        "append_to_author_name": "",
+        "ts": 379,
+        "book": "ezekiel",
+        "location_start": 37000005,
+        "location_end": 37000005,
+        "txt": "There should \u2026 be certain bones of the inner person in which the bond of union and harmony of spiritual powers is collected. Just as the bones by their own firmness protect the tenderness of the flesh, so also in the church there are some who through their own constancy are able to carry the infirmities of the weak. And as the bones are joined to each other through articulations by sinews and fastenings that have grown on them, so also would be the bond of charity and peace, which achieves a certain natural junction and union of the spiritual bones in the church of God.\n",
+        "source_url": "",
+        "source_title": "HOMILIES ON THE PSALMS 16:13 (PS 33)"
+    },
+    {
+        "id": "9c28b813-3b97-4b2e-b3ed-2958a62d0036",
+        "father_name": "Cyril of Alexandria",
+        "file_name": "Ezekiel 37_27.toml",
+        "append_to_author_name": "",
+        "ts": 444,
+        "book": "ezekiel",
+        "location_start": 37000027,
+        "location_end": 37000027,
+        "txt": "To be made partakers of Christ, both intellectually and by our senses, fills us with every blessing. For he dwells in us, first, by the Holy Spirit, and we are his abode, according to that which was said of old by one of the holy prophets.\n",
+        "source_url": "",
+        "source_title": "COMMENTARY ON LUKE 142"
+    },
+    {
+        "id": "9926167d-f8b2-4df5-9af6-d5f272ad4ac0",
+        "father_name": "Ambrose of Milan",
+        "file_name": "Ezekiel 37_14.toml",
+        "append_to_author_name": "",
+        "ts": 397,
+        "book": "ezekiel",
+        "location_start": 37000014,
+        "location_end": 37000014,
+        "txt": "It is a prerogative of God to raise the dead.\n",
+        "source_url": "https://www.newadvent.org/fathers/34023.htm",
+        "source_title": "On the Holy Spirit 3.19.149"
+    },
+    {
+        "id": "a96d5fca-7110-475d-89e0-99ec759660be",
+        "father_name": "Ambrose of Milan",
+        "file_name": "Ezekiel 37_14.toml",
+        "append_to_author_name": "",
+        "ts": 397,
+        "book": "ezekiel",
+        "location_start": 37000014,
+        "location_end": 37000014,
+        "txt": "We notice here how the operations of the Spirit of life are again resumed; we know in what way the dead are raised from the opening tombs. And is it in truth a matter of wonder that the sepulchers of the dead are opened at the bidding of the Lord, when the whole earth from its utmost limits is shaken by one thunderclap, the sea overflows its bounds and again checks the course of its waves?\n",
+        "source_url": "https://www.newadvent.org/fathers/34032.htm",
+        "source_title": "On the Death of Satyrus 2.76"
+    },
+    {
+        "id": "17b24462-a4e0-43b6-8c77-516d2c052f12",
+        "father_name": "Jerome",
+        "file_name": "Ezekiel 37_3.toml",
+        "append_to_author_name": "",
+        "ts": 420,
+        "book": "ezekiel",
+        "location_start": 37000003,
+        "location_end": 37000003,
+        "txt": "It is wonderful how he addresses the dry bones, bones that were able to hear the Word of God before they had nerves, flesh, skin and life-giving breath.\n",
+        "source_url": "",
+        "source_title": "COMMENTARY ON EZEKIEL 11:37.1-14"
+    },
+    {
+        "id": "c5f79949-b791-4a78-9ddf-0c1c3df41f6c",
+        "father_name": "Jerome",
+        "file_name": "Ezekiel 37_5.toml",
+        "append_to_author_name": "",
+        "ts": 420,
+        "book": "ezekiel",
+        "location_start": 37000005,
+        "location_end": 37000005,
+        "txt": "This is the resurrection of the dead, the Spirit breathing in, giving life that has entered the human bodies, and immediately they live and stand on their feet, which means the resurrection of the dead.\n",
+        "source_url": "",
+        "source_title": "COMMENTARY ON EZEKIEL 11:37.1-14"
+    },
+    {
+        "id": "2574ad22-d044-425c-ba1b-1cae8647deb0",
+        "father_name": "Jerome",
+        "file_name": "Ezekiel 37_14.toml",
+        "append_to_author_name": "",
+        "ts": 420,
+        "book": "ezekiel",
+        "location_start": 37000014,
+        "location_end": 37000014,
+        "txt": "We ourselves make the spiritual memorial that is fulfilled as a result of the cross of the Lord and Savior.\n",
+        "source_url": "",
+        "source_title": "COMMENTARY ON EZEKIEL 11:37.1-14"
+    }
+]

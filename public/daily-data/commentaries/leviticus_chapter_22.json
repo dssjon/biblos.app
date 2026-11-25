@@ -1,0 +1,28 @@
+[
+    {
+        "id": "0ba4dc52-e64e-4ee8-a4cf-314a61f96936",
+        "father_name": "Clement of Alexandria",
+        "file_name": "Leviticus 22_27.toml",
+        "append_to_author_name": "",
+        "ts": 215,
+        "book": "leviticus",
+        "location_start": 22000027,
+        "location_end": 22000027,
+        "txt": "Scripture says, \u201cAt least grant the offspring to its mother for its first seven days.\u201d For if nothing comes to be without reason and milk flows in the mothers for the nourishment of the offspring, then in taking the offspring away from the providential endowment of the milk, a person is doing violence to nature. So Greeks and anyone else who runs the law down ought to blush for shame if the law is generous over irrational beasts. Yet some people actually expose human offspring to abortive death. By prophetic authority the law has for a long time cut short their ferocity through this commandment of which we have been speaking. For if the law refuses to allow the offspring of irrational creatures to be separated from their mother before taking milk, it is far more forceful in preparing human beings against that cruel, uncivilized view [exposure to death of infants]. If they ignore nature, at least they may not ignore the lessons of the law.\n",
+        "source_url": "",
+        "source_title": "STROMATEIS 2.92.2-4"
+    },
+    {
+        "id": "f78fb193-2e30-44c1-9180-eb38a9f29e60",
+        "father_name": "Jerome",
+        "file_name": "Leviticus 22_14.toml",
+        "append_to_author_name": "",
+        "ts": 420,
+        "book": "leviticus",
+        "location_start": 22000014,
+        "location_end": 22000014,
+        "txt": "At the end, it is stated, \u201cIf a man eats of the sanctified things through ignorance, iniquity and wickedness are laid at his feet, and he shall be bound by a vow.\u201d Thus also the apostle teaches us that we are to eat the Eucharist of the Lord with caution, lest we eat to our condemnation and judgment. If ignorance is condemned under the law, how much more will full knowledge be condemned according to the gospel? \n",
+        "source_url": "https://www.newadvent.org/fathers/30111.htm",
+        "source_title": "Against the Pelagians 1.34"
+    }
+]

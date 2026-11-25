@@ -1,0 +1,67 @@
+[
+    {
+        "id": "9e32f2c9-05a9-4d25-af87-5e45f15ee9d7",
+        "father_name": "Augustine of Hippo",
+        "file_name": "Exodus 24_10.toml",
+        "append_to_author_name": "",
+        "ts": 430,
+        "book": "exodus",
+        "location_start": 24000010,
+        "location_end": 24000010,
+        "txt": "Moses, of course, might be thought to have seen God with bodily eyes, if not only the Wisdom of God which is Christ but even the wisdom itself \u2026 [which] can be seen with the eyes of the flesh, or because it is written of the elders of Israel that \u201cthey beheld the place where the God of Israel had stood\u201d and that there was \u201cunder his feet as it were a work of sapphire stone and a likeness of the firmament of heaven.\u201d We might therefore be led to imagine that the Word and the Wisdom of God, who extends from end to end mightily and orders all things sweetly, stood in his own substance within the space of an earthly place. And thus the Word of God, through whom all things were made, is thought changeable so that now he draws himself together and now he expands. May God cleanse the hearts of his faithful from such thoughts! But, as we have often declared, all these visible and tangible signs were displayed through a creature that has been made subject, in order to signify the invisible and intelligible God, not only the Father but also the Son and the Holy Spirit, from whom are all things, through whom are all things, and in whom are all things. Since the creation of the world, the invisible attributes of God, his everlasting power also and divinity, are seen, being understood through the things that are made.\n",
+        "source_url": "",
+        "source_title": "THE TRINITY 2.15.25"
+    },
+    {
+        "id": "204385b5-5a2c-41bf-b808-b4cbfa7e57c4",
+        "father_name": "Bede",
+        "file_name": "Exodus 24_12.toml",
+        "append_to_author_name": "",
+        "ts": 735,
+        "book": "exodus",
+        "location_start": 24000012,
+        "location_end": 24000012,
+        "txt": "Mystically the rolling away of the stone implies the disclosure of the sacraments, which were formerly hidden and closed up by the letter of the law. The law was written on stone. Indeed in the case of each of us, when we acknowledge our faith in the Lord\u2019s passion and resurrection, his tomb, which had been closed, is opened up.\n",
+        "source_url": "https://historicalchristian.faith/by_father.php?file=Bede%2FHomilies%2520on%2520the%2520Gospels.html",
+        "source_title": "Homilies on the Gospels 2.10"
+    },
+    {
+        "id": "9afe56d2-aed4-4391-be18-c06a1c29cf09",
+        "father_name": "Gregory of Nazianzus",
+        "file_name": "Exodus 24_2.toml",
+        "append_to_author_name": "",
+        "ts": 390,
+        "book": "exodus",
+        "location_start": 24000002,
+        "location_end": 24000002,
+        "txt": "For it is not everyone who may draw near to God but only one who, like Moses, can bear the glory of God. Moreover, before this, when the law was first given, the trumpet blasts, and lightnings, and thunders, and darkness, and the smoke of the whole mountain, and the terrible threats that if even a beast touched the mountain it should be stoned, and other like alarms kept back the rest of the people, for whom it was a great privilege, after careful purification, merely to hear the voice of God. But Moses actually went up, and entered into the cloud, and was charged with the law and received the tables. For the multitude, the tables of law are viewed according to the letter. But for those who are above the multitude, these are viewed according to the spirit.\n",
+        "source_url": "",
+        "source_title": "ORATION 2.92"
+    },
+    {
+        "id": "42627b97-5e18-40c6-8f35-7d6a7369d6a9",
+        "father_name": "Ambrose of Milan",
+        "file_name": "Exodus 24_18.toml",
+        "append_to_author_name": "",
+        "ts": 397,
+        "book": "exodus",
+        "location_start": 24000018,
+        "location_end": 24000018,
+        "txt": "If anyone therefore desires to behold this image of God, he must love God so as to be loved by him, no longer as a servant but as a friend who observes his commandments, that he may enter the cloud where God is.\n",
+        "source_url": "",
+        "source_title": "ON HIS BROTHER, SATYRUS 2.110"
+    },
+    {
+        "id": "b7b90cfe-52a7-480b-a2d0-9eb0e58d78b5",
+        "father_name": "John Chrysostom",
+        "file_name": "Exodus 24_18.toml",
+        "append_to_author_name": "",
+        "ts": 407,
+        "book": "exodus",
+        "location_start": 24000018,
+        "location_end": 24000018,
+        "txt": "Do you now recognize the harm caused by intemperance? Look in turn at the instances of good behavior due to fasting. The great Moses, after keeping his fast for forty days, was able to get the tables of the law. When he came down from the mountain and saw the people\u2019s sin, the tablets which he had been successful in obtaining through such intercession he threw down and smashed, thinking it was preposterous that an indulgent and sinful people should receive laws of the Lord\u2019s own making.\n",
+        "source_url": "",
+        "source_title": "HOMILIES ON GENESIS 1:7"
+    }
+]

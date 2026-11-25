@@ -1,0 +1,28 @@
+[
+    {
+        "id": "da1fed8b-c950-432a-bbdb-c6645c5978a9",
+        "father_name": "Augustine of Hippo",
+        "file_name": "Leviticus 23_7.toml",
+        "append_to_author_name": "",
+        "ts": 430,
+        "book": "leviticus",
+        "location_start": 23000007,
+        "location_end": 23000007,
+        "txt": "The sabbath was given to the Jews to be observed literally, like other things, as rites symbolically signifying something deeper. A particular kind of vacation, you see, was enjoined on them. Take care to carry out what that vacation signifies. A spiritual vacation, I mean, is tranquility of heart; but tranquility of heart issues from the serenity of a good conscience. So the person who really observes the sabbath is the one who doesn\u2019t sin. This, after all, is the way the command was given to those who were commanded to observe the sabbath: \u201cYou shall perform no servile work.\u201d \u201cEveryone who commits sin is the slave of sin.\u201d\n",
+        "source_url": "https://historicalchristian.faith/by_father.php?file=Augustine%2520of%2520Hippo%2FSermons%2FSermon%2520270.html",
+        "source_title": "SERMON 270"
+    },
+    {
+        "id": "58de0499-caf9-4b33-90ee-a982fa932d89",
+        "father_name": "Bede",
+        "file_name": "Leviticus 23_17.toml",
+        "append_to_author_name": "",
+        "ts": 735,
+        "book": "leviticus",
+        "location_start": 23000017,
+        "location_end": 23000017,
+        "txt": "Two loaves of bread made from the first fruits of the new harvest were rightly ordered to be offered, for the church gathers those it can consecrate to its Redeemer as a new family from both peoples, the Jews and the Gentiles.\n",
+        "source_url": "https://historicalchristian.faith/by_father.php?file=Bede%2FHomilies%2520on%2520the%2520Gospels.html",
+        "source_title": "Homilies on the Gospels 2.17"
+    }
+]

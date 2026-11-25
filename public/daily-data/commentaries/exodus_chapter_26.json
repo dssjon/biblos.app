@@ -1,0 +1,28 @@
+[
+    {
+        "id": "2d22fe07-a69d-4a14-9c5c-9c6b67038633",
+        "father_name": "Origen of Alexandria",
+        "file_name": "Exodus 26_33.toml",
+        "append_to_author_name": "",
+        "ts": 253,
+        "book": "exodus",
+        "location_start": 26000033,
+        "location_end": 26000033,
+        "txt": "If the ancient custom of sacrifices is clear to you, let us see what these things also contain according to the mystical understanding. You heard that there were two sanctuaries, one, as it were, visible and open to the priests; the other, as it were, invisible and inaccessible. With the exception of the high priest alone, the others were outside. I think this first sanctuary can be understood as this church in which we are now placed in the flesh, in which the priests minister \u201cat the altar of the whole burnt offerings,\u201d with that fire kindled about which Jesus said, \u201cI came to send fire unto the earth, and how I wish it to be ignited.\u201d And I do not want you to marvel that this sanctuary is open only to the priests. For all who have been anointed with the chrism of the sacred anointing have become priests, just as Peter also says to all the church, \u201cBut you are an elect race, a royal priesthood, a holy people.\u201d Therefore you are \u201ca priestly race,\u201d and because of this you approach the sanctuary.\n",
+        "source_url": "https://www.google.com/books/edition/Homilies_on_Leviticus_1_16/Eo9Da7xaBuUC?hl=en&gbpv=1&dq=homilies+on+leviticus+origen&printsec=frontcover",
+        "source_title": "HOMILIES ON LEVITICUS 9.9.3"
+    },
+    {
+        "id": "41335bb2-f2a5-420c-968b-90e193e1c380",
+        "father_name": "Bede",
+        "file_name": "Exodus 26_31.toml",
+        "append_to_author_name": "",
+        "ts": 735,
+        "book": "exodus",
+        "location_start": 26000031,
+        "location_end": 26000031,
+        "txt": "The temple was divided by a veil [hung across] the wall in the center [of the building], and the outer [section of this part of the] building was called the sanctuary; the inner [section], where the ark of the covenant was placed, was called the Holy of Holies. The church is in part on pilgrimage on earth, [away from] the Lord, and in part it reigns with the Lord in heaven. The wall [across the] center is understood [as indicating] heaven, and the ark of the covenant [as indicating] the Lord, who alone is conscious of the Father\u2019s hidden mysteries and has passed into the inner reaches of heaven.\n",
+        "source_url": "https://historicalchristian.faith/by_father.php?file=Bede%2FHomilies%2520on%2520the%2520Gospels.html",
+        "source_title": "Homilies on the Gospels 2.1"
+    }
+]

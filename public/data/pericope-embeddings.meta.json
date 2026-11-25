@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "format": "BPE1",
+  "quantization": "per-vector-symmetric-int8",
+  "provider": "openai",
+  "model": "text-embedding-3-large",
+  "dimensions": 1024,
+  "count": 4421,
+  "binaryBytes": 4544804,
+  "pericopesSha256": "f787337204416ccd551cb6452af1c1e35813ebb130b26a40f617e0a197eddbd2",
+  "sourceXmlSha256": "cb87c579e60c80793349ee4cd3cf5d33cad9f0b7ecad22d8b313f99ddd4d0908",
+  "binSha256": "dc50107647e122ab1715cc0f76ee7711be2a9130481e0da06bc7e41a2f433614",
+  "template": "{BookFullName} {chapter}:{verseStart}-{verseEnd} — {title} ({altTitles}) | Speakers: {speakers} | Bridges: {lexicalBridges} | Questions: {seekerQueries}\\n{canonical WEB verses}",
+  "buildUsage": {
+    "totalTokens": 1502800,
+    "pricePerMillionTokensUsd": 0.13,
+    "oneTimeBuildCostUsd": 0.1954,
+    "estimatedRuntimeCostPer1kQueriesUsd": 0.0026,
+    "elapsedSeconds": 8.8
+  },
+  "quantizationAudit": {
+    "probeCount": 20,
+    "probeTokens": 243,
+    "top1ExactMatchRate": 1,
+    "top10OverlapRate": 1,
+    "maxCosineAbsError": 0.001494
+  }
+}

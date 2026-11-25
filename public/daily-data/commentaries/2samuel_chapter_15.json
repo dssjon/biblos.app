@@ -1,0 +1,28 @@
+[
+    {
+        "id": "9e445b84-9a4f-4309-88e2-c59edd6fc2ad",
+        "father_name": "Augustine of Hippo",
+        "file_name": "2 Samuel 15_31.toml",
+        "append_to_author_name": "",
+        "ts": 430,
+        "book": "2samuel",
+        "location_start": 15000031,
+        "location_end": 15000031,
+        "txt": "Was it not by Absalom\u2019s own will that he chose to follow advice that proved detrimental to him, though he only did so because the Lord had heard his father\u2019s prayer to this effect?\n",
+        "source_url": "",
+        "source_title": "ON GRACE AND FREE WILL 20.41"
+    },
+    {
+        "id": "e71dbb7a-4f13-44ec-a80d-c7431f122756",
+        "father_name": "Basil of Caesarea",
+        "file_name": "2 Samuel 15_31.toml",
+        "append_to_author_name": "",
+        "ts": 379,
+        "book": "2samuel",
+        "location_start": 15000031,
+        "location_end": 15000031,
+        "txt": "Thus, then, the Lord knew how to bring to nothing the counsels of nations. We learned in the time of Ahithophel how he cast away the counsels of the princes, when David prayed, saying, \u201cInfatuate the counsel of Ahithophel.\u201d Therefore, when you hear someone making great threats and announcing that he will bring upon you all sorts of ill treatment, losses, blows or death, look up to the Lord who brings to nothing the counsels of nations and rejects the devices of the people.\n",
+        "source_url": "",
+        "source_title": "HOMILIES ON THE PSALMS 32.6"
+    }
+]

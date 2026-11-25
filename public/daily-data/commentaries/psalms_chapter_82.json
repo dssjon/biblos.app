@@ -1,0 +1,54 @@
+[
+    {
+        "id": "b359f79a-fcba-4c25-9472-8ac62ba02f04",
+        "father_name": "Augustine of Hippo",
+        "file_name": "Psalms 82_1.toml",
+        "append_to_author_name": "",
+        "ts": 430,
+        "book": "psalms",
+        "location_start": 82000001,
+        "location_end": 82000001,
+        "txt": "This Psalm, like others similarly named, was so entitled either from the name of the man who wrote it, or from the explanation of that same name, so as to refer in meaning to the Synagogue, which Asaph signifies; especially as this is intimated in the first verse. For it begins, \"God stood in the synagogue of gods\" [Psalm 82:1]. Far however be it from us to understand by these Gods the gods of the Gentiles, or idols, or any creature in heaven or earth except men; for a little after this verse the same Psalm relates and explains what Gods it means in whose synagogue God stood, where it says, \"I have said, You are gods, and you are all the children of the Most High: but you shall die like men, and fall like one of the princes.\" In the synagogue of these children of the Most High, of whom the same Most High said by the mouth of Isaiah, \"I have begotten sons and brought them up, but they despised Me,\" [Isaiah\u00a01:2] stood God. By the synagogue we understand the people of Israel, because synagogue is the word properly used of them, although they were also called the Church. Our congregation, on the contrary, the Apostles never called synagogue, but always Ecclesia; whether for the sake of the distinction, or because there is some difference between a congregation whence the synagogue has its name, and a convocation whence the Church is called Ecclesia:  for the word congregation (or flocking together) is used of cattle, and particularly of that kind properly called \"flocks,\"  whereas convocation (or calling together) is more of reasonable creatures, such as men are....I think then that it is clear in what synagogue of gods God stood.\n",
+        "source_url": "https://www.newadvent.org/fathers/1801082.htm",
+        "source_title": "Exposition on Psalm 82"
+    },
+    {
+        "id": "d91cd887-d003-4ca5-8bc0-d0ede2d0cb3f",
+        "father_name": "Augustine of Hippo",
+        "file_name": "Psalms 82_8.toml",
+        "append_to_author_name": "",
+        "ts": 430,
+        "book": "psalms",
+        "location_start": 82000008,
+        "location_end": 82000008,
+        "txt": "And therefore that this vice may be cured, in the person of the Prophet himself it is said, \"Arise, O God, and judge the earth\" [Psalm 82:8]; for the earth swelled high when it crucified You: rise from the dead, and judge the earth. \"For You shall destroy among all nations.\" What, but the earth? That is, destroying those who savour of earthly things, or destroying the feeling itself of earthly lust and pride in believers; or separating those who do not believe, as earth to be trodden under foot and to perish. Thus by His members, whose conversation is in heaven, He judges the earth, and destroys it among all nations. But I must not omit to remark, that some copies have, \"for You shall inherit among all nations.\" This too may be understood agreeably to the sense, nor does anything prevent both meanings existing at once. His inheritance takes place by love, which in that He cultivates by His commands and gracious mercy, He destroys earthly desires.\n",
+        "source_url": "https://www.newadvent.org/fathers/1801082.htm",
+        "source_title": "Exposition on Psalm 82"
+    },
+    {
+        "id": "865e68df-0f33-4176-b16c-a7f88c5bacb1",
+        "father_name": "Gregory of Nazianzus",
+        "file_name": "Psalms 82_8.toml",
+        "append_to_author_name": "",
+        "ts": 390,
+        "book": "psalms",
+        "location_start": 82000008,
+        "location_end": 82000008,
+        "txt": "Often were the righteous given into the hands of the wicked, not that the latter might be honored but that the former might be tested; and though the wicked come, as it is written, to an awful death, nevertheless for the present the godly are a laughing stock, while the goodness of God and the great treasuries of what is in store for each of them hereafter are concealed. Then indeed word and deed and thought will be weighed in the just balances of God, as he arises to judge the earth, gathering together counsel and works and revealing what he had kept sealed up. Of this let the words and sufferings of Job convince you, who was a truthful, blameless, just, God-fearing man, with all those other qualities that are testified of him, and yet he was struck with such a succession of remarkable visitations, at the hands of him who begged for power over him, that, although many have often suffered in the whole course of time, and some have, as is probable, been grievously afflicted, yet none can be compared with him in misfortunes.\n",
+        "source_url": "",
+        "source_title": "ON THE GREAT ATHANASIUS, ORATION 21:17"
+    },
+    {
+        "id": "5a533a1a-7c03-4412-9e66-9516025ce17a",
+        "father_name": "Jerome",
+        "file_name": "Psalms 82_8.toml",
+        "append_to_author_name": "",
+        "ts": 420,
+        "book": "psalms",
+        "location_start": 82000008,
+        "location_end": 82000008,
+        "txt": "\u201cFor you shall inherit all the nations.\u201d We pray that you be judge because you have compassion on all nations. What was the prophet\u2019s intention in saying, \u201cYou shall inherit all the nations,\u201d instead of, you shall have all the nations? Whenever an inheritance has been bestowed, death has preceded; hence, we are called heirs and coheirs. Heirs, the apostle said, of Christ because Christ died for us; coheirs because Christ will reign with us.\n",
+        "source_url": "",
+        "source_title": "HOMILIES ON THE PSALMS 14"
+    }
+]

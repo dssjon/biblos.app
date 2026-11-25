@@ -1,0 +1,28 @@
+[
+    {
+        "id": "ce034aa0-ccd2-440a-939b-564c824dca7a",
+        "father_name": "John Chrysostom",
+        "file_name": "Job 31_5.toml",
+        "append_to_author_name": "",
+        "ts": 407,
+        "book": "job",
+        "location_start": 31000005,
+        "location_end": 31000005,
+        "txt": "Nobody can say, Job says, either that I was hankering after pleasures, luxuries and that kind of lustful life, or, on the other hand, that by becoming too hard and austere in my heart I finally fell into those vices that are contrary to that sort of life, that is, the vices of malice and deceit. No! I kept away from both of those two vices!\n",
+        "source_url": "",
+        "source_title": "COMMENTARY ON JOB 31:1-5"
+    },
+    {
+        "id": "a52bc38f-2e2d-43d8-8699-2ce1476e3d53",
+        "father_name": "Ephrem the Syrian",
+        "file_name": "Job 31_26.toml",
+        "append_to_author_name": "",
+        "ts": 373,
+        "book": "job",
+        "location_start": 31000026,
+        "location_end": 31000026,
+        "txt": "\u201cIf I had looked at the sun when it shone or the moon moving in splendor,\u201d that is, if I had seen the rising sun and worshiped it or had embraced the moon and kneeled down before it, I would have certainly erred in worshiping them.\n",
+        "source_url": "",
+        "source_title": "COMMENTARY ON JOB 31:26"
+    }
+]
